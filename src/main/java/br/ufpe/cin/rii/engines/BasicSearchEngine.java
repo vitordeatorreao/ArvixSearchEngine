@@ -66,10 +66,7 @@ public class BasicSearchEngine implements SearchEngine
            int n)
     throws ParseException, IOException
     {
-        if (this.isearcher == null)
-        {
-            this.commit();
-        }
+        if (this.isearcher == null) this.commit();
         QueryParser parser = new QueryParser(fieldName, this.analyzer);
         Query query = parser.parse(text);
         ScoreDoc[] hits = this.isearcher.search(query, n).scoreDocs;

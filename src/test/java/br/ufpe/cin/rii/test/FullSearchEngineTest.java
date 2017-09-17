@@ -87,5 +87,4 @@ public class FullSearchEngineTest
                      result[1].getDocument().getField("body").stringValue());
         assertTrue(result[0].getScore() > result[1].getScore());
     }
-
 }
