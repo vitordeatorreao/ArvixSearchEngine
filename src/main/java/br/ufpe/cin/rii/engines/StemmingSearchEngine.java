@@ -8,12 +8,12 @@ import org.apache.lucene.analysis.en.EnglishAnalyzer;
 
 public class StemmingSearchEngine extends BasicSearchEngine
 {
-	public
-	StemmingSearchEngine(String indexName)
-	throws IOException
-	{
-		super(indexName, new EnglishAnalyzer(
-				new CharArraySet(new ArrayList<String>(), false)
-		));
-	}
+    public
+    StemmingSearchEngine(String indexName)
+    throws IOException
+    {
+        super(indexName, new EnglishAnalyzer(
+                new CharArraySet(new ArrayList<String>(), false)
+        ));
+    }
 }

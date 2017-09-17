@@ -8,12 +8,12 @@ import org.apache.lucene.analysis.standard.StandardAnalyzer;
 
 public class RawSearchEngine extends BasicSearchEngine
 {
-	public
-	RawSearchEngine(String indexName)
-	throws IOException
-	{
-		super(indexName, new StandardAnalyzer(
-				new CharArraySet(new ArrayList<String>(), false)
-		));
-	}
+    public
+    RawSearchEngine(String indexName)
+    throws IOException
+    {
+        super(indexName, new StandardAnalyzer(
+                new CharArraySet(new ArrayList<String>(), false)
+        ));
+    }
 }

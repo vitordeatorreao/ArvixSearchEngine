@@ -6,10 +6,10 @@ import org.apache.lucene.analysis.standard.StandardAnalyzer;
 
 public class StopWordsSearchEngine extends BasicSearchEngine
 {
-	public
-	StopWordsSearchEngine(String indexName)
-	throws IOException
-	{
-		super(indexName, new StandardAnalyzer());
-	}
+    public
+    StopWordsSearchEngine(String indexName)
+    throws IOException
+    {
+        super(indexName, new StandardAnalyzer());
+    }
 }

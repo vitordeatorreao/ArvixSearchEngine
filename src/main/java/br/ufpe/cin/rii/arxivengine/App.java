@@ -31,14 +31,14 @@ public class App
 {
     public static void main( String[] args ) throws ParseException, IOException
     {
-    	// with stop words:
-    	// Analyzer analyzer = new StandardAnalyzer();
-    	// without stop words:
-    	Analyzer analyzer = new StandardAnalyzer(new CharArraySet(new ArrayList<String>(), false));
-    	// with stop words and stemming:
-    	// Analyzer analyzer = new EnglishAnalyzer();
-    	// without stop words, but with stemming
-    	// Analyzer analyzer = new EnglishAnalyzer(new CharArraySet(new ArrayList<String>(), false));
+        // with stop words:
+        // Analyzer analyzer = new StandardAnalyzer();
+        // without stop words:
+        Analyzer analyzer = new StandardAnalyzer(new CharArraySet(new ArrayList<String>(), false));
+        // with stop words and stemming:
+        // Analyzer analyzer = new EnglishAnalyzer();
+        // without stop words, but with stemming
+        // Analyzer analyzer = new EnglishAnalyzer(new CharArraySet(new ArrayList<String>(), false));
 
         // Store the index in memory:
         //Directory directory = new RAMDirectory();

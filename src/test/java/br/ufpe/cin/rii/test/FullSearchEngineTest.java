@@ -20,32 +20,32 @@ import br.ufpe.cin.rii.test.utils.FolderUtils;
 
 public class FullSearchEngineTest
 {
-	private static final String TEST_FOLDER = "testindex_full";
-	private SearchEngine engine;
+    private static final String TEST_FOLDER = "testindex_full";
+    private SearchEngine engine;
 
-	@Before
-	public void
-	setUp()
-	throws Exception
-	{
-		this.engine = new FullSearchEngine(TEST_FOLDER);
-	}
+    @Before
+    public void
+    setUp()
+    throws Exception
+    {
+        this.engine = new FullSearchEngine(TEST_FOLDER);
+    }
 
-	@After
-	public void
-	tearDown()
-	throws Exception
-	{
-		this.engine.close();
-		FolderUtils.DeleteRecursive("indexes/" + TEST_FOLDER);
-	}
+    @After
+    public void
+    tearDown()
+    throws Exception
+    {
+        this.engine.close();
+        FolderUtils.DeleteRecursive("indexes/" + TEST_FOLDER);
+    }
 
-	@Test
-	public void
-	test()
-	throws IOException, ParseException
-	{
-		Document doc = new Document();
+    @Test
+    public void
+    test()
+    throws IOException, ParseException
+    {
+        Document doc = new Document();
         String text = "Evaluating features is not easy.";
         doc.add(new Field("body", text, TextField.TYPE_STORED));
         Document doc2 = new Document();
@@ -64,28 +64,28 @@ public class FullSearchEngineTest
         result = this.engine.search("body", "is attributes");
         assertEquals(1, result.length);
         assertEquals(text2,
-        		     result[0].getDocument().getField("body").stringValue());
+                     result[0].getDocument().getField("body").stringValue());
         // test query for specific word
         result = this.engine.search("body", "attributes");
         assertEquals(1, result.length);
         assertEquals(text2,
-        		     result[0].getDocument().getField("body").stringValue());
+                     result[0].getDocument().getField("body").stringValue());
         result = this.engine.search("body", "evaluation");
         assertEquals(1, result.length);
         assertEquals(text,
-   		     		 result[0].getDocument().getField("body").stringValue());
+                     result[0].getDocument().getField("body").stringValue());
         result = this.engine.search("body", "measure");
         assertEquals(1, result.length);
         assertEquals(text2,
-   		     		 result[0].getDocument().getField("body").stringValue());
+                     result[0].getDocument().getField("body").stringValue());
         // test ranking
         result = this.engine.search("body", "easy measure");
         assertEquals(2, result.length);
         assertEquals(text2,
-        			 result[0].getDocument().getField("body").stringValue());
+                     result[0].getDocument().getField("body").stringValue());
         assertEquals(text,
-        			 result[1].getDocument().getField("body").stringValue());
+                     result[1].getDocument().getField("body").stringValue());
         assertTrue(result[0].getScore() > result[1].getScore());
-	}
+    }
 
 }
