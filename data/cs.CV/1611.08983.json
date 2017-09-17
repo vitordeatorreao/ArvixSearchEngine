@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Zha, Zhiyuan", 
+        "Liu, Xin", 
+        "Huang, Xiaohua", 
+        "Shi, Henglin", 
+        "Xu, Yingyue", 
+        "Wang, Qiong", 
+        "Tang, Lan", 
+        "Zhang, Xinggan"
+    ], 
+    "paper_comments": "", 
+    "paper_page_url": "https://arxiv.org/abs/1611.08983", 
+    "paper_abstract": "Sparse coding has achieved a great success in various image processing\nstudies. However, there is not any benchmark to measure the sparsity of image\npatch/group because sparse discriminant conditions cannot keep unchanged. This\npaper analyzes the sparsity of group based on the strategy of the rank\nminimization. Firstly, an adaptive dictionary for each group is designed. Then,\nwe prove that group-based sparse coding is equivalent to the rank minimization\nproblem, and thus the sparse coefficient of each group is measured by\nestimating the singular values of each group. Based on that measurement, the\nweighted Schatten $p$-norm minimization (WSNM) has been found to be the closest\nsolution to the real singular values of each group. Thus, WSNM can be\nequivalently transformed into a non-convex $\\ell_p$-norm minimization problem\nin group-based sparse coding. To make the proposed scheme tractable and robust,\nthe alternating direction method of multipliers (ADMM) is used to solve the\n$\\ell_p$-norm minimization problem. Experimental results on two applications:\nimage inpainting and image compressive sensing (CS) recovery have shown that\nthe proposed scheme outperforms many state-of-the-art methods.", 
+    "paper_subjects": null, 
+    "paper_code": "1611.08983", 
+    "paper_submission_date": "2016/11/28", 
+    "paper_title": "Analyzing the group sparsity based on the rank minimization methods"
+}

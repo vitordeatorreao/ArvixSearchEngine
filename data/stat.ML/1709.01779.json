@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Rodrigues, Filipe", 
+        "Pereira, Francisco"
+    ], 
+    "paper_comments": "10 pages", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01779", 
+    "paper_abstract": "Over the last few years, deep learning has revolutionized the field of\nmachine learning by dramatically improving the state-of-the-art in various\ndomains. However, as the size of supervised artificial neural networks grows,\ntypically so does the need for larger labeled datasets. Recently, crowdsourcing\nhas established itself as an efficient and cost-effective solution for labeling\nlarge sets of data in a scalable manner, but it often requires aggregating\nlabels from multiple noisy contributors with different levels of expertise. In\nthis paper, we address the problem of learning deep neural networks from\ncrowds. We begin by describing an EM algorithm for jointly learning the\nparameters of the network and the confusion matrices of the different\nannotators for classification settings. Then, a novel general-purpose crowd\nlayer is proposed, which allows us to train deep neural networks end-to-end,\ndirectly from the noisy labels of multiple annotators, using backpropagation.\nWe empirically show that the proposed approach is able to internally capture\nthe reliability and biases of different annotators and achieve new\nstate-of-the-art results for various crowdsourced datasets across different\nsettings, namely classification, regression and sequence labeling.", 
+    "paper_subjects": [
+        "Computer Vision and Pattern Recognition (cs.CV)", 
+        "Human-Computer Interaction (cs.HC)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.01779", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "Deep learning from crowds"
+}

@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Garcia-Cardona, Cristina", 
+        "Wohlberg, Brendt"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.02893", 
+    "paper_abstract": "Convolutional sparse representations are a form of sparse representation with\na dictionary that has a structure that is equivalent to convolution with a set\nof linear filters. While effective algorithms have recently been developed for\nthe convolutional sparse coding problem, the corresponding dictionary learning\nproblem is substantially more challenging. Furthermore, although a number of\ndifferent approaches have been proposed, the absence of thorough comparisons\nbetween them makes it difficult to determine which of them represents the\ncurrent state of the art. The present work both addresses this deficiency and\nproposes some new approaches that outperform existing ones in certain contexts.\nA thorough set of performance comparisons indicates a very wide range of\nperformance differences among the existing and proposed methods, and clearly\nidentifies those that are the most effective.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02893", 
+    "paper_submission_date": "2017/09/09", 
+    "paper_title": "Convolutional Dictionary Learning"
+}

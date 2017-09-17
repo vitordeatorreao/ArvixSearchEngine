@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Golmohammadi, Jamal", 
+        "Ebert-Uphoff, Imme", 
+        "He, Sijie", 
+        "Deng, Yi", 
+        "Banerjee, Arindam"
+    ], 
+    "paper_comments": "21 pages, 8 figures, International Conference on Data Mining 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03891", 
+    "paper_abstract": "In this paper, we consider the use of structure learning methods for\nprobabilistic graphical models to identify statistical dependencies in\nhigh-dimensional physical processes. Such processes are often synthetically\ncharacterized using PDEs (partial differential equations) and are observed in a\nvariety of natural phenomena, including geoscience data capturing atmospheric\nand hydrological phenomena. Classical structure learning approaches such as the\nPC algorithm and variants are challenging to apply due to their high\ncomputational and sample requirements. Modern approaches, often based on sparse\nregression and variants, do come with finite sample guarantees, but are usually\nhighly sensitive to the choice of hyper-parameters, e.g., parameter $\\lambda$\nfor sparsity inducing constraint or regularization. In this paper, we present\nACLIME-ADMM, an efficient two-step algorithm for adaptive structure learning,\nwhich estimates an edge specific parameter $\\lambda_{ij}$ in the first step,\nand uses these parameters to learn the structure in the second step. Both steps\nof our algorithm use (inexact) ADMM to solve suitable linear programs, and all\niterations can be done in closed form in an efficient block parallel manner. We\ncompare ACLIME-ADMM with baselines on both synthetic data simulated by partial\ndifferential equations (PDEs) that model advection-diffusion processes, and\nreal data (50 years) of daily global geopotential heights to study information\nflow in the atmosphere. ACLIME-ADMM is shown to be efficient, stable, and\ncompetitive, usually better than the baselines especially on difficult\nproblems. On real data, ACLIME-ADMM recovers the underlying structure of global\natmospheric circulation, including switches in wind directions at the equator\nand tropics entirely from the data.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.03891", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "High-Dimensional Dependency Structure Learning for Physical Processes"
+}

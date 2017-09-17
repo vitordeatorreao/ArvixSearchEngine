@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Feng, Guanhao", 
+        "Polson, Nicholas", 
+        "Wang, Yuexi", 
+        "Xu, Jianeng"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00379", 
+    "paper_abstract": "Sparse alpha-norm regularization has many data-rich applications in marketing\nand economics. In contrast to traditional lasso and ridge regularization, the\nalpha-norm penalty has the property of jumping to a sparse solution. This is an\nattractive feature for ultra high-dimensional problems that occur in market\ndemand estimation and forecasting. The underlying nonconvex regularization\nproblem is solved via coordinate descent, and a proximal operator. To\nillustrate our methodology, we study a classic demand forecasting problem of\nBajari, Nekipelov, Ryan, and Yang (2015a). On the empirical side, we find many\nstrong sparse predictors, including price, equivalized volume, promotion,\nflavor scent, and brand effects. Benchmark methods including linear regression,\nridge, lasso and elastic net, are used in an out-of-sample forecasting study.\nIn particular, alpha-norm regularization provides accurate estimates for the\npromotion effects. Finally, we conclude with directions for future research.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00379", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Sparse Regularization in Marketing and Economics"
+}

@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Zhou, Hao Henry", 
+        "Zhang, Yilin", 
+        "Ithapu, Vamsi K.", 
+        "Johnson, Sterling C.", 
+        "Wahba, Grace", 
+        "Singh, Vikas"
+    ], 
+    "paper_comments": "34th International Conference on Machine Learning", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00640", 
+    "paper_abstract": "Many studies in biomedical and health sciences involve small sample sizes due\nto logistic or financial constraints. Often, identifying weak (but\nscientifically interesting) associations between a set of predictors and a\nresponse necessitates pooling datasets from multiple diverse labs or groups.\nWhile there is a rich literature in statistical machine learning to address\ndistributional shifts and inference in multi-site datasets, it is less clear\n${\\it when}$ such pooling is guaranteed to help (and when it does not) --\nindependent of the inference algorithms we use. In this paper, we present a\nhypothesis test to answer this question, both for classical and high\ndimensional linear regression. We precisely identify regimes where pooling\ndatasets across multiple sites is sensible, and how such policy decisions can\nbe made via simple checks executable on each site before any data transfer ever\nhappens. With a focus on Alzheimer's disease studies, we present empirical\nresults showing that in regimes suggested by our analysis, pooling a local\ndataset with data from an international study improves power.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.00640", 
+    "paper_submission_date": "2017/09/02", 
+    "paper_title": "When can Multi-Site Datasets be Pooled for Regression? Hypothesis Tests, $\\ell_2$-consistency and Neuroscience Applications"
+}

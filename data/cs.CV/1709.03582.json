@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Khrulkov, Valentin", 
+        "Oseledets, Ivan"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03582", 
+    "paper_abstract": "Vulnerability of state-of-the-art deep neural networks to adversarial attacks\nhas been attracting a lot of attention recently. In this work we propose a new\nalgorithm for constructing universal adversarial perturbations. Our approach is\nbased on computing the so called $(p, q)$-singular vectors of the Jacobian\nmatrices of hidden layers of a network. Resulting perturbations present\ninteresting visual patterns and by using a batch of just $64$ images we can\nconstruct adversarial perturbations with relatively high fooling rate. We also\ninvestigate a correlation between the singular values of the Jacobian matrices\nand the fooling rate of a corresponding singular vector.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.03582", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "Art of singular vectors and universal adversarial perturbations"
+}

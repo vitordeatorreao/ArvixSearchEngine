@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "van der Wilk, Mark", 
+        "Rasmussen, Carl Edward", 
+        "Hensman, James"
+    ], 
+    "paper_comments": "To appear in Advances in Neural Information Processing Systems 30 (NIPS 2017)", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01894", 
+    "paper_abstract": "We present a practical way of introducing convolutional structure into\nGaussian processes, making them more suited to high-dimensional inputs like\nimages. The main contribution of our work is the construction of an\ninter-domain inducing point approximation that is well-tailored to the\nconvolutional kernel. This allows us to gain the generalisation benefit of a\nconvolutional kernel, together with fast but accurate posterior inference. We\ninvestigate several variations of the convolutional kernel, and apply it to\nMNIST and CIFAR-10, which have both been known to be challenging for Gaussian\nprocesses. We also show how the marginal likelihood can be used to find an\noptimal weighting between convolutional and RBF kernels to further improve\nperformance. We hope that this illustration of the usefulness of a marginal\nlikelihood will help automate discovering architectures in larger models.", 
+    "paper_subjects": [
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.01894", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "Convolutional Gaussian Processes"
+}

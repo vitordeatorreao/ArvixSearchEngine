@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Huang, Jia-Hong", 
+        "Alfadly, Modar", 
+        "Ghanem, Bernard"
+    ], 
+    "paper_comments": "", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04625", 
+    "paper_abstract": "Visual Question Answering (VQA) models should have both high robustness and\naccuracy. Unfortunately, most of the current VQA research only focuses on\naccuracy because there is a lack of proper methods to measure the robustness of\nVQA models. There are two main modules in our algorithm. Given a natural\nlanguage question about an image, the first module takes the question as input\nand then outputs the ranked basic questions, with similarity scores, of the\nmain given question. The second module takes the main question, image and these\nbasic questions as input and then outputs the text-based answer of the main\nquestion about the given image. We claim that a robust VQA model is one, whose\nperformance is not changed much when related basic questions as also made\navailable to it as input. We formulate the basic questions generation problem\nas a LASSO optimization, and also propose a large scale Basic Question Dataset\n(BQD) and Rscore (novel robustness measure), for analyzing the robustness of\nVQA models. We hope our BQD will be used as a benchmark for to evaluate the\nrobustness of VQA models, so as to help the community build more robust and\naccurate VQA models.", 
+    "paper_subjects": [
+        "Computation and Language (cs.CL)"
+    ], 
+    "paper_code": "1709.04625", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "Robustness Analysis of Visual QA Models by Basic Questions"
+}

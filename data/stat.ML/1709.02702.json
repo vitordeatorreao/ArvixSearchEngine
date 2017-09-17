@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Granziol, Diego", 
+        "Roberts, Stephen"
+    ], 
+    "paper_comments": "9 pages, 10 figures, 2 tables", 
+    "paper_page_url": "https://arxiv.org/abs/1709.02702", 
+    "paper_abstract": "The ability of many powerful machine learning algorithms to deal with large\ndata sets without compromise is often hampered by computationally expensive\nlinear algebra tasks, of which calculating the log determinant is a canonical\nexample. In this paper we demonstrate the optimality of Maximum Entropy methods\nin approximating such calculations. We prove the equivalence between mean value\nconstraints and sample expectations in the big data limit, that Covariance\nmatrix eigenvalue distributions can be completely defined by moment information\nand that the reduction of the self entropy of a maximum entropy proposal\ndistribution, achieved by adding more moments reduces the KL divergence between\nthe proposal and true eigenvalue distribution. We empirically verify our\nresults on a variety of SparseSuite matrices and establish best practices.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.02702", 
+    "paper_submission_date": "2017/09/08", 
+    "paper_title": "Entropic Determinants"
+}

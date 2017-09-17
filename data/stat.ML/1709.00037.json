@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Schneider, Tapio", 
+        "Lan, Shiwei", 
+        "Stuart, Andrew", 
+        "Teixeira, Jo&#xe3;o"
+    ], 
+    "paper_comments": "27 pages, 3 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00037", 
+    "paper_abstract": "Climate projections continue to be marred by large uncertainties, which\noriginate in processes that need to be parameterized, such as clouds,\nconvection, and ecosystems. But rapid progress is now within reach. New\ncomputational tools and methods from data assimilation and machine learning\nmake it possible to integrate global observations and local high-resolution\nsimulations in an Earth system model (ESM) that systematically learns from\nboth. Here we propose a blueprint for such an ESM. We outline how\nparameterization schemes can learn from global observations and targeted\nhigh-resolution simulations, for example, of clouds and convection, through\nmatching low-order statistics between ESMs, observations, and high-resolution\nsimulations. We illustrate learning algorithms for ESMs with a simple dynamical\nsystem that shares characteristics of the climate system; and we discuss the\nopportunities the proposed framework presents and the challenges that remain to\nrealize it.", 
+    "paper_subjects": [
+        "Atmospheric and Oceanic Physics (physics.ao-ph)"
+    ], 
+    "paper_code": "1709.00037", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Earth System Modeling 2.0: A Blueprint for Models That Learn From Observations and Targeted High-Resolution Simulations"
+}

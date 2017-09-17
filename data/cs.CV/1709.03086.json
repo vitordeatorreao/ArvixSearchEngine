@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Genctav, Asli", 
+        "Tari, Sibel"
+    ], 
+    "paper_comments": "Proceedings of EUSIPCO 2017 Satellite Workshops, Corresponding Workshop: Creative Design and Advanced Manufacturing: An emerging application area for Signals and Systems", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03086", 
+    "paper_abstract": "Product shape is one of the factors that trigger preference decisions of\ncustomers. Congruity of shape elements and deformation of shape from the\nprototype are two factors that are found to influence aesthetic response, hence\npreference. We propose a measure to indirectly quantify congruity of different\nparts of the shape and the degree to which the parts deviate from a sphere,\ni.e. our choice of the prototype, without explicitly defining parts and their\nrelations. The basic signals and systems concept that we use is the entropy.\nOur measure attains its lowest value for a volume enclosed by a sphere. On one\nhand, deformations from the prototype cause an increase in the measure. On the\nother hand, as deformations create congruent parts, our measure decreases due\nto the attained harmony. Our preliminary experimental results are consistent\nwith our expectations.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03086", 
+    "paper_submission_date": "2017/09/10", 
+    "paper_title": "A Product Shape Congruity Measure via Entropy in Shape Scale Space"
+}

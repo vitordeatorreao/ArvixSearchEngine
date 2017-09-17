@@ -1,0 +1,20 @@
+{
+    "paper_authors_list": [
+        "Han, Zhao-Yu", 
+        "Wang, Jun", 
+        "Fan, Heng", 
+        "Wang, Lei", 
+        "Zhang, Pan"
+    ], 
+    "paper_comments": "11 pages, 12 figures (not including the TNs)", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01662", 
+    "paper_abstract": "Generative modeling, which learns joint probability distribution from\ntraining data and generates samples according to it, is an important task in\nmachine learning and artificial intelligence. Inspired by probabilistic\ninterpretation of quantum physics, we propose a generative model using matrix\nproduct states, which is a tensor network originally proposed for describing\n(particularly one-dimensional) entangled quantum states. Our model enjoys\nefficient learning by utilizing the density matrix renormalization group method\nwhich allows dynamic adjusting dimensions of the tensors, and offers an\nefficient direct sampling approach, Zipper, for generative tasks. We apply our\nmethod to generative modeling of several standard datasets including the\nprincipled Bars and Stripes, random binary patterns and the MNIST handwritten\ndigits, to illustrate ability of our model, and discuss features as well as\ndrawbacks of our model over popular generative models such as Hopfield model,\nBoltzmann machines and generative adversarial networks. Our work shed light on\nmany interesting directions for future exploration on the development of\nquantum-inspired algorithms for unsupervised machine learning, which is of\npossibility of being realized by a quantum device.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Quantum Physics (quant-ph)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.01662", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "Unsupervised Generative Modeling Using Matrix Product States"
+}

@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Belharbi, Soufiane", 
+        "Chatelain, Clement", 
+        "Herault, Romain", 
+        "Adam, Sebastien"
+    ], 
+    "paper_comments": "13 pages, 3 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01867", 
+    "paper_abstract": "Training deep neural networks is known to require a large number of training\nsamples. However, in many applications only few training samples are available.\nIn this work, we tackle the issue of training neural networks for\nclassification task when few training samples are available. We attempt to\nsolve this issue by proposing a regularization term that constrains the hidden\nlayers of a network to learn class-wise invariant features. In our\nregularization framework, learning invariant features is generalized to the\nclass membership where samples with the same class should have the same feature\nrepresentation. Numerical experiments over MNIST and its variants showed that\nour proposal is more efficient for the case of few training samples. Moreover,\nwe show an intriguing property of representation learning within neural\nnetworks. The source code of our framework is freely available\n<a href=\"https://github.com/sbelharbi/learning-class-invariant-features.\">this https URL</a>", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.01867", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "Neural Networks Regularization Through Invariant Features Learning"
+}

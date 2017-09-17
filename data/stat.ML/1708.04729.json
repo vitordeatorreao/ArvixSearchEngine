@@ -1,0 +1,20 @@
+{
+    "paper_authors_list": [
+        "Zhang, Yizhe", 
+        "Shen, Dinghan", 
+        "Wang, Guoyin", 
+        "Gan, Zhe", 
+        "Henao, Ricardo", 
+        "Carin, Lawrence"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.04729", 
+    "paper_abstract": "Learning latent representations from long text sequences is an important\nfirst step in many natural language processing applications. Recurrent Neural\nNetworks (RNNs) have become a cornerstone for this challenging task. However,\nthe quality of sentences during RNN-based decoding (reconstruction) decreases\nwith the length of the text. We propose a sequence-to-sequence, purely\nconvolutional and deconvolutional autoencoding framework that is free of the\nabove issue, while also being computationally efficient. The proposed method is\nsimple, easy to implement and can be leveraged as a building block for many\napplications. We show empirically that compared to RNNs, our framework is\nbetter at reconstructing and correcting long paragraphs. Quantitative\nevaluation on semi-supervised text classification and summarization tasks\ndemonstrate the potential for better utilization of long unlabeled text data.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1708.04729", 
+    "paper_submission_date": "2017/08/16", 
+    "paper_title": "Deconvolutional Paragraph Representation Learning"
+}

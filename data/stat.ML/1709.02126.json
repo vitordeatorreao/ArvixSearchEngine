@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Bulwahn, Lukas", 
+        "Kamali, Maryam", 
+        "Linker, Sven"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.02126", 
+    "paper_abstract": "These are the proceedings of the workshop on Formal Verification of\nAutonomous Vehicles, held on September 19th, 2017 in Turin, Italy, as an\naffiliated workshop of the International Conference on integrated Formal\nMethods (iFM 2017). The workshop aim is to bring together researchers from the\nformal verification community that are developing formal methods for autonomous\nvehicles as well as researchers working, e.g., in the area of control theory or\nrobotics, interested in applying verification techniques for designing and\ndeveloping of autonomous vehicles.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)"
+    ], 
+    "paper_code": "1709.02126", 
+    "paper_submission_date": "2017/09/07", 
+    "paper_title": "Proceedings First Workshop on Formal Verification of Autonomous Vehicles"
+}

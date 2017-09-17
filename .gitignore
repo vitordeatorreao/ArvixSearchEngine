@@ -1,0 +1,21 @@
+# Built indexes
+indexes/
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Maven
+log/
+target/
+
+# Mac OS X
+.DS_Store
+
+

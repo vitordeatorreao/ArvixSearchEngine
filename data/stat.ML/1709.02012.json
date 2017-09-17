@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Pleiss, Geoff", 
+        "Raghavan, Manish", 
+        "Wu, Felix", 
+        "Kleinberg, Jon", 
+        "Weinberger, Kilian Q."
+    ], 
+    "paper_comments": "First two authors contributed equally. To appear in NIPS 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.02012", 
+    "paper_abstract": "The machine learning community has become increasingly concerned with the\npotential for bias and discrimination in predictive models, and this has\nmotivated a growing line of work on what it means for a classification\nprocedure to be \"fair.\" In particular, we investigate the tension between\nminimizing error disparity across different population groups while maintaining\ncalibrated probability estimates. We show that calibration is compatible only\nwith a single error constraint (i.e. equal false-negatives rates across\ngroups), and show that any algorithm that satisfies this relaxation is no\nbetter than randomizing a percentage of predictions for an existing classifier.\nThese unsettling findings, which extend and generalize existing results, are\nempirically confirmed on several datasets.", 
+    "paper_subjects": [
+        "Computers and Society (cs.CY)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02012", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "On Fairness and Calibration"
+}

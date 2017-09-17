@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Fan, Yingying", 
+        "Demirkaya, Emre", 
+        "Li, Gaorong", 
+        "Lv, Jinchi"
+    ], 
+    "paper_comments": "37 pages, 6 tables, 9 pages supplementary material", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00092", 
+    "paper_abstract": "Power and reproducibility are key to enabling refined scientific discoveries\nin contemporary big data applications with general high-dimensional nonlinear\nmodels. In this paper, we provide theoretical foundations on the power and\nrobustness for the model-free knockoffs procedure introduced recently in\nCand\\`{e}s, Fan, Janson and Lv (2016) in high-dimensional setting when the\ncovariate distribution is characterized by Gaussian graphical model. We\nestablish that under mild regularity conditions, the power of the oracle\nknockoffs procedure with known covariate distribution in high-dimensional\nlinear models is asymptotically one as sample size goes to infinity. When\nmoving away from the ideal case, we suggest the modified model-free knockoffs\nmethod called graphical nonlinear knockoffs (RANK) to accommodate the unknown\ncovariate distribution. We provide theoretical justifications on the robustness\nof our modified procedure by showing that the false discovery rate (FDR) is\nasymptotically controlled at the target level and the power is asymptotically\none with the estimated covariate distribution. To the best of our knowledge,\nthis is the first formal theoretical result on the power for the knockoffs\nprocedure. Simulation results demonstrate that compared to existing approaches,\nour method performs competitively in both FDR control and power. A real data\nset is analyzed to further assess the performance of the suggested knockoffs\nprocedure.", 
+    "paper_subjects": [
+        "Methodology (stat.ME)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.00092", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "RANK: Large-Scale Inference with Graphical Nonlinear Knockoffs"
+}

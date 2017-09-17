@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Hu, Wenqing", 
+        "Li, Chris Junchi"
+    ], 
+    "paper_comments": "33 pages. First version. Comments and critiques are more than welcome", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00515", 
+    "paper_abstract": "We consider in this work a system of two stochastic differential equations\nnamed the perturbed compositional gradient flow. By introducing a separation of\nfast and slow scales of the two equations, we show that the limit of the slow\nmotion is given by an averaged ordinary differential equation. We then\ndemonstrate that the deviation of the slow motion from the averaged equation,\nafter proper rescaling, converges to a stochastic process with Gaussian inputs.\nThis indicates that the slow motion can be approximated in the weak sense by a\nstandard perturbed gradient flow or the continuous-time stochastic gradient\ndescent algorithm that solves the optimization problem for a composition of two\nfunctions. As an application, the perturbed compositional gradient flow\ncorresponds to the diffusion limit of the Stochastic Composite Gradient Descent\n(SCGD) algorithm for minimizing a composition of two expected-value functions\nin the optimization literatures. For the strongly convex case, such an analysis\nimplies that the SCGD algorithm has the same convergence time asymptotic as the\nclassical stochastic gradient descent algorithm. Thus it validates the\neffectiveness of using the SCGD algorithm in the strongly convex case.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.00515", 
+    "paper_submission_date": "2017/09/02", 
+    "paper_title": "A convergence analysis of the perturbed compositional gradient flow: averaging principle and normal deviations"
+}

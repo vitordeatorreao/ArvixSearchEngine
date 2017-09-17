@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Ren, Jineng", 
+        "Li, Xingguo", 
+        "Haupt, Jarvis"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00537", 
+    "paper_abstract": "We propose a communicationally and computationally efficient algorithm for\nhigh-dimensional distributed sparse learning. At each iteration, local machines\ncompute the gradient on local data and the master machine solves one shifted\n$l_1$ regularized minimization problem. The communication cost is reduced from\nconstant times of the dimension number for the state-of-the-art algorithm to\nconstant times of the sparsity number via Two-way Truncation procedure.\nTheoretically, we prove that the estimation error of the proposed algorithm\ndecreases exponentially and matches that of the centralized method under mild\nassumptions. Extensive experiments on both simulated data and real data verify\nthat the proposed algorithm is efficient and has performance comparable with\nthe centralized method on solving high-dimensional sparse learning problems.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Optimization and Control (math.OC)"
+    ], 
+    "paper_code": "1709.00537", 
+    "paper_submission_date": "2017/09/02", 
+    "paper_title": "Communication-efficient Algorithm for Distributed Sparse Learning via Two-way Truncation"
+}

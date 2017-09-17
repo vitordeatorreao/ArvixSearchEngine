@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Agarap, Abien Fred"
+    ], 
+    "paper_comments": "33 pages, 23 figures, unpublished research paper", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03082", 
+    "paper_abstract": "Gated Recurrent Unit (GRU) is a recently published variant of the Long\nShort-Term Memory (LSTM) network, designed to solve the vanishing gradient and\nexploding gradient problems. However, its main objective is to solve the\nlong-term dependency problem in Recurrent Neural Networks (RNNs), which\nprevents the network to connect an information from previous iteration with the\ncurrent iteration. This study proposes a modification on the GRU model, having\nSupport Vector Machine (SVM) as its classifier instead of the Softmax function.\nThe classifier is responsible for the output of a network in a classification\nproblem. SVM was chosen over Softmax for its computational efficiency. To\nevaluate the proposed model, it will be used for intrusion detection, with the\ndataset from Kyoto University's honeypot system in 2013 which will serve as\nboth its training and testing data.", 
+    "paper_subjects": [
+        "Cryptography and Security (cs.CR)", 
+        "Learning (cs.LG)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.03082", 
+    "paper_submission_date": "2017/09/10", 
+    "paper_title": "A Neural Network Architecture Combining Gated Recurrent Unit (GRU) and Support Vector Machine (SVM) for Intrusion Detection in Network Traffic Data"
+}

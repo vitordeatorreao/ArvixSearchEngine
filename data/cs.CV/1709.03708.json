@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Matsui, Yusuke", 
+        "Ogaki, Keisuke", 
+        "Yamasaki, Toshihiko", 
+        "Aizawa, Kiyoharu"
+    ], 
+    "paper_comments": "To appear in ACMMM 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03708", 
+    "paper_abstract": "Data clustering is a fundamental operation in data analysis. For handling\nlarge-scale data, the standard k-means clustering method is not only slow, but\nalso memory-inefficient. We propose an efficient clustering method for\nbillion-scale feature vectors, called PQk-means. By first compressing input\nvectors into short product-quantized (PQ) codes, PQk-means achieves fast and\nmemory-efficient clustering, even for high-dimensional vectors. Similar to\nk-means, PQk-means repeats the assignment and update steps, both of which can\nbe performed in the PQ-code domain. Experimental results show that even\nshort-length (32 bit) PQ-codes can produce competitive results compared with\nk-means. This result is of practical importance for clustering in\nmemory-restricted environments. Using the proposed PQk-means scheme, the\nclustering of one billion 128D SIFT features with K = 10^5 is achieved within\n14 hours, using just 32 GB of memory consumption on a single computer.", 
+    "paper_subjects": [
+        "Multimedia (cs.MM)"
+    ], 
+    "paper_code": "1709.03708", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "PQk-means: Billion-scale Clustering for Product-quantized Codes"
+}

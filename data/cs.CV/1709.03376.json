@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Gu, Jiuxiang", 
+        "Cai, Jianfei", 
+        "Wang, Gang", 
+        "Chen, Tsuhan"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03376", 
+    "paper_abstract": "The existing image captioning approaches typically train a one-stage sentence\ndecoder, which is difficult to generate rich fine-grained descriptions. On the\nother hand, multi-stage image caption model is hard to train due to the\nvanishing gradient problem. In this paper, we propose a coarse-to-fine\nmulti-stage prediction framework for image captioning, composed of multiple\ndecoders each of which operates on the output of the previous stage, producing\nincreasingly refined image descriptions. Our proposed learning approach\naddresses the difficulty of vanishing gradients during training by providing a\nlearning objective function that enforces intermediate supervisions.\nParticularly, we optimize our model with a reinforcement learning approach\nwhich utilizes the output of each intermediate decoder's test-time inference\nalgorithm as well as the output of its preceding decoder to normalize the\nrewards, which simultaneously solves the well-known exposure bias problem and\nthe loss-evaluation mismatch problem. We extensively evaluate the proposed\napproach on MSCOCO and show that our approach can achieve the state-of-the-art\nperformance.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03376", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "Stack-Captioning: Coarse-to-Fine Learning for Image Captioning"
+}

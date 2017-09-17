@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Bui, Toan Duc", 
+        "Shin, Jitae", 
+        "Moon, Taesup"
+    ], 
+    "paper_comments": "7 pages", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03199", 
+    "paper_abstract": "In the isointense stage, the accurate volumetric image segmentation is a\nchallenging task due to the low contrast between tissues. In this paper, we\npropose a novel very deep network architecture based on densely convolution\nnetwork for volumetric brain segmentation. The proposed network architecture\nprovides a dense connection between layers that aims to improve the information\nflow in the network. By concatenating features map of fine and coarse dense\nblocks, it allows capturing multi-scale contextual information. Experimental\nresults demonstrate significant advantages of the proposed method over existing\nmethods, in terms of both segmentation accuracy and parameter efficiency in\nMICCAI grand challenge on 6-month infant brain MRI segmentation.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03199", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "3D Densely Convolution Networks for Volumetric Segmentation"
+}

@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Li, Hongyang", 
+        "Liu, Yu", 
+        "Ouyang, Wanli", 
+        "Wang, Xiaogang"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.04347", 
+    "paper_abstract": "In this paper, we propose a zoom-out-and-in network for generating object\nproposals. A key observation is that it is difficult to classify anchors of\ndifferent sizes with the same set of features. Anchors of different sizes\nshould be placed accordingly based on different depth within a network: smaller\nboxes on high-resolution layers with a smaller stride while larger boxes on\nlow-resolution counterparts with a larger stride. Inspired by the conv/deconv\nstructure, we fully leverage the low-level local details and high-level\nregional semantics from two feature map streams, which are complimentary to\neach other, to identify the objectness in an image. A map attention decision\n(MAD) unit is further proposed to aggressively search for neuron activations\namong two streams and attend the most contributive ones on the feature learning\nof the final loss. The unit serves as a decision maker to adaptively activate\nmaps along certain channels with the solely purpose of optimizing the overall\ntraining loss. One advantage of MAD is that the learned weights enforced on\neach feature channel is predicted on-the-fly based on the input context, which\nis more suitable than the fixed enforcement of a convolutional kernel.\nExperimental results on three datasets demonstrate the effectiveness of our\nproposed algorithm over other state-of-the-arts, in terms of average recall for\nregion proposal and average precision for object detection.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04347", 
+    "paper_submission_date": "2017/09/13", 
+    "paper_title": "Zoom Out-and-In Network with Map Attention Decision for Region Proposal and Object Detection"
+}

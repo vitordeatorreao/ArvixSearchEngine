@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Hadad, Naama", 
+        "Wolf, Lior", 
+        "Shahar, Moni"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00199", 
+    "paper_abstract": "In this work, we address the problem of disentanglement of factors that\ngenerate a given data into those that are correlated with the labeling and\nthose that are not. Our solution is simpler than previous solutions and employs\nadversarial training in a straightforward manner. We demonstrate the new method\non visual datasets as well as on financial data. In order to evaluate the\nlatter, we developed a hypothetical trading strategy whose performance is\naffected by the performance of the disentanglement, namely, it trades better\nwhen the factors are better separated.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.00199", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Two-Step Disentanglement for Financial Data"
+}

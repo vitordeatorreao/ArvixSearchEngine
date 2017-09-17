@@ -1,0 +1,20 @@
+{
+    "paper_authors_list": [
+        "Finn, Chelsea", 
+        "Yu, Tianhe", 
+        "Zhang, Tianhao", 
+        "Abbeel, Pieter", 
+        "Levine, Sergey"
+    ], 
+    "paper_comments": "", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04905", 
+    "paper_abstract": "In order for a robot to be a generalist that can perform a wide range of\njobs, it must be able to acquire a wide variety of skills quickly and\nefficiently in complex unstructured environments. High-capacity models such as\ndeep neural networks can enable a robot to represent complex skills, but\nlearning each skill from scratch then becomes infeasible. In this work, we\npresent a meta-imitation learning method that enables a robot to learn how to\nlearn more efficiently, allowing it to acquire new skills from just a single\ndemonstration. Unlike prior methods for one-shot imitation, our method can\nscale to raw pixel inputs and requires data from significantly fewer prior\ntasks for effective learning of new skills. Our experiments on both simulated\nand real robot platforms demonstrate the ability to learn new tasks,\nend-to-end, from a single visual demonstration.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Computer Vision and Pattern Recognition (cs.CV)", 
+        "Robotics (cs.RO)"
+    ], 
+    "paper_code": "1709.04905", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "One-Shot Visual Imitation Learning via Meta-Learning"
+}

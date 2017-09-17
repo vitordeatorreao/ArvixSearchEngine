@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Cao, Faxian", 
+        "Yang, Zhijing", 
+        "Ren, Jinchang", 
+        "Ling, Wing-Kuen"
+    ], 
+    "paper_comments": "15 pages, 5 figuers and 4 tables", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03792", 
+    "paper_abstract": "The extreme learning machine (ELM) is a novel and effective machine learning\nmethod. It has been successfully applied to many pattern recognition problems.\nHowever, the classification results are not good enough when it is applied to\nthe hyperspectral image (HSI) classification. This is because the ELM suffers\nfrom some drawbacks. One is the randomness of input weights and bias can result\nin ill-posed problems, then this would result in the optimal output weight of\nELM can not obtain. Another one is this method fails to extract the spatial\ninformation. To overcome these two difficulties, this paper proposes a new\nframework for applying the ELM to perform the hyperspectral image (HSI)\nclassification. First, the ELM is represented by a probabilistic model under\nthe maximum a posteriori (MAP). Then it was represented by a concave\nlogarithmic likelihood function. Second, the sparse representation is adopted\nto the Laplacian prior in order to find a logarithmic posterior with a unique\nmaximum. This can improve the speed of the proposed algorithm. Besides, the\nvariable splitting and the augmented Lagrangian are subsequently used. It can\nalso significantly reduce the computation complexity of the proposed algorithm.\nThird, the spatial information is utilized to construct the spectral-spatial\nframework for performing the HSI classification based on the weighted composite\nfeatures (WCFs) method. This can further improve the performance of the\nproposed algorithms. The lower bound of the proposed methods is also derived by\na rigorous mathematical proof. Experimental results on the real HSI data sets\nsuch as the Indian Pines data set and the Pavia University data set demonstrate\nthat the proposed approach outperforms many state of the art methods.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03792", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Sparse Representation Based Augmented Multinomial Logistic Extreme Learning Machine with Weighted Composite Features for Spectral Spatial Hyperspectral Image Classification"
+}

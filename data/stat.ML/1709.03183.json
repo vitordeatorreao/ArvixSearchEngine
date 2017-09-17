@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Xu, Jiaming"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03183", 
+    "paper_abstract": "This paper studies the problem of estimating the grahpon model - the\nunderlying generating mechanism of a network. Graphon estimation arises in many\napplications such as predicting missing links in networks and learning user\npreferences in recommender systems. The graphon model deals with a random graph\nof $n$ vertices such that each pair of two vertices $i$ and $j$ are connected\nindependently with probability $\\rho \\times f(x_i,x_j)$, where $x_i$ is the\nunknown $d$-dimensional label of vertex $i$, $f$ is an unknown symmetric\nfunction, and $\\rho$ is a scaling parameter characterizing the graph sparsity.\nRecent studies have identified the minimax error rate of estimating the graphon\nfrom a single realization of the random graph. However, there exists a wide gap\nbetween the known error rates of computationally efficient estimation\nprocedures and the minimax optimal error rate.\n<br />Here we analyze a spectral method, namely universal singular value\nthresholding (USVT) algorithm, in the relatively sparse regime with the average\nvertex degree $n\\rho=\\Omega(\\log n)$. When $f$ belongs to H\\\"{o}lder or Sobolev\nspace with smoothness index $\\alpha$, we show the error rate of USVT is at most\n$(n\\rho)^{ -2 \\alpha / (2\\alpha+d)}$, approaching the minimax optimal error\nrate $\\log (n\\rho)/(n\\rho)$ for $d=1$ as $\\alpha$ increases. Furthermore, when\n$f$ is analytic, we show the error rate of USVT is at most $\\log^d\n(n\\rho)/(n\\rho)$. In the special case of stochastic block model with $k$\nblocks, the error rate of USVT is at most $k/(n\\rho)$, which is larger than the\nminimax optimal error rate by at most a multiplicative factor $k/\\log k$. This\ncoincides with the computational gap observed for community detection. A key\nstep of our analysis is to derive the eigenvalue decaying rate of the edge\nprobability matrix using piecewise polynomial approximations of the graphon\nfunction $f$.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Social and Information Networks (cs.SI)", 
+        "Statistics Theory (math.ST)"
+    ], 
+    "paper_code": "1709.03183", 
+    "paper_submission_date": "2017/09/10", 
+    "paper_title": "Rates of Convergence of Spectral Methods for Graphon Estimation"
+}

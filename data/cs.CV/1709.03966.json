@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Nguyen, Ty", 
+        "Chen, Steven W.", 
+        "Shivakumar, Shreyas S.", 
+        "Taylor, Camillo J.", 
+        "Kumar, Vijay"
+    ], 
+    "paper_comments": "8 pages, 7 figures, 1 table", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03966", 
+    "paper_abstract": "This paper develops an unsupervised learning algorithm that trains a Deep\nConvolutional Neural Network to estimate planar homographies. The traditional\nfeature-based approaches to estimating can fail when good features cannot be\nidentified, and can be slow during the feature identification and matching\nprocess. We demonstrate that our unsupervised algorithm outperforms these\ntraditional approaches in accuracy, speed, and robustness to noise on both\nsynthetic images and real-world images captured from a UAV. In addition, we\ndemonstrate that our unsupervised method has superior performance compared to\nthe corresponding supervised method of training the network architecture using\nground truth homography labels. Our approach is a general motion estimation\nframework that can be extended beyond estimating planar homographies to more\ngeneral motions such as optical flow.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03966", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Unsupervised Deep Homography: A Fast and Robust Homography Estimation Model"
+}

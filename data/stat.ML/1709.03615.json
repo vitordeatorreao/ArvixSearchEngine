@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Mohammed, Kitty", 
+        "Narayanan, Hariharan"
+    ], 
+    "paper_comments": "36 pages, 1 figure", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03615", 
+    "paper_abstract": "We consider the problem of recovering a $d-$dimensional manifold $\\mathcal{M}\n\\subset \\mathbb{R}^n$ when provided with noiseless samples from $\\mathcal{M}$.\nThere are many algorithms (e.g., Isomap) that are used in practice to fit\nmanifolds and thus reduce the dimensionality of a given data set. Ideally, the\nestimate $\\mathcal{M}_\\mathrm{put}$ of $\\mathcal{M}$ should be an actual\nmanifold of a certain smoothness; furthermore, $\\mathcal{M}_\\mathrm{put}$\nshould be arbitrarily close to $\\mathcal{M}$ in Hausdorff distance given a\nlarge enough sample. Generally speaking, existing manifold learning algorithms\ndo not meet these criteria. Fefferman, Mitter, and Narayanan (2016) have\ndeveloped an algorithm whose output is provably a manifold. The key idea is to\ndefine an approximate squared-distance function (asdf) to $\\mathcal{M}$. Then,\n$\\mathcal{M}_\\mathrm{put}$ is given by the set of points where the gradient of\nthe asdf is orthogonal to the subspace spanned by the largest $n - d$\neigenvectors of the Hessian of the asdf. As long as the asdf meets certain\nregularity conditions, $\\mathcal{M}_\\mathrm{put}$ is a manifold that is\narbitrarily close in Hausdorff distance to $\\mathcal{M}$. In this paper, we\ndefine two asdfs that can be calculated from the data and show that they meet\nthe required regularity conditions. The first asdf is based on kernel density\nestimation, and the second is based on estimation of tangent spaces using local\nprincipal components analysis.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.03615", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "Manifold Learning Using Kernel Density Estimation and Local Principal Components Analysis"
+}

@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Yang, Tao", 
+        "Thompson, Paul", 
+        "Zhao, Sihai", 
+        "Ye, Jieping"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03645", 
+    "paper_abstract": "Genome-wide association studies (GWA studies or GWAS) investigate the\nrelationships between genetic variants such as single-nucleotide polymorphisms\n(SNPs) and individual traits. Recently, incorporating biological priors\ntogether with machine learning methods in GWA studies has attracted increasing\nattention. However, in real-world, nucleotide-level bio-priors have not been\nwell-studied to date. Alternatively, studies at gene-level, for example,\nprotein--protein interactions and pathways, are more rigorous and legitimate,\nand it is potentially beneficial to utilize such gene-level priors in GWAS. In\nthis paper, we proposed a novel two-level structured sparse model, called\nSparse Group Lasso with Group-level Graph structure (SGLGG), for GWAS. It can\nbe considered as a sparse group Lasso along with a group-level graph Lasso.\nEssentially, SGLGG penalizes the nucleotide-level sparsity as well as takes\nadvantages of gene-level priors (both gene groups and networks), to identifying\nphenotype-associated risk SNPs. We employ the alternating direction method of\nmultipliers algorithm to optimize the proposed model. Our experiments on the\nAlzheimer's Disease Neuroimaging Initiative whole genome sequence data and\nneuroimage data demonstrate the effectiveness of SGLGG. As a regression model,\nit is competitive to the state-of-the-arts sparse models; as a variable\nselection method, SGLGG is promising for identifying Alzheimer's\ndisease-related risk SNPs.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Genomics (q-bio.GN)"
+    ], 
+    "paper_code": "1709.03645", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Identifying Genetic Risk Factors via Sparse Group Lasso with Group Graph Structure"
+}

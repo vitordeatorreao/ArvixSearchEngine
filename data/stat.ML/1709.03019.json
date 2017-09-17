@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Gardner, Andrew", 
+        "Kanno, Jinko", 
+        "Duncan, Christian A.", 
+        "Selmic, Rastko R."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03019", 
+    "paper_abstract": "Unordered feature sets are a nonstandard data structure that traditional\nneural networks are incapable of addressing in a principled manner. Providing a\nconcatenation of features in an arbitrary order may lead to the learning of\nspurious patterns or biases that do not actually exist. Another complication is\nintroduced if the number of features varies between each set. We propose\nconvolutional deep averaging networks (CDANs) for classifying and learning\nrepresentations of datasets whose instances comprise variable-size, unordered\nfeature sets. CDANs are efficient, permutation-invariant, and capable of\naccepting sets of arbitrary size. We emphasize the importance of nonlinear\nfeature embeddings for obtaining effective CDAN classifiers and illustrate\ntheir advantages in experiments versus linear embeddings and alternative\npermutation-invariant and -equivariant architectures.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.03019", 
+    "paper_submission_date": "2017/09/10", 
+    "paper_title": "Classifying Unordered Feature Sets with Convolutional Deep Averaging Networks"
+}

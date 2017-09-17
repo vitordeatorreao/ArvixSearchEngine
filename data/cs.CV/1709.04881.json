@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "K&#xf6;hler, Thomas", 
+        "B&#xe4;tz, Michel", 
+        "Naderi, Farzad", 
+        "Kaup, Andr&#xe9;", 
+        "Maier, Andreas K.", 
+        "Riess, Christian"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.04881", 
+    "paper_abstract": "Over the past decades, various super-resolution (SR) techniques have been\ndeveloped to enhance the spatial resolution of digital images. Despite the\ngreat number of methodical contributions, there is still a lack of comparative\nvalidations of SR under practical conditions, as capturing real ground truth\ndata is a challenging task. Therefore, current studies are either evaluated 1)\non simulated data or 2) on real data without a pixel-wise ground truth.\n<br />To facilitate comprehensive studies, this paper introduces the publicly\navailable Super-Resolution Erlangen (SupER) database that includes real\nlow-resolution images along with high-resolution ground truth data. Our\ndatabase comprises image sequences with more than 20k images captured from 14\nscenes under various types of motions and photometric conditions. The datasets\ncover four spatial resolution levels using camera hardware binning. With this\ndatabase, we benchmark 15 single-image and multi-frame SR algorithms. Our\nexperiments quantitatively analyze SR accuracy and robustness under realistic\nconditions including independent object and camera motion or photometric\nvariations.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04881", 
+    "paper_submission_date": "2017/09/08", 
+    "paper_title": "Benchmarking Super-Resolution Algorithms on Real Data"
+}

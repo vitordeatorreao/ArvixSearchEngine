@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Li, Qizhu", 
+        "Arnab, Anurag", 
+        "Torr, Philip H. S."
+    ], 
+    "paper_comments": "Poster at BMVC 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03612", 
+    "paper_abstract": "Object parsing -- the task of decomposing an object into its semantic parts\n-- has traditionally been formulated as a category-level segmentation problem.\nConsequently, when there are multiple objects in an image, current methods\ncannot count the number of objects in the scene, nor can they determine which\npart belongs to which object. We address this problem by segmenting the parts\nof objects at an instance-level, such that each pixel in the image is assigned\na part label, as well as the identity of the object it belongs to. Moreover, we\nshow how this approach benefits us in obtaining segmentations at coarser\ngranularities as well. Our proposed network is trained end-to-end given\ndetections, and begins with a category-level segmentation module. Thereafter, a\ndifferentiable Conditional Random Field, defined over a variable number of\ninstances for every input image, reasons about the identity of each part by\nassociating it with a human detection. In contrast to other approaches, our\nmethod can handle the varying number of people in each image and our holistic\nnetwork produces state-of-the-art results in instance-level part and human\nsegmentation, together with competitive results in category-level part\nsegmentation, all achieved by a single forward-pass through our neural network.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03612", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "Holistic, Instance-Level Human Parsing"
+}

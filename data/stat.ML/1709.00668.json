@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Gujral, Ekta", 
+        "Pasricha, Ravdeep", 
+        "Papalexakis, Evangelos E."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00668", 
+    "paper_abstract": "Tensor decompositions are invaluable tools in analyzing multimodal datasets.\nIn many real-world scenarios, such datasets are far from being static, to the\ncontrary they tend to grow over time. For instance, in an online social network\nsetting, as we observe new interactions over time, our dataset gets updated in\nits \"time\" mode. How can we maintain a valid and accurate tensor decomposition\nof such a dynamically evolving multimodal dataset, without having to re-compute\nthe entire decomposition after every single update? In this paper we introduce\nSaMbaTen, a Sampling-based Batch Incremental Tensor Decomposition algorithm,\nwhich incrementally maintains the decomposition given new updates to the tensor\ndataset. SaMbaTen is able to scale to datasets that the state-of-the-art in\nincremental tensor decomposition is unable to operate on, due to its ability to\neffectively summarize the existing tensor and the incoming updates, and perform\nall computations in the reduced summary space. We extensively evaluate SaMbaTen\nusing synthetic and real datasets. Indicatively, SaMbaTen achieves comparable\naccuracy to state-of-the-art incremental and non-incremental techniques, while\nbeing 25-30 times faster. Furthermore, SaMbaTen scales to very large sparse and\ndense dynamically evolving tensors of dimensions up to 100K x 100K x 100K where\nstate-of-the-art incremental approaches were not able to operate.", 
+    "paper_subjects": [
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.00668", 
+    "paper_submission_date": "2017/09/03", 
+    "paper_title": "SamBaTen: Sampling-based Batch Incremental Tensor Decomposition"
+}

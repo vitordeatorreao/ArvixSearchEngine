@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Hitaj, Briland", 
+        "Gasti, Paolo", 
+        "Ateniese, Giuseppe", 
+        "Perez-Cruz, Fernando"
+    ], 
+    "paper_comments": "9 pages, 3 figures, 4 tables", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00440", 
+    "paper_abstract": "State-of-the-art password guessing tools, such as HashCat and John the Ripper\n(JTR), enable users to check billions of passwords per second against password\nhashes. In addition to straightforward dictionary attacks, these tools can\nexpand dictionaries using password generation rules. Although these rules\nperform well on current password datasets, creating new rules that are\noptimized for new datasets is a laborious task that requires specialized\nexpertise.\n<br />In this paper, we devise how to replace human-generated password rules with a\ntheory-grounded password generation approach based on machine learning. The\nresult of this effort is PassGAN, a novel technique that leverages Generative\nAdversarial Networks (GANs) to enhance password guessing. PassGAN generates\npassword guesses by training a GAN on a list of leaked passwords. Because the\noutput of the GAN is distributed closely to its training set, the password\ngenerated using PassGAN are likely to match passwords that have not been leaked\nyet. PassGAN represents a substantial improvement on rule-based password\ngeneration tools because it infers password distribution information\nautonomously from password data rather than via manual analysis. As a result,\nit can effortlessly take advantage of new password leaks to generate richer\npassword distributions.\n<br />Our experiments show that this approach is very promising. When we evaluated\nPassGAN on two large password datasets, we were able to outperform JTR's rules\nby a 2x factor, and we were competitive with HashCat's rules - within a 2x\nfactor. More importantly, when we combined the output of PassGAN with the\noutput of HashCat, we were able to match 18%-24% more passwords than HashCat\nalone. This is remarkable because it shows that PassGAN can generate a\nconsiderable number of passwords that are out of reach for current tools.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.00440", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "PassGAN: A Deep Learning Approach for Password Guessing"
+}

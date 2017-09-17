@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Liu, Jialin", 
+        "Garcia-Cardona, Cristina", 
+        "Wohlberg, Brendt", 
+        "Yin, Wotao"
+    ], 
+    "paper_comments": "Submitted to SIAM Journal on Imaging Sciences (SIIMS)", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00106", 
+    "paper_abstract": "Convolutional sparse representations are a form of sparse representation with\na structured, translation invariant dictionary. Most convolutional dictionary\nlearning algorithms to date operate in batch mode, requiring simultaneous\naccess to all training images during the learning process, which results in\nvery high memory usage and severely limits the training data that can be used.\nVery recently, however, a number of authors have considered the design of\nonline convolutional dictionary learning algorithms that offer far better\nscaling of memory and computational cost with training set size than batch\nmethods. This paper extends our prior work, improving a number of aspects of\nour previous algorithm; proposing an entirely new one, with better performance,\nand that supports the inclusion of a spatial mask for learning from incomplete\ndata; and providing a rigorous theoretical analysis of these methods.", 
+    "paper_subjects": [
+        "Computer Vision and Pattern Recognition (cs.CV)", 
+        "Optimization and Control (math.OC)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.00106", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Online Convolutional Dictionary Learning"
+}

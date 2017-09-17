@@ -1,0 +1,12 @@
+{
+    "paper_authors_list": [
+        "Mendelson, Shahar"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00843", 
+    "paper_abstract": "The small-ball method was introduced as a way of obtaining a high\nprobability, isomorphic lower bound on the quadratic empirical process, under\nweak assumptions on the indexing class. The key assumption was that class\nmembers satisfy a uniform small-ball estimate, that is, $Pr(|f| \\geq\n\\kappa\\|f\\|_{L_2}) \\geq \\delta$ for given constants $\\kappa$ and $\\delta$.\n<br />Here we extend the small-ball method and obtain a high probability,\nalmost-isometric (rather than isomorphic) lower bound on the quadratic\nempirical process. The scope of the result is considerably wider than the\nsmall-ball method: there is no need for class members to satisfy a uniform\nsmall-ball condition, and moreover, motivated by the notion of tournament\nlearning procedures, the result is stable under a `majority vote'.\n<br />As applications, we study the performance of empirical risk minimization in\nlearning problems involving bounded subsets of $L_p$ that satisfy a Bernstein\ncondition, and of the tournament procedure in problems involving bounded\nsubsets of $L_\\infty$.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00843", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "Extending the small-ball method"
+}

@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Nguyen, Linh", 
+        "Sinha, Arunesh"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.04447", 
+    "paper_abstract": "Deep Neural Networks (DNNs) have been shown to be vulnerable against\nadversarial examples, which are data points cleverly constructed to fool the\nclassifier. Such attacks can be devastating in practice, especially as DNNs are\nbeing applied to ever increasing critical tasks like image recognition in\nautonomous driving. In this paper, we introduce a new perspective on the\nproblem. We do so by first defining robustness of a classifier to adversarial\nexploitation. Next, we show that the problem of adversarial example generation\nand defense both can be posed as learning problems, which are duals of each\nother. We also show formally that our defense aims to increase robustness of\nthe classifier. We demonstrate the efficacy of our techniques by experimenting\nwith the MNIST and CIFAR-10 datasets.", 
+    "paper_subjects": [
+        "Computer Vision and Pattern Recognition (cs.CV)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.04447", 
+    "paper_submission_date": "2017/09/13", 
+    "paper_title": "A Learning Approach to Secure Learning"
+}

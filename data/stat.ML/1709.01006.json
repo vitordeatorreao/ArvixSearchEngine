@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Djolonga, Josip", 
+        "Krause, Andreas"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01006", 
+    "paper_abstract": "Recently, there has been a growing interest in the problem of learning rich\nimplicit models - those from which we can sample, but can not evaluate their\ndensity. These models apply some parametric function, such as a deep network,\nto a base measure, and are learned end-to-end using stochastic optimization.\nOne strategy of devising a loss function is through the statistics of two\nsample tests - if we can fool a statistical test, the learned distribution\nshould be a good model of the true data. However, not all tests can easily fit\ninto this framework, as they might not be differentiable with respect to the\ndata points, and hence with respect to the parameters of the implicit model.\nMotivated by this problem, in this paper we show how two such classical tests,\nthe Friedman-Rafsky and k-nearest neighbour tests, can be effectively smoothed\nusing ideas from undirected graphical models - the matrix tree theorem and\ncardinality potentials. Moreover, as we show experimentally, smoothing can\nsignificantly increase the power of the test, which might of of independent\ninterest. Finally, we apply our method to learn implicit models.", 
+    "paper_subjects": [
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.01006", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "Learning Implicit Generative Models Using Differentiable Graph Tests"
+}

@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Arponen, Heikki", 
+        "Herranen, Matti", 
+        "Valpola, Harri"
+    ], 
+    "paper_comments": "4 pages", 
+    "paper_page_url": "https://arxiv.org/abs/1709.02797", 
+    "paper_abstract": "We prove an exact relationship between the optimal denoising function and the\ndata distribution in the case of additive Gaussian noise, showing that\ndenoising implicitly models the structure of data allowing it to be exploited\nin the unsupervised learning of representations. This result generalizes a\nknown relationship [2], which is valid only in the limit of small corruption\nnoise.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02797", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "On the exact relationship between the denoising function and the data distribution"
+}

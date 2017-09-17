@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Lai, Ming-Jun", 
+        "Mckenzie, Daniel"
+    ], 
+    "paper_comments": "39 pages, 10 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09477", 
+    "paper_abstract": "The community detection problem for graphs asks one to partition the n\nvertices V of a graph G into k communities, or clusters, such that there are\nmany intracluster edges and few intercluster edges. Of course this is\nequivalent to finding a permutation matrix P such that, if A denotes the\nadjacency matrix of G, then PAP^T is approximately block diagonal. As there are\nk^n possible partitions of n vertices into k subsets, directly determining the\noptimal clustering is clearly infeasible. Instead one seeks to solve a more\ntractable approximation to the clustering problem. In this paper we reformulate\nthe community detection problem via sparse solution of a linear system\nassociated with the Laplacian of a graph G and then develop a two-stage\napproach based on a thresholding technique and a compressive sensing algorithm\nto find a sparse solution which corresponds to the community containing a\nvertex of interest in G. Crucially, our approach results in an algorithm which\nis able to find a single cluster of size n_0 in O(nlog(n)n_0) operations and\nall k clusters in fewer than O(n^2ln(n)) operations. This is a marked\nimprovement over the classic spectral clustering algorithm, which is unable to\nfind a single cluster at a time and takes approximately O(n^3) operations to\nfind all k clusters. Moreover, we are able to provide robust guarantees of\nsuccess for the case where G is drawn at random from the Stochastic Block\nModel, a popular model for graphs with clusters. Extensive numerical results\nare also provided, showing the efficacy of our algorithm on both synthetic and\nreal-world data sets.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1708.09477", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "A Compressive Sensing Approach to Community Detection with Applications"
+}

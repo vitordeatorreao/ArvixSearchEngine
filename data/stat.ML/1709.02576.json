@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Hyun, Chang Min", 
+        "Kim, Hwa Pyung", 
+        "Lee, Sung Min", 
+        "Lee, Sungchul", 
+        "Seo, Jin Keun"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.02576", 
+    "paper_abstract": "This paper presents a deep learning method for faster magnetic resonance\nimaging (MRI) by reducing k-space data with sub-Nyquist sampling strategies and\nprovides a rationale for why the proposed approach works well. Uniform\nsubsampling is used in the time-consuming phase-encoding direction to capture\nhigh-resolution image information, while permitting the image-folding problem\ndictated by the Poisson summation formula. To deal with the localization\nuncertainty due to image folding, very few low-frequency k-space data are\nadded. Training the deep learning net involves input and output images that are\npairs of Fourier transforms of the subsampled and fully sampled k-space data.\nNumerous experiments show the remarkable performance of the proposed method;\nonly 29% of k-space data can generate images of high quality as effectively as\nstandard MRI reconstruction with fully sampled data.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Medical Physics (physics.med-ph)"
+    ], 
+    "paper_code": "1709.02576", 
+    "paper_submission_date": "2017/09/08", 
+    "paper_title": "Deep learning for undersampled MRI reconstruction"
+}

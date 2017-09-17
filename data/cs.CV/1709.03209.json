@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Tripathi, Rohun", 
+        "Tripati, Riccha"
+    ], 
+    "paper_comments": "10 pages, last 2 pages are largely references, submitting to PRL", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03209", 
+    "paper_abstract": "This paper presents a novel methodology of Indic handwritten script\nrecognition using Recurrent Neural Networks and addresses the problem of script\nrecognition in poor data scenarios, such as when only character level online\ndata is available. It is based on the hypothesis that curves of online\ncharacter data comprise sufficient information for prediction at the word\nlevel. Online character data is used to train RNNs using BLSTM architecture\nwhich are then used to make predictions of online word level data. These\nprediction results on the test set are at par with prediction results of models\ntrained with online word data, while the training of the character level model\nis much less data intensive and takes much less time. Performance for\nbinary-script models and then 5 Indic script models are reported, along with\ncomparison with HMM models.The system is extended for offline data prediction.\nRaw offline data lacks the temporal information available in online data and\nrequired for prediction using models trained with online data. To overcome\nthis, stroke recovery is implemented and the strokes are utilized for\npredicting using the online character level models. The performance on\ncharacter and word level offline data is reported.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03209", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "Recurrent neural networks based Indic word-wise script identification using character-wise training"
+}

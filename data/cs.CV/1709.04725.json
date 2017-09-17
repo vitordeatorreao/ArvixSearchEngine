@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Sim&#xe9;oni, Oriane", 
+        "Iscen, Ahmet", 
+        "Tolias, Giorgos", 
+        "Avrithis, Yannis", 
+        "Chum, Ondrej"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.04725", 
+    "paper_abstract": "Severe background clutter is challenging in many computer vision tasks,\nincluding large-scale image retrieval. Global descriptors, that are popular due\nto their memory and search efficiency, are especially prone to corruption by\nsuch clutter. Eliminating the impact of the clutter on the image descriptor\nincreases the chance of retrieving relevant images as well as preventing topic\ndrift by actually retrieving the clutter in the case of query expansion. In\nthis work, we propose a novel salient region detection method. It captures, in\nan unsupervised manner, patterns that are both discriminative and common in the\ndataset. The descriptors derived on the salient regions improve particular\nobject retrieval, most noticeably in a large collections containing small\nobjects.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04725", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "Unsupervised deep object discovery for instance recognition"
+}

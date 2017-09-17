@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Ding, Hui", 
+        "Sricharan, Kumar", 
+        "Chellappa, Rama"
+    ], 
+    "paper_comments": "Submitted to AAAI 2018", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03842", 
+    "paper_abstract": "Facial expression editing is a challenging task as it needs a high-level\nsemantic understanding of the input face image. In conventional methods, either\npaired training data is required or the synthetic face resolution is low.\nMoreover, only the categories of facial expression can be changed. To address\nthese limitations, we propose an Expression Generative Adversarial Network\n(ExprGAN) for photo-realistic facial expression editing with controllable\nexpression intensity. An expression controller module is specially designed to\nlearn an expressive and compact expression code in addition to the\nencoder-decoder network. This novel architecture enables the expression\nintensity to be continuously adjusted from low to high. We further show that\nour ExprGAN can be applied for other tasks, such as expression transfer, image\nretrieval, and data augmentation for training improved face expression\nrecognition models. To tackle the small size of the training database, an\neffective incremental learning scheme is proposed. Quantitative and qualitative\nevaluations on the widely used Oulu-CASIA dataset demonstrate the effectiveness\nof ExprGAN.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03842", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "ExprGAN: Facial Expression Editing with Controllable Expression Intensity"
+}

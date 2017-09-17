@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Kamiya, Ryuji", 
+        "Yamashita, Takayoshi", 
+        "Ambai, Mitsuru", 
+        "Sato, Ikuro", 
+        "Yamauchi, Yuji", 
+        "Fujiyoshi, Hironobu"
+    ], 
+    "paper_comments": "8 pages", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04731", 
+    "paper_abstract": "Recent trends show recognition accuracy increasing even more profoundly.\nInference process of Deep Convolutional Neural Networks (DCNN) has a large\nnumber of parameters, requires a large amount of computation, and can be very\nslow. The large number of parameters also require large amounts of memory. This\nis resulting in increasingly long computation times and large model sizes. To\nimplement mobile and other low performance devices incorporating DCNN, model\nsizes must be compressed and computation must be accelerated. To that end, this\npaper proposes Binary-decomposed DCNN, which resolves these issues without the\nneed for retraining. Our method replaces real-valued inner-product computations\nwith binary inner-product computations in existing network models to accelerate\ncomputation of inference and decrease model size without the need for\nretraining. Binary computations can be done at high speed using logical\noperators such as XOR and AND, together with bit counting. In tests using\nAlexNet with the ImageNet classification task, speed increased by a factor of\n1.79, models were compressed by approximately 80%, and increase in error rate\nwas limited to 1.20%. With VGG-16, speed increased by a factor of 2.07, model\nsizes decreased by 81%, and error increased by only 2.16%.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04731", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "Binary-decomposed DCNN for accelerating computation and compressing model without retraining"
+}

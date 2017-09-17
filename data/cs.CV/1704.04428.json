@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Vasudevan, Aravind", 
+        "Anderson, Andrew", 
+        "Gregg, David"
+    ], 
+    "paper_comments": "Camera ready version to be published at ASAP 2017 - The 28th Annual IEEE International Conference on Application-specific Systems, Architectures and Processors. 6 pages", 
+    "paper_page_url": "https://arxiv.org/abs/1704.04428", 
+    "paper_abstract": "Convolutional neural networks (CNNs) have emerged as one of the most\nsuccessful machine learning technologies for image and video processing. The\nmost computationally intensive parts of CNNs are the convolutional layers,\nwhich convolve multi-channel images with multiple kernels. A common approach to\nimplementing convolutional layers is to expand the image into a column matrix\n(im2col) and perform Multiple Channel Multiple Kernel (MCMK) convolution using\nan existing parallel General Matrix Multiplication (GEMM) library. This im2col\nconversion greatly increases the memory footprint of the input matrix and\nreduces data locality.\n<br />In this paper we propose a new approach to MCMK convolution that is based on\nGeneral Matrix Multiplication (GEMM), but not on im2col. Our algorithm\neliminates the need for data replication on the input thereby enabling us to\napply the convolution kernels on the input images directly. We have implemented\nseveral variants of our algorithm on a CPU processor and an embedded ARM\nprocessor. On the CPU, our algorithm is faster than im2col in most cases.", 
+    "paper_subjects": [
+        "Performance (cs.PF)"
+    ], 
+    "paper_code": "1704.04428", 
+    "paper_submission_date": "2017/04/06", 
+    "paper_title": "Parallel Multi Channel Convolution using General Matrix Multiplication"
+}

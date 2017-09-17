@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Dai, Yuchen", 
+        "Huang, Zheng", 
+        "Gao, Yuting", 
+        "Chen, Kai"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03272", 
+    "paper_abstract": "In this paper, we introduce a novel end-end framework for multi-oriented\nscene text detection from an instance-aware segmentation perspective. We\npresent Fused Text Segmentation Networks, which combine multi-level features\nduring feature extracting as text instance may rely on finer feature expression\ncompared to general objects. It detects and segments the text instance jointly\nand simultaneously, leveraging merits from both semantic segmentation task and\nregion proposal based object detection task. Not involving any extra pipelines,\nour approach surpasses the current state of the art on multi-oriented scene\ntext detection benchmarks: ICDAR2015 Incidental Scene Text and MSRA-TD500\nreaching Hmean 84.1% and Hmean 82.0% respectively which suggests effectiveness\nof the proposed approach.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03272", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "Fused Text Segmentation Networks for Multi-oriented Scene Text Detection"
+}

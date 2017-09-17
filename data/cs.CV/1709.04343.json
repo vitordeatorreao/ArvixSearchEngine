@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Petridis, Stavros", 
+        "Wang, Yujiang", 
+        "Li, Zuwei", 
+        "Pantic, Maja"
+    ], 
+    "paper_comments": "", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04343", 
+    "paper_abstract": "Several end-to-end deep learning approaches have been recently presented\nwhich simultaneously extract visual features from the input images and perform\nvisual speech classification. However, research on jointly extracting audio and\nvisual features and performing classification is very limited. In this work, we\npresent an end-to-end audiovisual model based on Bidirectional Long Short-Term\nMemory (BLSTM) networks. To the best of our knowledge, this is the first\naudiovisual fusion model which simultaneously learns to extract features\ndirectly from the pixels and spectrograms and perform classification of speech\nand nonlinguistic vocalisations. The model consists of multiple identical\nstreams, one for each modality, which extract features directly from mouth\nregions and spectrograms. The temporal dynamics in each stream/modality are\nmodeled by a BLSTM and the fusion of multiple streams/modalities takes place\nvia another BLSTM. An absolute improvement of 1.9% in the mean F1 of 4\nnonlingusitic vocalisations over audio-only classification is reported on the\nAVIC database. At the same time, the proposed end-to-end audiovisual fusion\nsystem improves the state-of-the-art performance on the AVIC database leading\nto a 9.7% absolute increase in the mean F1 measure. We also perform audiovisual\nspeech recognition experiments on the OuluVS2 database using different views of\nthe mouth, frontal to profile. The proposed audiovisual system significantly\noutperforms the audio-only model for all views when the acoustic noise is high.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04343", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "End-to-End Audiovisual Fusion with LSTMs"
+}

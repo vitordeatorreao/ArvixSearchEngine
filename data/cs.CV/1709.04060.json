@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Umuroglu, Yaman", 
+        "Jahre, Magnus"
+    ], 
+    "paper_comments": "To appear at the International Workshop on Highly Efficient Neural Networks Design (HENND) co-located with CASES'17", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04060", 
+    "paper_abstract": "Running Deep Neural Network (DNN) models on devices with limited\ncomputational capability is a challenge due to large compute and memory\nrequirements. Quantized Neural Networks (QNNs) have emerged as a potential\nsolution to this problem, promising to offer most of the DNN accuracy benefits\nwith much lower computational cost. However, harvesting these benefits on\nexisting mobile CPUs is a challenge since operations on highly quantized\ndatatypes are not natively supported in most instruction set architectures\n(ISAs). In this work, we first describe a streamlining flow to convert all QNN\ninference operations to integer ones. Afterwards, we provide techniques based\non processing one bit position at a time (bit-serial) to show how QNNs can be\nefficiently deployed using common bitwise operations. We demonstrate the\npotential of QNNs on mobile CPUs with microbenchmarks and on a quantized\nAlexNet, which is 3.5x faster than an optimized 8-bit baseline.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04060", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Streamlined Deployment for Quantized Neural Networks"
+}

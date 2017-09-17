@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Yang, Tianbao", 
+        "Li, Zhe", 
+        "Zhang, Lijun"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.02909", 
+    "paper_abstract": "In this paper, we present a simple analysis of {\\bf fast rates} with {\\it\nhigh probability} of {\\bf empirical minimization} for {\\it stochastic composite\noptimization} over a finite-dimensional bounded convex set with exponential\nconcave loss functions and an arbitrary convex regularization. To the best of\nour knowledge, this result is the first of its kind. As a byproduct, we can\ndirectly obtain the fast rate with {\\it high probability} for exponential\nconcave empirical risk minimization with and without any convex regularization,\nwhich not only extends existing results of empirical risk minimization but also\nprovides a unified framework for analyzing exponential concave empirical risk\nminimization with and without {\\it any} convex regularization. Our proof is\nvery simple only exploiting the covering number of a finite-dimensional bounded\nset and a concentration inequality of random vectors.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Optimization and Control (math.OC)"
+    ], 
+    "paper_code": "1709.02909", 
+    "paper_submission_date": "2017/09/09", 
+    "paper_title": "A Simple Analysis for Exp-concave Empirical Minimization with Arbitrary Convex Regularizer"
+}

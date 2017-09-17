@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Kim, Taewan", 
+        "Ghosh, Joydeep"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03202", 
+    "paper_abstract": "Semi-supervised active clustering (SSAC) utilizes the knowledge of a domain\nexpert to cluster data points by interactively making pairwise \"same-cluster\"\nqueries. However, it is impractical to ask human oracles to answer every\npairwise query. In this paper, we study the influence of allowing \"not-sure\"\nanswers from a weak oracle and propose algorithms to efficiently handle\nuncertainties. Different types of model assumptions are analyzed to cover\nrealistic scenarios of oracle abstraction. In the first model, random-weak\noracle, an oracle randomly abstains with a certain probability. We also\nproposed two distance-weak oracle models which simulate the case of getting\nconfused based on the distance between two points in a pairwise query. For each\nweak oracle model, we show that a small query complexity is adequate for the\neffective $k$ means clustering with high probability. Sufficient conditions for\nthe guarantee include a $\\gamma$-margin property of the data, and an existence\nof a point close to each cluster center. Furthermore, we provide a sample\ncomplexity with a reduced effect of the cluster's margin and only a logarithmic\ndependency on the data dimension. Our results allow significantly less number\nof same-cluster queries if the margin of the clusters is tight, i.e. $\\gamma\n\\approx 1$. Experimental results on synthetic data show the effective\nperformance of our approach in overcoming uncertainties.", 
+    "paper_subjects": [
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.03202", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "Semi-Supervised Active Clustering with Weak Oracles"
+}

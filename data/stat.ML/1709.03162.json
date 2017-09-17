@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Urteaga, I&#xf1;igo", 
+        "Wiggins, Chris H."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03162", 
+    "paper_abstract": "Reinforcement learning studies how to balance exploration and exploitation in\nreal-world systems, optimizing interactions with the world while simultaneously\nlearning how the world works. One general class of algorithms for such learning\nis the multi-armed bandit setting (in which sequential interactions are\nindependent and identically distributed) and the related contextual bandit\ncase, in which the distribution depends on different information or 'context'\npresented with each interaction. Thompson sampling, though introduced in the\n1930s, has recently been shown to perform well and to enjoy provable optimality\nproperties, while at the same time permitting generative, interpretable\nmodeling. In a Bayesian setting, prior knowledge is incorporated and the\ncomputed posteriors naturally capture the full state of knowledge. In several\napplication domains, for example in health and medicine, each interaction with\nthe world can be expensive and invasive, whereas drawing samples from the model\nis relatively inexpensive. Exploiting this viewpoint, we develop a\ndouble-sampling technique driven by the uncertainty in the learning process.\nThe proposed algorithm does not make any distributional assumption and it is\napplicable to complex reward distributions, as long as Bayesian posterior\nupdates are computable. We empirically show that it out-performs (in the sense\nof regret) Thompson sampling in two classical illustrative cases, i.e., the\nmulti-armed bandit problem with and without context.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Computation (stat.CO)"
+    ], 
+    "paper_code": "1709.03162", 
+    "paper_submission_date": "2017/09/10", 
+    "paper_title": "Bayesian bandits: balancing the exploration-exploitation tradeoff via double sampling"
+}

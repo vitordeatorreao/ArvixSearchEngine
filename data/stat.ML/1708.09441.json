@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Das, Shubhomoy", 
+        "Wong, Weng-Keen", 
+        "Fern, Alan", 
+        "Dietterich, Thomas G.", 
+        "Siddiqui, Md Amran"
+    ], 
+    "paper_comments": "8 Pages, KDD 2017 Workshop on Interactive Data Exploration and Analytics (IDEA'17), August 14th, 2017, Halifax, Nova Scotia, Canada", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09441", 
+    "paper_abstract": "Anomaly detectors are often used to produce a ranked list of statistical\nanomalies, which are examined by human analysts in order to extract the actual\nanomalies of interest. Unfortunately, in realworld applications, this process\ncan be exceedingly difficult for the analyst since a large fraction of\nhigh-ranking anomalies are false positives and not interesting from the\napplication perspective. In this paper, we aim to make the analyst's job easier\nby allowing for analyst feedback during the investigation process. Ideally, the\nfeedback influences the ranking of the anomaly detector in a way that reduces\nthe number of false positives that must be examined before discovering the\nanomalies of interest. In particular, we introduce a novel technique for\nincorporating simple binary feedback into tree-based anomaly detectors. We\nfocus on the Isolation Forest algorithm as a representative tree-based anomaly\ndetector, and show that we can significantly improve its performance by\nincorporating feedback, when compared with the baseline algorithm that does not\nincorporate feedback. Our technique is simple and scales well as the size of\nthe data increases, which makes it suitable for interactive discovery of\nanomalies in large datasets.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1708.09441", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "Incorporating Feedback into Tree-based Anomaly Detection"
+}

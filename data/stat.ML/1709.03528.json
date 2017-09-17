@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Wang, Shusen", 
+        "Roosta-Khorasani, Farbod", 
+        "Xu, Peng", 
+        "Mahoney, Michael W."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03528", 
+    "paper_abstract": "For distributed computing environments, we consider the canonical machine\nlearning problem of empirical risk minimization (ERM) with quadratic\nregularization, and we propose a distributed and communication-efficient\nNewton-type optimization method. At every iteration, each worker locally finds\nan Approximate NewTon (ANT) direction, and then it sends this direction to the\nmain driver. The driver, then, averages all the ANT directions received from\nworkers to form a Globally Improved ANT (GIANT) direction. GIANT naturally\nexploits the trade-offs between local computations and global communications in\nthat more local computations result in fewer overall rounds of communications.\nGIANT is highly communication efficient in that, for $d$-dimensional data\nuniformly distributed across $m$ workers, it has $4$ or $6$ rounds of\ncommunication and $O (d \\log m)$ communication complexity per iteration.\nTheoretically, we show that GIANT's convergence rate is faster than first-order\nmethods and existing distributed Newton-type methods. From a practical\npoint-of-view, a highly beneficial feature of GIANT is that it has only one\ntuning parameter---the iterations of the local solver for computing an ANT\ndirection. This is indeed in sharp contrast with many existing distributed\nNewton-type methods, as well as popular first order methods, which have several\ntuning parameters, and whose performance can be greatly affected by the\nspecific choices of such parameters. In this light, we empirically demonstrate\nthe superior performance of GIANT compared with other competing methods.", 
+    "paper_subjects": [
+        "Distributed, Parallel, and Cluster Computing (cs.DC)", 
+        "Optimization and Control (math.OC)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.03528", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "GIANT: Globally Improved Approximate Newton Method for Distributed Optimization"
+}

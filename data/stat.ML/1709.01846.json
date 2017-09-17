@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Pu, Yunchen", 
+        "Chen, Liqun", 
+        "Dai, Shuyang", 
+        "Wang, Weiyao", 
+        "Li, Chunyuan", 
+        "Carin, Lawrence"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01846", 
+    "paper_abstract": "A new form of the variational autoencoder (VAE) is proposed, based on the\nsymmetric Kullback-Leibler divergence. It is demonstrated that learning of the\nresulting symmetric VAE (sVAE) has close connections to previously developed\nadversarial-learning methods. This relationship helps unify the previously\ndistinct techniques of VAE and adversarially learning, and provides insights\nthat allow us to ameliorate shortcomings with some previously developed\nadversarial methods. In addition to an analysis that motivates and explains the\nsVAE, an extensive set of experiments validate the utility of the approach.", 
+    "paper_subjects": [
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.01846", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "Symmetric Variational Autoencoder and Connections to Adversarial Learning"
+}

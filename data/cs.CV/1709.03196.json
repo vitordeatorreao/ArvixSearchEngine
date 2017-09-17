@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Ustinova, E.", 
+        "Lempitsky, V."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03196", 
+    "paper_abstract": "Face verification problem has been successfully approached in many recent\npapers. Unfortunately, recognition quality decreases significantly in the\npresence of different degradation factors inherent to real world data, for\nexample surveillance videos, where faces can be very small in size, blurred and\naffected with compression artifacts.\n<br />Here we present face hallucination approach based on using several sequential\nvideo frames: our neural network restores the central frame of each input\nsequence additionally taking into account a number of adjacent frames, warped\nto align with the central one. We show that our face hallucination approach can\nimprove face identification quality compared to the single-frame baseline and\nto the multi-frame approach without adjacent frame warping.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03196", 
+    "paper_submission_date": "2017/09/10", 
+    "paper_title": "Deep multi-frame face hallucination for face identification"
+}

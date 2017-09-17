@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Dienes, Christopher"
+    ], 
+    "paper_comments": "14 pages, 2 figures, 2 tables", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01860", 
+    "paper_abstract": "A composite loss framework is proposed for low-rank modeling of data\nconsisting of interesting and common values, such as excess zeros or missing\nvalues. The methodology is motivated by the generalized low-rank framework and\nthe hurdle method which is commonly used to analyze zero-inflated counts. The\nmodel is demonstrated on a manufacturing data set and applied to the problem of\nmissing value imputation.", 
+    "paper_subjects": [
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.01860", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "The low-rank hurdle model"
+}

@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Spigler, Giacomo"
+    ], 
+    "paper_comments": "9 pages, 5 figures, submitted", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04762", 
+    "paper_abstract": "Despite the recent developments that allowed neural networks to achieve\nimpressive performance on a variety of applications, these models are\nintrinsically affected by the problem of overgeneralization, due to their\npartitioning of the full input space into the fixed set of target classes used\nduring training. Thus it is possible for novel inputs belonging to categories\nunknown during training or even completely unrecognizable to humans to fool the\nsystem into classifying them as one of the known classes, even with a high\ndegree of confidence. Solving this problem may help improve the security of\nsuch systems in critical applications, and may further lead to applications in\nthe context of open set recognition and 1-class recognition. This paper\npresents a novel way to compute a confidence score using denoising autoencoders\nand shows that such confidence score can correctly identify the regions of the\ninput space close to the training distribution by approximately identifying its\nlocal maxima.", 
+    "paper_subjects": [
+        "Computer Vision and Pattern Recognition (cs.CV)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.04762", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "Denoising Autoencoders for Overgeneralization in Neural Networks"
+}

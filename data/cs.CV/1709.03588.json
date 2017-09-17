@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Fotopoulou, Foteini", 
+        "Economou, George"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03588", 
+    "paper_abstract": "In the present paper a novel graph-based approach to the shape decomposition\nproblem is addressed. The shape is appropriately transformed into a visibility\ngraph enriched with local neighborhood information. A two-step diffusion\nprocess is then applied to the visibility graph that efficiently enhances the\ninformation provided, thus leading to a more robust and meaningful graph\nconstruction. Inspired by the notion of a clique as a strict cluster\ndefinition, the dominant sets algorithm is invoked, slightly modified to\ncomport with the specific problem of defining shape parts. The cluster\ncohesiveness and a node participation vector are two important outputs of the\nproposed graph partitioning method. Opposed to most of the existing techniques,\nthe final number of the clusters is determined automatically, by estimating the\ncluster cohesiveness on a random network generation process. Experimental\nresults on several shape databases show the effectiveness of our framework for\ngraph based shape decomposition.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03588", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "On the definition of Shape Parts: a Dominant Sets Approach"
+}

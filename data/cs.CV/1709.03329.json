@@ -1,0 +1,20 @@
+{
+    "paper_authors_list": [
+        "Sa, Inkyu", 
+        "Chen, Zetao", 
+        "Popovic, Marija", 
+        "Khanna, Raghav", 
+        "Liebisch, Frank", 
+        "Nieto, Juan", 
+        "Siegwart, Roland"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03329", 
+    "paper_abstract": "Selective weed treatment is a critical step in autonomous crop management as\nrelated to crop health and yield. However, a key challenge is reliable, and\naccurate weed detection to minimize damage to surrounding plants. In this\npaper, we present an approach for dense semantic weed classification with\nmultispectral images collected by a micro aerial vehicle (MAV). We use the\nrecently developed encoder-decoder cascaded Convolutional Neural Network (CNN),\nSegnet, that infers dense semantic classes while allowing any number of input\nimage channels and class balancing with our sugar beet and weed datasets. To\nobtain training datasets, we established an experimental field with varying\nherbicide levels resulting in field plots containing only either crop or weed,\nenabling us to use the Normalized Difference Vegetation Index (NDVI) as a\ndistinguishable feature for automatic ground truth generation. We train 6\nmodels with different numbers of input channels and condition (fine-tune) it to\nachieve about 0.8 F1-score and 0.78 Area Under the Curve (AUC) classification\nmetrics. For model deployment, an embedded GPU system (Jetson TX2) is tested\nfor MAV integration. Dataset used in this paper is released to support the\ncommunity and future work.", 
+    "paper_subjects": [
+        "Robotics (cs.RO)"
+    ], 
+    "paper_code": "1709.03329", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "weedNet: Dense Semantic Weed Classification Using Multispectral Images and MAV for Smart Farming"
+}

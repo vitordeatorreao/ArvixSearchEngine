@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Zhu, Lingxue", 
+        "Laptev, Nikolay"
+    ], 
+    "paper_comments": "To appear in DSBDA-2017 @ ICDM'17", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01907", 
+    "paper_abstract": "Reliable uncertainty estimation for time series prediction is critical in\nmany fields, including physics, biology, and manufacturing. At Uber,\nprobabilistic time series forecasting is used for robust prediction of number\nof trips during special events, driver incentive allocation, as well as\nreal-time anomaly detection across millions of metrics. Classical time series\nmodels are often used in conjunction with a probabilistic formulation for\nuncertainty estimation. However, such models are hard to tune, scale, and add\nexogenous variables to. Motivated by the recent resurgence of Long Short Term\nMemory networks, we propose a novel end-to-end Bayesian deep model that\nprovides time series prediction along with uncertainty estimation. We provide\ndetailed experiments of the proposed solution on completed trips data, and\nsuccessfully apply it to large-scale time series anomaly detection at Uber.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01907", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "Deep and Confident Prediction for Time Series at Uber"
+}

@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Fattahi, Salar", 
+        "Sojoudi, Somayeh"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09479", 
+    "paper_abstract": "Graphical Lasso (GL) is a popular method for learning the structure of an\nundirected graphical model, which is based on an $l_1$ regularization\ntechnique. The first goal of this work is to study the behavior of the optimal\nsolution of GL as a function of its regularization coefficient. We show that if\nthe number of samples is not too small compared to the number of parameters,\nthe sparsity pattern of the optimal solution of GL changes gradually when the\nregularization coefficient increases from 0 to infinity. The second objective\nof this paper is to compare the computationally-heavy GL technique with a\nnumerically-cheap heuristic method for learning graphical models that is based\non simply thresholding the sample correlation matrix. To this end, two notions\nof sign-consistent and inverse-consistent matrices are developed, and then it\nis shown that the thresholding and GL methods are equivalent if: (i) the\nthresholded sample correlation matrix is both sign-consistent and\ninverse-consistent, and (ii) the gap between the largest thresholded and the\nsmallest un-thresholded entries of the sample correlation matrix is not too\nsmall. By building upon this result, it is proved that the GL method--as a\nconic optimization problem--has an explicit closed-form solution if the\nthresholded sample correlation matrix has an acyclic structure. This result is\nthen generalized to arbitrary sparse support graphs, where a formula is found\nto obtain an approximate solution of GL. The closed-form solution approximately\nsatisfies the KKT conditions for the GL problem and, more importantly, the\napproximation error decreases exponentially fast with respect to the length of\nthe minimum-length cycle of the sparsity graph. The developed results are\ndemonstrated on synthetic data, electrical circuits, functional MRI data, and\ntraffic flows for transportation networks.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09479", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "Graphical Lasso and Thresholding: Equivalence and Closed-form Solutions"
+}

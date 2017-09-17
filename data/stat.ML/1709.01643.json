@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Ratner, Alexander J.", 
+        "Ehrenberg, Henry R.", 
+        "Hussain, Zeshan", 
+        "Dunnmon, Jared", 
+        "R&#xe9;, Christopher"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01643", 
+    "paper_abstract": "Data augmentation is a ubiquitous technique for increasing the size of\nlabeled training sets by leveraging task-specific data transformations that\npreserve class labels. While it is often easy for domain experts to specify\nindividual transformations, constructing and tuning the more sophisticated\ncompositions typically needed to achieve state-of-the-art results is a\ntime-consuming manual task in practice. We propose a method for automating this\nprocess by learning a generative sequence model over user-specified\ntransformation functions using a generative adversarial approach. Our method\ncan make use of arbitrary, non-deterministic transformation functions, is\nrobust to misspecified user input, and is trained on unlabeled data. The\nlearned transformation model can then be used to perform data augmentation for\nany end discriminative model. In our experiments, we show the efficacy of our\napproach on both image and text datasets, achieving improvements of 4.0\naccuracy points on CIFAR-10, 1.4 F1 points on the ACE relation extraction task,\nand 3.4 accuracy points when using domain-specific transformation operations on\na medical imaging dataset as compared to standard heuristic augmentation\napproaches.", 
+    "paper_subjects": [
+        "Computer Vision and Pattern Recognition (cs.CV)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.01643", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "Learning to Compose Domain-Specific Transformations for Data Augmentation"
+}

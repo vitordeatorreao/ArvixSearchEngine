@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Chang, Bo", 
+        "Meng, Lili", 
+        "Haber, Eldad", 
+        "Ruthotto, Lars", 
+        "Begert, David", 
+        "Holtham, Elliot"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03698", 
+    "paper_abstract": "Recently, deep residual networks have been successfully applied in many\ncomputer vision and natural language processing tasks, pushing the\nstate-of-the-art performance with deeper and wider architectures. In this work,\nwe interpret deep residual networks as ordinary differential equations (ODEs),\nwhich have long been studied in mathematics and physics with rich theoretical\nand empirical success. From this interpretation, we develop a theoretical\nframework on stability and reversibility of deep neural networks, and derive\nthree reversible neural network architectures that can go arbitrarily deep in\ntheory. The reversibility property allows a memory-efficient implementation,\nwhich does not need to store the activations for most hidden layers. Together\nwith the stability of our architectures, this enables training deeper networks\nusing only modest computational resources. We provide both theoretical analyses\nand empirical results. Experimental results demonstrate the efficacy of our\narchitectures against several strong baselines on CIFAR-10, CIFAR-100 and\nSTL-10 with superior or on-par state-of-the-art performance. Furthermore, we\nshow our architectures yield superior results when trained using fewer training\ndata.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.03698", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Reversible Architectures for Arbitrarily Deep Residual Neural Networks"
+}

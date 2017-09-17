@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Arbabi, Ehsan", 
+        "Shamsollahi, Mohammad Bagher"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03252", 
+    "paper_abstract": "Brain-Computer Interface (BCI) uses brain signals in order to provide a new\nmethod for communication between human and outside world. Feature extraction,\nselection and classification are among the main matters of concerns in signal\nprocessing stage of BCI. In this article, we present our findings about the\nmost effective features and classifiers in some brain tasks. Six different\ngroups of classical features and twelve classifiers have been examined in nine\ndatasets of brain signal. The results indicate that energy of brain signals in\n{\\alpha} and \\b{eta} frequency bands, together with some statistical parameters\nare more effective, comparing to the other types of extracted features. In\naddition, Bayesian classifier with Gaussian distribution assumption and also\nSupport Vector Machine (SVM) show to classify different BCI datasets more\naccurately than the other classifiers. We believe that the results can give an\ninsight about a strategy for blind classification of brain signals in\nbrain-computer interface.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.03252", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "Evaluation of Classical Features and Classifiers in Brain-Computer Interface Tasks"
+}

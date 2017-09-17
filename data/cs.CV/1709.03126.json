@@ -1,0 +1,22 @@
+{
+    "paper_authors_list": [
+        "Cheng, Bowen", 
+        "Wang, Zhangyang", 
+        "Zhang, Zhaobin", 
+        "Li, Zhu", 
+        "Liu, Ding", 
+        "Yang, Jianchao", 
+        "Huang, Shuai", 
+        "Huang, Thomas S."
+    ], 
+    "paper_comments": "Accepted by the Seventh International Conference on Affective Computing and Intelligent Interaction (ACII2017)", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03126", 
+    "paper_abstract": "Emotion recognition from facial expressions is tremendously useful,\nespecially when coupled with smart devices and wireless multimedia\napplications. However, the inadequate network bandwidth often limits the\nspatial resolution of the transmitted video, which will heavily degrade the\nrecognition reliability. We develop a novel framework to achieve robust emotion\nrecognition from low bit rate video. While video frames are downsampled at the\nencoder side, the decoder is embedded with a deep network model for joint\nsuper-resolution (SR) and recognition. Notably, we propose a novel max-mix\ntraining strategy, leading to a single \"One-for-All\" model that is remarkably\nrobust to a vast range of downsampling factors. That makes our framework well\nadapted for the varied bandwidths in real transmission scenarios, without\nhampering scalability or efficiency. The proposed framework is evaluated on the\nAVEC 2016 benchmark, and demonstrates significantly improved stand-alone\nrecognition performance, as well as rate-distortion (R-D) performance, than\neither directly recognizing from LR frames, or separating SR and recognition.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.03126", 
+    "paper_submission_date": "2017/09/10", 
+    "paper_title": "Robust Emotion Recognition from Low Quality and Low Bit Rate Video: A Deep Learning Approach"
+}

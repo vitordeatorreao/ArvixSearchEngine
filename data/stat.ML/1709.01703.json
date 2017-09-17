@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Michelsanti, Daniel", 
+        "Tan, Zheng-Hua"
+    ], 
+    "paper_comments": "INTERSPEECH 2017 August 20-24, 2017, Stockholm, Sweden", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01703", 
+    "paper_abstract": "Improving speech system performance in noisy environments remains a\nchallenging task, and speech enhancement (SE) is one of the effective\ntechniques to solve the problem. Motivated by the promising results of\ngenerative adversarial networks (GANs) in a variety of image processing tasks,\nwe explore the potential of conditional GANs (cGANs) for SE, and in particular,\nwe make use of the image processing framework proposed by Isola et al. [1] to\nlearn a mapping from the spectrogram of noisy speech to an enhanced\ncounterpart. The SE cGAN consists of two networks, trained in an adversarial\nmanner: a generator that tries to enhance the input noisy spectrogram, and a\ndiscriminator that tries to distinguish between enhanced spectrograms provided\nby the generator and clean ones from the database using the noisy spectrogram\nas a condition. We evaluate the performance of the cGAN method in terms of\nperceptual evaluation of speech quality (PESQ), short-time objective\nintelligibility (STOI), and equal error rate (EER) of speaker verification (an\nexample application). Experimental results show that the cGAN method overall\noutperforms the classical short-time spectral amplitude minimum mean square\nerror (STSA-MMSE) SE algorithm, and is comparable to a deep neural\nnetwork-based SE approach (DNN-SE).", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.01703", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "Conditional Generative Adversarial Networks for Speech Enhancement and Noise-Robust Speaker Verification"
+}

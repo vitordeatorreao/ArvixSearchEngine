@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Li, Ting", 
+        "Jing, Bingyi", 
+        "Ying, Ningchen", 
+        "Yu, Xianshi"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00566", 
+    "paper_abstract": "Preprocessing data is an important step before any data analysis. In this\npaper, we focus on one particular aspect, namely scaling or normalization. We\nanalyze various scaling methods in common use and study their effects on\ndifferent statistical learning models. We will propose a new two-stage scaling\nmethod. First, we use some training data to fit linear regression model and\nthen scale the whole data based on the coefficients of regression. Simulations\nare conducted to illustrate the advantages of our new scaling method. Some real\ndata analysis will also be given.", 
+    "paper_subjects": [
+        "Applications (stat.AP)"
+    ], 
+    "paper_code": "1709.00566", 
+    "paper_submission_date": "2017/09/02", 
+    "paper_title": "Adaptive Scaling"
+}

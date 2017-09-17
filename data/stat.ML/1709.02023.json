@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Kocaoglu, Murat", 
+        "Snyder, Christopher", 
+        "Dimakis, Alexandros G.", 
+        "Vishwanath, Sriram"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.02023", 
+    "paper_abstract": "We propose an adversarial training procedure for learning a causal implicit\ngenerative model for a given causal graph. We show that adversarial training\ncan be used to learn a generative model with true observational and\ninterventional distributions if the generator architecture is consistent with\nthe given causal graph. We consider the application of generating faces based\non given binary labels where the dependency structure between the labels is\npreserved with a causal graph. This problem can be seen as learning a causal\nimplicit generative model for the image and labels. We devise a two-stage\nprocedure for this problem. First we train a causal implicit generative model\nover binary labels using a neural network consistent with a causal graph as the\ngenerator. We empirically show that WassersteinGAN can be used to output\ndiscrete labels. Later, we propose two new conditional GAN architectures, which\nwe call CausalGAN and CausalBEGAN. We show that the optimal generator of the\nCausalGAN, given the labels, samples from the image distributions conditioned\non these labels. The conditional GAN combined with a trained causal implicit\ngenerative model for the labels is then a causal implicit generative model over\nthe labels and the generated image. We show that the proposed architectures can\nbe used to sample from observational and interventional image distributions,\neven for interventions which do not naturally occur in the dataset.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02023", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "CausalGAN: Learning Causal Implicit Generative Models with Adversarial Training"
+}

@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Fu, Xiao", 
+        "Huang, Kejun", 
+        "Sidiropoulos, Nicholas D."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00614", 
+    "paper_abstract": "In this letter, we propose a new identification criterion that guarantees the\nrecovery of the low-rank latent factors in the nonnegative matrix factorization\n(NMF) model, under mild conditions. Specifically, using the proposed criterion,\nit suffices to identify the latent factors if the rows of one factor are\n\\emph{sufficiently scattered} over the nonnegative orthant, while no structural\nassumption is imposed on the other factor except being full-rank. This is by\nfar the mildest condition under which the latent factors are provably\nidentifiable from the NMF model.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.00614", 
+    "paper_submission_date": "2017/09/02", 
+    "paper_title": "On Identifiability of Nonnegative Matrix Factorization"
+}

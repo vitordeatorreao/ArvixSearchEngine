@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Li, Boyi", 
+        "Peng, Xiulian", 
+        "Wang, Zhangyang", 
+        "Xu, Jizheng", 
+        "Feng, Dan"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03919", 
+    "paper_abstract": "The recent development of CNN-based image dehazing has revealed the\neffectiveness of end-to-end modeling. However, extending the idea to end-to-end\nvideo dehazing has not been explored yet. In this paper, we propose an\nEnd-to-End Video Dehazing Network (EVD-Net), to exploit the temporal\nconsistency between consecutive video frames. A thorough study has been\nconducted over a number of structure options, to identify the best temporal\nfusion strategy. Furthermore, we build an End-to-End United Video Dehazing and\nDetection Network(EVDD-Net), which concatenates and jointly trains EVD-Net with\na video object detection model. The resulting augmented end-to-end pipeline has\ndemonstrated much more stable and accurate detection results in hazy video.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.03919", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "End-to-End United Video Dehazing and Detection"
+}

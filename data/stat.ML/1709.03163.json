@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Urteaga, I&#xf1;igo", 
+        "Wiggins, Chris H."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03163", 
+    "paper_abstract": "In many biomedical, science, and engineering problems, one must sequentially\ndecide which action to take next so as to maximize rewards. Reinforcement\nlearning is an area of machine learning that studies how this maximization\nbalances exploration and exploitation, optimizing interactions with the world\nwhile simultaneously learning how the world operates. One general class of\nalgorithms for this type of learning is the multi-armed bandit setting and, in\nparticular, the contextual bandit case, in which observed rewards are dependent\non each action as well as on given information or 'context' available at each\ninteraction with the world. The Thompson sampling algorithm has recently been\nshown to perform well in real-world settings and to enjoy provable optimality\nproperties for this set of problems. It facilitates generative and\ninterpretable modeling of the problem at hand, though complexity of the model\nlimits its application, since one must both sample from the distributions\nmodeled and calculate their expected rewards. We here show how these\nlimitations can be overcome using variational approximations, applying to the\nreinforcement learning case advances developed for the inference case in the\nmachine learning community over the past two decades. We consider bandit\napplications where the true reward distribution is unknown and approximate it\nwith a mixture model, whose parameters are inferred via variational inference.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Computation (stat.CO)"
+    ], 
+    "paper_code": "1709.03163", 
+    "paper_submission_date": "2017/09/10", 
+    "paper_title": "Variational inference for the multi-armed contextual bandit"
+}

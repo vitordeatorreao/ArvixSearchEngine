@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Lee, Han S.", 
+        "Jung, Heechul", 
+        "Agarwal, Alex A.", 
+        "Kim, Junmo"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03806", 
+    "paper_abstract": "Deep neural networks (DNNs) have shown the state-of-the-art level of\nperformances in wide range of complicated tasks. In recent years, the studies\nhave been actively conducted to analyze the black box characteristics of DNNs\nand to grasp the learning behaviours, tendency, and limitations of DNNs. In\nthis paper, we investigate the limitation of DNNs in image classification task\nand verify it with the method inspired by cognitive psychology. Through\nanalyzing the failure cases of ImageNet classification task, we hypothesize\nthat the DNNs do not sufficiently learn to associate related classes of\nobjects. To verify how DNNs understand the relatedness between object classes,\nwe conducted experiments on the image database provided in cognitive\npsychology. We applied the ImageNet-trained DNNs to the database consisting of\npairs of related and unrelated object images to compare the feature\nsimilarities and determine whether the pairs match each other. In the\nexperiments, we observed that the DNNs show limited performance in determining\nrelatedness between object classes. In addition, the DNNs present somewhat\nimproved performance in discovering relatedness based on similarity, but they\nperform weaker in discovering relatedness based on association. Through these\nexperiments, a novel analysis of learning behaviour of DNNs is provided and the\nlimitation which needs to be overcome is suggested.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03806", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Can Deep Neural Networks Match the Related Objects?: A Survey on ImageNet-trained Classification Models"
+}

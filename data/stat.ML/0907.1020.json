@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Tadic, Vladislav B."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/0907.1020", 
+    "paper_abstract": "The asymptotic behavior of stochastic gradient algorithms is studied. Relying\non results from differential geometry (Lojasiewicz gradient inequality), the\nsingle limit-point convergence of the algorithm iterates is demonstrated and\nrelatively tight bounds on the convergence rate are derived. In sharp contrast\nto the existing asymptotic results, the new results presented here allow the\nobjective function to have multiple and non-isolated minima. The new results\nalso offer new insights into the asymptotic properties of several classes of\nrecursive algorithms which are routinely used in engineering, statistics,\nmachine learning and operations research.", 
+    "paper_subjects": [
+        "Statistics Theory (math.ST)"
+    ], 
+    "paper_code": "0907.1020", 
+    "paper_submission_date": "2009/07/06", 
+    "paper_title": "Convergence and Convergence Rate of Stochastic Gradient Search in the Case of Multiple and Non-Isolated Extrema"
+}

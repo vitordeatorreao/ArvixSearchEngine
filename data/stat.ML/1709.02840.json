@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Simeone, Osvaldo"
+    ], 
+    "paper_comments": "This is a preliminary version. Feedback is welcome", 
+    "paper_page_url": "https://arxiv.org/abs/1709.02840", 
+    "paper_abstract": "This monograph aims at providing an introduction to key concepts, algorithms,\nand theoretical frameworks in machine learning, including supervised and\nunsupervised learning, statistical learning theory, probabilistic graphical\nmodels and approximate inference. The intended readership consists of\nelectrical engineers with a background in probability and linear algebra. The\ntreatment builds on first principles, and organizes the main ideas according to\nclearly defined categories, such as discriminative and generative models,\nfrequentist and Bayesian approaches, exact and approximate inference, directed\nand undirected models, and convex and non-convex optimization. The mathematical\nframework uses information-theoretic measures as a unifying tool. The text\noffers simple and reproducible numerical examples providing insights into key\nmotivations and conclusions. Rather than providing exhaustive details on the\nexisting myriad solutions in each specific category, for which the reader is\nreferred to textbooks and papers, this monograph is meant as an entry point for\nan engineer into the literature on machine learning.", 
+    "paper_subjects": [
+        "Information Theory (cs.IT)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02840", 
+    "paper_submission_date": "2017/09/08", 
+    "paper_title": "A Brief Introduction to Machine Learning for Engineers"
+}

@@ -1,0 +1,34 @@
+{
+    "paper_authors_list": [
+        "Serban, Iulian V.", 
+        "Sankar, Chinnadhurai", 
+        "Germain, Mathieu", 
+        "Zhang, Saizheng", 
+        "Lin, Zhouhan", 
+        "Subramanian, Sandeep", 
+        "Kim, Taesup", 
+        "Pieper, Michael", 
+        "Chandar, Sarath", 
+        "Ke, Nan Rosemary", 
+        "Mudumba, Sai", 
+        "de Brebisson, Alexandre", 
+        "Sotelo, Jose M. R.", 
+        "Suhubdy, Dendi", 
+        "Michalski, Vincent", 
+        "Nguyen, Alexandre", 
+        "Pineau, Joelle", 
+        "Bengio, Yoshua"
+    ], 
+    "paper_comments": "34 pages, 9 figures, 6 tables", 
+    "paper_page_url": "https://arxiv.org/abs/1709.02349", 
+    "paper_abstract": "We present MILABOT: a deep reinforcement learning chatbot developed by the\nMontreal Institute for Learning Algorithms (MILA) for the Amazon Alexa Prize\ncompetition. MILABOT is capable of conversing with humans on popular small talk\ntopics through both speech and text. The system consists of an ensemble of\nnatural language generation and retrieval models, including template-based\nmodels, bag-of-words models, sequence-to-sequence neural network and latent\nvariable neural network models. By applying reinforcement learning to\ncrowdsourced data and real-world user interactions, the system has been trained\nto select an appropriate response from the models in its ensemble. The system\nhas been evaluated through A/B testing with real-world users, where it\nperformed significantly better than competing systems. Due to its machine\nlearning architecture, the system is likely to improve with additional data.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Learning (cs.LG)", 
+        "Neural and Evolutionary Computing (cs.NE)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02349", 
+    "paper_submission_date": "2017/09/07", 
+    "paper_title": "A Deep Reinforcement Learning Chatbot"
+}

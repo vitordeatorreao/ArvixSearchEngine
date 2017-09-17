@@ -1,0 +1,21 @@
+{
+    "paper_authors_list": [
+        "Varma, Paroma", 
+        "He, Bryan", 
+        "Bajaj, Payal", 
+        "Banerjee, Imon", 
+        "Khandwala, Nishith", 
+        "Rubin, Daniel L.", 
+        "R&#xe9;, Christopher"
+    ], 
+    "paper_comments": "NIPS 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.02477", 
+    "paper_abstract": "Obtaining enough labeled data to robustly train complex discriminative models\nis a major bottleneck in the machine learning pipeline. A popular solution is\ncombining multiple sources of weak supervision using generative models. The\nstructure of these models affects training label quality, but is difficult to\nlearn without any ground truth labels. We instead rely on these weak\nsupervision sources having some structure by virtue of being encoded\nprogrammatically. We present Coral, a paradigm that infers generative model\nstructure by statically analyzing the code for these heuristics, thus reducing\nthe data required to learn structure significantly. We prove that Coral's\nsample complexity scales quasilinearly with the number of heuristics and number\nof relations found, improving over the standard sample complexity, which is\nexponential in $n$ for identifying $n^{\\textrm{th}}$ degree relations.\nExperimentally, Coral matches or outperforms traditional structure learning\napproaches by up to 3.81 F1 points. Using Coral to model dependencies instead\nof assuming independence results in better performance than a fully supervised\nmodel by 3.07 accuracy points when heuristics are used to label radiology data\nwithout ground truth labels.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02477", 
+    "paper_submission_date": "2017/09/07", 
+    "paper_title": "Inferring Generative Model Structure with Static Analysis"
+}

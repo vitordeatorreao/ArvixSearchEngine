@@ -1,0 +1,20 @@
+{
+    "paper_authors_list": [
+        "Shah, Nihar B.", 
+        "Tabibian, Behzad", 
+        "Muandet, Krikamol", 
+        "Guyon, Isabelle", 
+        "von Luxburg, Ulrike"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09794", 
+    "paper_abstract": "Neural Information Processing Systems (NIPS) is a top-tier annual conference\nin machine learning. The 2016 edition of the conference comprised more than\n2,400 paper submissions, 3,000 reviewers, and 8,000 attendees, representing a\ngrowth of nearly 40% in terms of submissions, 96% in terms of reviewers, and\nover 100% in terms of attendees as compared to the previous year. In this\nreport, we analyze several aspects of the data collected during the review\nprocess, including an experiment investigating the efficacy of collecting\nordinal rankings from reviewers (vs. usual scores aka cardinal rankings). Our\ngoal is to check the soundness of the review process we implemented and, in\ngoing so, provide insights that may be useful in the design of the review\nprocess of subsequent conferences. We introduce a number of metrics that could\nbe used for monitoring improvements when new ideas are introduced.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Social and Information Networks (cs.SI)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1708.09794", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Design and Analysis of the NIPS 2016 Review Process"
+}

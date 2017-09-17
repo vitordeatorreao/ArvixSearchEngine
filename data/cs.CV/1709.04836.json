@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Xue, Niannan", 
+        "Deng, Jiankang", 
+        "Panagakis, Yannis", 
+        "Zafeiriou, Stefanos"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.04836", 
+    "paper_abstract": "We revisit the problem of robust principal component analysis with features\nacting as prior side information. To this aim, a novel, elegant, non-convex\noptimization approach is proposed to decompose a given observation matrix into\na low-rank core and the corresponding sparse residual. Rigorous theoretical\nanalysis of the proposed algorithm results in exact recovery guarantees with\nlow computational complexity. Aptly designed synthetic experiments demonstrate\nthat our method is the first to wholly harness the power of non-convexity over\nconvexity in terms of both recoverability and speed. That is, the proposed\nnon-convex approach is more accurate and faster compared to the best available\nalgorithms for the problem under study. Two real-world applications, namely\nimage classification and face denoising further exemplify the practical\nsuperiority of the proposed method.", 
+    "paper_subjects": [
+        "Computer Vision and Pattern Recognition (cs.CV)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.04836", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "Informed Non-convex Robust Principal Component Analysis with Features"
+}

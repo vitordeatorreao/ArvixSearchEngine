@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Shah, Nihar B.", 
+        "Balakrishnan, Sivaraman", 
+        "Wainwright, Martin J."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00127", 
+    "paper_abstract": "We consider the problem of noisy matrix completion, in which the goal is to\nreconstruct a structured matrix whose entries are partially observed in noise.\nStandard approaches to this underdetermined inverse problem are based on\nassuming that the underlying matrix has low rank, or is well-approximated by a\nlow rank matrix. In this paper, we propose a richer model based on what we term\nthe \"permutation-rank\" of a matrix. We first describe how the classical\nnon-negative rank model enforces restrictions that may be undesirable in\npractice, and how and these restrictions can be avoided by using the richer\npermutation-rank model. Second, we establish the minimax rates of estimation\nunder the new permutation-based model, and prove that surprisingly, the minimax\nrates are equivalent up to logarithmic factors to those for estimation under\nthe typical low rank model. Third, we analyze a computationally efficient\nsingular-value-thresholding algorithm, known to be optimal for the low-rank\nsetting, and show that it also simultaneously yields a consistent estimator for\nthe low-permutation rank setting. Finally, we present various structural\nresults characterizing the uniqueness of the permutation-rank decomposition,\nand characterizing convex approximations of the permutation-rank polytope.", 
+    "paper_subjects": [
+        "Information Theory (cs.IT)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.00127", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Low Permutation-rank Matrices: Structural Properties and Noisy Completion"
+}

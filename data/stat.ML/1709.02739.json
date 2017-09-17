@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Wagy, Mark D.", 
+        "Bongard, Josh C.", 
+        "Bagrow, James P.", 
+        "Hines, Paul D. H."
+    ], 
+    "paper_comments": "11 pages, 7 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.02739", 
+    "paper_abstract": "Crowdsourcing has been successfully applied in many domains including\nastronomy, cryptography and biology. In order to test its potential for useful\napplication in a Smart Grid context, this paper investigates the extent to\nwhich a crowd can contribute predictive hypotheses to a model of residential\nelectric energy consumption. In this experiment, the crowd generated hypotheses\nabout factors that make one home different from another in terms of monthly\nenergy usage. To implement this concept, we deployed a web-based system within\nwhich 627 residential electricity customers posed 632 questions that they\nthought predictive of energy usage. While this occurred, the same group\nprovided 110,573 answers to these questions as they accumulated. Thus users\nboth suggested the hypotheses that drive a predictive model and provided the\ndata upon which the model is built. We used the resulting question and answer\ndata to build a predictive model of monthly electric energy consumption, using\nrandom forest regression. Because of the sparse nature of the answer data,\ncareful statistical work was needed to ensure that these models are valid. The\nresults indicate that the crowd can generate useful hypotheses, despite the\nsparse nature of the dataset.", 
+    "paper_subjects": [
+        "Physics and Society (physics.soc-ph)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02739", 
+    "paper_submission_date": "2017/09/08", 
+    "paper_title": "Crowdsourcing Predictors of Residential Electric Energy Usage"
+}

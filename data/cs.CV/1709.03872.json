@@ -1,0 +1,12 @@
+{
+    "paper_authors_list": [
+        "Li, Xihua"
+    ], 
+    "paper_comments": "by other authors", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03872", 
+    "paper_abstract": "Although face recognition has been improved much as the development of Deep\nNeural Networks, SIPP(Single Image Per Person) problem in face recognition has\nnot been better solved. In this paper, multiple methods will be introduced to\nimprove the precision of SIPP face recognition without retrain of the DNN\nmodel. First, a modified SVD based method will be introduced to get more face\nimages of one person in order to get more intra-class variations. Second, some\nmore tricks will be introduced to help get the most similar person ID in a\ncomplex dataset, and some theoretical explain included to prove of why our\ntricks effective. Third, we would like to emphasize, no need to retrain of the\nDNN model and this would be easy to be extended in many applications without\nmuch efforts. We do some practical testing in competition of Msceleb\nchallenge-2 2017 which was hold by Microsoft Research and finally we rank\ntop-10. Great improvement of coverage from 13.39\\% to 19.25\\%, 29.94\\%,\n42.11\\%, 47.52\\% at precision P99(99\\%) would be shown in this paper.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03872", 
+    "paper_submission_date": "2017/09/09", 
+    "paper_title": "A way to improve precision of face recognition in SIPP without retrain of the deep neural network model"
+}

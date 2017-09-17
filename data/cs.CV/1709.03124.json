@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Di Claudio, Elio D.", 
+        "Jacovitti, Giovanni"
+    ], 
+    "paper_comments": "15 pages, 9 figures, submitted to the IEEE Trans. on Image Processing", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03124", 
+    "paper_abstract": "In this paper, a novel Full Reference method is proposed for image quality\nassessment, using the combination of two separate metrics to measure the\nperceptually distinct impact of detail losses and of spurious details. To this\npurpose, the gradient of the impaired image is locally decomposed as a\npredicted version of the original gradient, plus a gradient residual. It is\nassumed that the detail attenuation identifies the detail loss, whereas the\ngradient residuals describe the spurious details. It turns out that the\nperceptual impact of detail losses is roughly linear with the loss of the\npositional Fisher information, while the perceptual impact of the spurious\ndetails is roughly proportional to a logarithmic measure of the signal to\nresidual ratio. The affine combination of these two metrics forms a new index\nstrongly correlated with the empirical Differential Mean Opinion Score (DMOS)\nfor a significant class of image impairments, as verified for three independent\npopular databases. The method allowed alignment and merging of DMOS data coming\nfrom these different databases to a common DMOS scale by affine\ntransformations. Unexpectedly, the DMOS scale setting is possible by the\nanalysis of a single image affected by additive noise.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03124", 
+    "paper_submission_date": "2017/09/10", 
+    "paper_title": "A Detail Based Method for Linear Full Reference Image Quality Prediction"
+}

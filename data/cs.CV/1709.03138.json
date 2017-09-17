@@ -1,0 +1,12 @@
+{
+    "paper_authors_list": [
+        "Piewak, Florian"
+    ], 
+    "paper_comments": "This is the masters thesis of Florian Piewak. A shorter version of this thesis was accepted at IV 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03138", 
+    "paper_abstract": "One of the most important parts of environment perception is the detection of\nobstacles in the surrounding of the vehicle. To achieve that, several sensors\nlike radars, LiDARs and cameras are installed in autonomous vehicles. The\nproduced sensor data is fused to a general representation of the surrounding.\nIn this thesis the dynamic occupancy grid map approach of Nuss et al. is used\nwhile three goals are achieved. First, the approach of Nuss et al. to\ndistinguish between moving and non-moving obstacles is improved by using Fully\nConvolutional Neural Networks to create a class prediction for each grid cell.\nFor this purpose, the network is initialized with public pre-trained network\nmodels and the training is executed with a semi-automatic generated dataset.\nThe second goal is to provide orientation information for each detected moving\nobstacle. This could improve tracking algorithms, which are based on the\ndynamic occupancy grid map. The orientation extraction based on the\nConvolutional Neural Network shows a better performance in comparison to an\norientation extraction directly over the velocity information of the dynamic\noccupancy grid map. A general problem of developing machine learning approaches\nlike Neural Networks is the number of labeled data, which can always be\nincreased. For this reason, the last goal is to evaluate a semi-supervised\nlearning algorithm, to generate automatically more labeled data. The result of\nthis evaluation shows that the automated labeled data does not improve the\nperformance of the Convolutional Neural Network. All in all, the best results\nare combined to compare the detection against the approach of Nuss et al. [36]\nand a relative improvement of 34.8% is reached.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03138", 
+    "paper_submission_date": "2017/09/10", 
+    "paper_title": "Fully Convolutional Neural Networks for Dynamic Object Detection in Grid Maps (Masters Thesis)"
+}

@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Li, Yi", 
+        "Song, Lingxiao", 
+        "Wu, Xiang", 
+        "He, Ran", 
+        "Tan, Tieniu"
+    ], 
+    "paper_comments": "8 pages, 6 figures, conference", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03654", 
+    "paper_abstract": "Makeup is widely used to improve facial attractiveness and is well accepted\nby the public. However, different makeup styles will result in significant\nfacial appearance changes. It remains a challenging problem to match makeup and\nnon-makeup face images. This paper proposes a learning from generation approach\nfor makeup-invariant face verification by introducing a bi-level adversarial\nnetwork (BLAN). To alleviate the negative effects from makeup, we first\ngenerate non-makeup images from makeup ones, and then use the synthesized\nnon-makeup images for further verification. Two adversarial networks in BLAN\nare integrated in an end-to-end deep network, with the one on pixel level for\nreconstructing appealing facial images and the other on feature level for\npreserving identity information. These two networks jointly reduce the sensing\ngap between makeup and non-makeup images. Moreover, we make the generator well\nconstrained by incorporating multiple perceptual losses. Experimental results\non three benchmark makeup face datasets demonstrate that our method achieves\nstate-of-the-art verification accuracy across makeup status and can produce\nphoto-realistic non-makeup face images.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03654", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Anti-Makeup: Learning A Bi-Level Adversarial Network for Makeup-Invariant Face Verification"
+}

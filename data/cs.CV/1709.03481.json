@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Ramakrishnan, Sainandan", 
+        "Gangopadhyay, Shubham Pachori. Aalok", 
+        "Raman, Shanmuganathan"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03481", 
+    "paper_abstract": "Removing blur caused by camera shake in images has always been a challenging\nproblem in computer vision literature due to its ill-posed nature. Motion blur\ncaused due to the relative motion between the camera and the object in 3D space\ninduces a spatially varying blurring effect over the entire image. In this\npaper, we propose a novel deep filter based on Generative Adversarial Network\n(GAN) architecture integrated with global skip connection and dense\narchitecture in order to tackle this problem. Our model, while bypassing the\nprocess of blur kernel estimation, significantly reduces the test time which is\nnecessary for practical applications. The experiments on the benchmark datasets\nprove the effectiveness of the proposed method which outperforms the\nstate-of-the-art blind deblurring algorithms both quantitatively and\nqualitatively.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03481", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "Deep Generative Filter for Motion Deblurring"
+}

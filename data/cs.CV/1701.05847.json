@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Petridis, Stavros", 
+        "Li, Zuwei", 
+        "Pantic, Maja"
+    ], 
+    "paper_comments": "Accepted for publication, ICASSP 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1701.05847", 
+    "paper_abstract": "Traditional visual speech recognition systems consist of two stages, feature\nextraction and classification. Recently, several deep learning approaches have\nbeen presented which automatically extract features from the mouth images and\naim to replace the feature extraction stage. However, research on joint\nlearning of features and classification is very limited. In this work, we\npresent an end-to-end visual speech recognition system based on Long-Short\nMemory (LSTM) networks. To the best of our knowledge, this is the first model\nwhich simultaneously learns to extract features directly from the pixels and\nperform classification and also achieves state-of-the-art performance in visual\nspeech classification. The model consists of two streams which extract features\ndirectly from the mouth and difference images, respectively. The temporal\ndynamics in each stream are modelled by an LSTM and the fusion of the two\nstreams takes place via a Bidirectional LSTM (BLSTM). An absolute improvement\nof 9.7% over the base line is reported on the OuluVS2 database, and 1.5% on the\nCUAVE database when compared with other methods which use a similar visual\nfront-end.", 
+    "paper_subjects": [
+        "Computation and Language (cs.CL)"
+    ], 
+    "paper_code": "1701.05847", 
+    "paper_submission_date": "2017/01/20", 
+    "paper_title": "End-To-End Visual Speech Recognition With LSTMs"
+}

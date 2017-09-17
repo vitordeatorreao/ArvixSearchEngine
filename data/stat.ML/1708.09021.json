@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Sundin, Martin", 
+        "Venkitaraman, Arun", 
+        "Jansson, Magnus", 
+        "Chatterjee, Saikat"
+    ], 
+    "paper_comments": "5 pages, presented at the European Signal Processing Conference (EUSIPCO) 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09021", 
+    "paper_abstract": "Graphs are naturally sparse objects that are used to study many problems\ninvolving networks, for example, distributed learning and graph signal\nprocessing. In some cases, the graph is not given, but must be learned from the\nproblem and available data. Often it is desirable to learn sparse graphs.\nHowever, making a graph highly sparse can split the graph into several\ndisconnected components, leading to several separate networks. The main\ndifficulty is that connectedness is often treated as a combinatorial property,\nmaking it hard to enforce in e.g. convex optimization problems. In this\narticle, we show how connectedness of undirected graphs can be formulated as an\nanalytical property and can be enforced as a convex constraint. We especially\nshow how the constraint relates to the distributed consensus problem and graph\nLaplacian learning. Using simulated and real data, we perform experiments to\nlearn sparse and connected graphs from data.", 
+    "paper_subjects": [
+        "Applications (stat.AP)"
+    ], 
+    "paper_code": "1708.09021", 
+    "paper_submission_date": "2017/08/29", 
+    "paper_title": "A Connectedness Constraint for Learning Sparse Graphs"
+}

@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Kraemer, Florian", 
+        "Schaefer, Alexander", 
+        "Eitel, Andreas", 
+        "Vertens, Johan", 
+        "Burgard, Wolfram"
+    ], 
+    "paper_comments": "IROS 2017 AGROB Workshop", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04751", 
+    "paper_abstract": "Agricultural robots are expected to increase yields in a sustainable way and\nautomate precision tasks, such as weeding and plant monitoring. At the same\ntime, they move in a continuously changing, semi-structured field environment,\nin which features can hardly be found and reproduced at a later time.\nChallenges for Lidar and visual detection systems stem from the fact that\nplants can be very small, overlapping and have a steadily changing appearance.\nTherefore, a popular way to localize vehicles with high accuracy is based on\nex- pensive global navigation satellite systems and not on natural landmarks.\nThe contribution of this work is a novel image- based plant localization\ntechnique that uses the time-invariant stem emerging point as a reference. Our\napproach is based on a fully convolutional neural network that learns landmark\nlocalization from RGB and NIR image input in an end-to-end manner. The network\nperforms pose regression to generate a plant location likelihood map. Our\napproach allows us to cope with visual variances of plants both for different\nspecies and different growth stages. We achieve high localization accuracies as\nshown in detailed evaluations of a sugar beet cultivation phase. In experiments\nwith our BoniRob we demonstrate that detections can be robustly reproduced with\ncentimeter accuracy.", 
+    "paper_subjects": [
+        "Computer Vision and Pattern Recognition (cs.CV)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.04751", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "From Plants to Landmarks: Time-invariant Plant Localization that uses Deep Pose Regression in Agricultural Fields"
+}

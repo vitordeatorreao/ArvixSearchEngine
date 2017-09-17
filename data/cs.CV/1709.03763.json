@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Maier, Robert", 
+        "Schaller, Raphael", 
+        "Cremers, Daniel"
+    ], 
+    "paper_comments": "British Machine Vision Conference (BMVC), London, September 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03763", 
+    "paper_abstract": "State-of-the-art methods for large-scale 3D reconstruction from RGB-D sensors\nusually reduce drift in camera tracking by globally optimizing the estimated\ncamera poses in real-time without simultaneously updating the reconstructed\nsurface on pose changes. We propose an efficient on-the-fly surface correction\nmethod for globally consistent dense 3D reconstruction of large-scale scenes.\nOur approach uses a dense Visual RGB-D SLAM system that estimates the camera\nmotion in real-time on a CPU and refines it in a global pose graph\noptimization. Consecutive RGB-D frames are locally fused into keyframes, which\nare incorporated into a sparse voxel hashed Signed Distance Field (SDF) on the\nGPU. On pose graph updates, the SDF volume is corrected on-the-fly using a\nnovel keyframe re-integration strategy with reduced GPU-host streaming. We\ndemonstrate in an extensive quantitative evaluation that our method is up to\n93% more runtime efficient compared to the state-of-the-art and requires\nsignificantly less memory, with only negligible loss of surface quality.\nOverall, our system requires only a single GPU and allows for real-time surface\ncorrection of large environments.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03763", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Efficient Online Surface Correction for Real-time Large-Scale 3D Reconstruction"
+}

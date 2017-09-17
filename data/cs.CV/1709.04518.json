@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Yu, Qihang", 
+        "Xie, Lingxi", 
+        "Wang, Yan", 
+        "Zhou, Yuyin", 
+        "Fishman, Elliot K."
+    ], 
+    "paper_comments": "Submitted to AAAI 2018 (8 pages, 4 figures)", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04518", 
+    "paper_abstract": "We aim at segmenting small organs (e.g., the pancreas) from abdominal CT\nscans. As the target often occupies a relatively small region in the input\nimage, deep neural networks can be easily confused by the complex and variable\nbackground. To alleviate this, researchers proposed a coarse-to-fine approach\n(Zhou et al. 2016), which used prediction from the coarse stage to shrink the\ninput region provided to the fine stage. Although this strategy achieves high\naccuracy, we note that the coarse-scaled and fine-scaled networks were trained\nand tested individually, which limited the use of multi-stage visual cues for\nsegmentation.\n<br />This paper presents a Saliency Transformation Network, which contains a\ntrainable saliency transformation module. This module computes spatial weights\nfrom the coarse-scaled segmentation score map, and applies them to the\nfine-scaled input image. In training, the coarse-scaled and fine-scaled\nsegmentation networks are optimized in a joint manner, so that both networks\nbecome more powerful when they are evaluated individually. In testing, this\nstrategy makes full use of the segmentation results at the coarse stage, so\nthat we can deliver complementary information to the fine stage rather than\nmerely providing a bounding box. We perform experiments on the NIH pancreas\nsegmentation dataset with 82 CT volumes. Following the same testing process\nwhich involves a coarse-to-fine iteration, our approach outperforms the\nstate-of-the-art approach (trained in a stage-wise manner) by an average of\nover 2%. In addition, our approach enjoys better convergence properties, making\nit more reliable in practice.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04518", 
+    "paper_submission_date": "2017/09/13", 
+    "paper_title": "Saliency Transformation Network: Incorporating Multi-stage Visual Cues for Pancreas Segmentation"
+}

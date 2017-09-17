@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Joulani, Pooria", 
+        "Gy&#xf6;rgy, Andr&#xe1;s", 
+        "Szepesv&#xe1;ri, Csaba"
+    ], 
+    "paper_comments": "Accepted to The 28th International Conference on Algorithmic Learning Theory (ALT 2017). 40 pages", 
+    "paper_page_url": "https://arxiv.org/abs/1709.02726", 
+    "paper_abstract": "Recently, much work has been done on extending the scope of online learning\nand incremental stochastic optimization algorithms. In this paper we contribute\nto this effort in two ways: First, based on a new regret decomposition and a\ngeneralization of Bregman divergences, we provide a self-contained, modular\nanalysis of the two workhorses of online learning: (general) adaptive versions\nof Mirror Descent (MD) and the Follow-the-Regularized-Leader (FTRL) algorithms.\nThe analysis is done with extra care so as not to introduce assumptions not\nneeded in the proofs and allows to combine, in a straightforward way, different\nalgorithmic ideas (e.g., adaptivity, optimism, implicit updates) and learning\nsettings (e.g., strongly convex or composite objectives). This way we are able\nto reprove, extend and refine a large body of the literature, while keeping the\nproofs concise. The second contribution is a byproduct of this careful\nanalysis: We present algorithms with improved variational bounds for smooth,\ncomposite objectives, including a new family of optimistic MD algorithms with\nonly one projection step per round. Furthermore, we provide a simple extension\nof adaptive regret bounds to practically relevant non-convex problem settings\nwith essentially no extra effort.", 
+    "paper_subjects": [
+        "Optimization and Control (math.OC)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02726", 
+    "paper_submission_date": "2017/09/08", 
+    "paper_title": "A Modular Analysis of Adaptive (Non-)Convex Optimization: Optimism, Composite Objectives, and Variational Bounds"
+}

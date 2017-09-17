@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Radenovi&#x107;, Filip", 
+        "Tolias, Giorgos", 
+        "Chum, Ond&#x159;ej"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03409", 
+    "paper_abstract": "We cast the sketch-based retrieval as edge-map matching. A shared\nconvolutional network is trained to extract descriptors from edge maps and\nsketches, which are treated as a special case of edge maps. The network is\nfine-tuned solely from edge maps of landmark images. The training images are\nacquired in a fully unsupervised manner from 3D landmark models obtained by an\nautomated structure-from-motion pipeline.\n<br />The proposed method achieves the state-of-the-art results on a standard\nbenchmark. On two other fine-grained sketch-based retrieval benchmarks, it\nperforms on par with or comes just after the method specifically designed for\nthe dataset.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03409", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "Generic Sketch-Based Retrieval Learned without Drawing a Single Sketch"
+}

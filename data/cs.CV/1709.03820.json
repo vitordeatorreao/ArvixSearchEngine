@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Surace, Luca", 
+        "Patacchiola, Massimiliano", 
+        "S&#xf6;nmez, Elena Battini", 
+        "Spataro, William", 
+        "Cangelosi, Angelo"
+    ], 
+    "paper_comments": "accepted by the Fifth Emotion Recognition in the Wild (EmotiW) Challenge 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03820", 
+    "paper_abstract": "Group emotion recognition in the wild is a challenging problem, due to the\nunstructured environments in which everyday life pictures are taken. Some of\nthe obstacles for an effective classification are occlusions, variable lighting\nconditions, and image quality. In this work we present a solution based on a\nnovel combination of deep neural networks and Bayesian classifiers. The neural\nnetwork works on a bottom-up approach, analyzing emotions expressed by isolated\nfaces. The Bayesian classifier estimates a global emotion integrating top-down\nfeatures obtained through a scene descriptor. In order to validate the system\nwe tested the framework on the dataset released for the Emotion Recognition in\nthe Wild Challenge 2017. Our method achieved an accuracy of 64.68% on the test\nset, significantly outperforming the 53.62% competition baseline.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03820", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Emotion Recognition in the Wild using Deep Neural Networks and Bayesian Classifiers"
+}

@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Wang, Shaofei", 
+        "Kording, Konrad", 
+        "Yarkony, Julian"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.04411", 
+    "paper_abstract": "Many annotation problems in computer vision can be phrased as integer linear\nprograms (ILPs). The use of standard industrial solvers does not to exploit the\nunderlying structure of such problems eg, the skeleton in pose estimation. The\nleveraging of the underlying structure in conjunction with industrial solvers\npromises increases in both speed and accuracy. Such structure can be exploited\nusing Bender's decomposition, a technique from operations research, that solves\ncomplex ILPs or mixed integer linear programs by decomposing them into\nsub-problems that communicate via a master problem. The intuition is that\nconditioned on a small subset of the variables the solution to the remaining\nvariables can be computed easily by taking advantage of properties of the ILP\nconstraint matrix such as block structure. In this paper we apply Benders\ndecomposition to a typical problem in computer vision where we have many\nsub-ILPs (eg, partitioning of detections, body-parts) coupled to a master ILP\n(eg, constructing skeletons). Dividing inference problems into a master problem\nand sub-problems motivates the development of a plethora of novel models, and\ninference approaches for the field of computer vision.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04411", 
+    "paper_submission_date": "2017/09/13", 
+    "paper_title": "Exploiting skeletal structure in computer vision annotation with Benders decomposition"
+}

@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Connolly, Paul W.", 
+        "Silvestre, Guenole C.", 
+        "Bleakley, Chris J."
+    ], 
+    "paper_comments": "8 pages, Irish Machine Vision and Image Processing Conference (IMVIP) 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03399", 
+    "paper_abstract": "A novel method to identify trampoline skills using a single video camera is\nproposed herein. Conventional computer vision techniques are used for\nidentification, estimation, and tracking of the gymnast's body in a video\nrecording of the routine. For each frame, an open source convolutional neural\nnetwork is used to estimate the pose of the athlete's body. Body orientation\nand joint angle estimates are extracted from these pose estimates. The\ntrajectories of these angle estimates over time are compared with those of\nlabelled reference skills. A nearest neighbour classifier utilising a mean\nsquared error distance metric is used to identify the skill performed. A\ndataset containing 714 skill examples with 20 distinct skills performed by\nadult male and female gymnasts was recorded and used for evaluation of the\nsystem. The system was found to achieve a skill identification accuracy of\n80.7% for the dataset.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03399", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "Automated Identification of Trampoline Skills Using Computer Vision Extracted Pose Estimation"
+}

@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Mourtada, Jaouad", 
+        "Maillard, Odalric-Ambrym"
+    ], 
+    "paper_comments": "To appear in Proceedings of the 28th International Conference on Algorithmic Learning Theory (ALT 2017)", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09811", 
+    "paper_abstract": "We consider a variation on the problem of prediction with expert advice,\nwhere new forecasters that were unknown until then may appear at each round. As\noften in prediction with expert advice, designing an algorithm that achieves\nnear-optimal regret guarantees is straightforward, using aggregation of\nexperts. However, when the comparison class is sufficiently rich, for instance\nwhen the best expert and the set of experts itself changes over time, such\nstrategies naively require to maintain a prohibitive number of weights\n(typically exponential with the time horizon). By contrast, designing\nstrategies that both achieve a near-optimal regret and maintain a reasonable\nnumber of weights is highly non-trivial. We consider three increasingly\nchallenging objectives (simple regret, shifting regret and sparse shifting\nregret) that extend existing notions defined for a fixed expert ensemble; in\neach case, we design strategies that achieve tight regret bounds, adaptive to\nthe parameters of the comparison class, while being computationally\ninexpensive. Moreover, our algorithms are anytime, agnostic to the number of\nincoming experts and completely parameter-free. Such remarkable results are\nmade possible thanks to two simple but highly effective recipes: first the\n\"abstention trick\" that comes from the specialist framework and enables to\nhandle the least challenging notions of regret, but is limited when addressing\nmore sophisticated objectives. Second, the \"muting trick\" that we introduce to\ngive more flexibility. We show how to combine these two tricks in order to\nhandle the most challenging class of comparison strategies.", 
+    "paper_subjects": [
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1708.09811", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Efficient tracking of a growing number of experts"
+}

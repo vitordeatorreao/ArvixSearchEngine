@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Yu, Haizi", 
+        "Li, Tianxi", 
+        "Varshney, Lav R."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01674", 
+    "paper_abstract": "Abstraction and realization are bilateral processes that are key in deriving\nintelligence and creativity. In many domains, the two processes are approached\nthrough rules: high-level principles that reveal invariances within similar yet\ndiverse examples. Under a probabilistic setting for discrete input spaces, we\nfocus on the rule realization problem which generates input sample\ndistributions that follow the given rules. More ambitiously, we go beyond a\nmechanical realization that takes whatever is given, but instead ask for\nproactively selecting reasonable rules to realize. This goal is demanding in\npractice, since the initial rule set may not always be consistent and thus\nintelligent compromises are needed. We formulate both rule realization and\nselection as two strongly connected components within a single and symmetric\nbi-convex problem, and derive an efficient algorithm that works at large scale.\nTaking music compositional rules as the main example throughout the paper, we\ndemonstrate our model's efficiency in not only music realization (composition)\nbut also music interpretation and understanding (analysis).", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.01674", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "Probabilistic Rule Realization and Selection"
+}

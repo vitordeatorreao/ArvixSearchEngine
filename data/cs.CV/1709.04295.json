@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Ding, Huaxiong", 
+        "Chen, Liming"
+    ], 
+    "paper_comments": "8 pages", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04295", 
+    "paper_abstract": "3D face dense tracking aims to find dense inter-frame correspondences in a\nsequence of 3D face scans and constitutes a powerful tool for many face\nanalysis tasks, e.g., 3D dynamic facial expression analysis. The majority of\nthe existing methods just fit a 3D face surface or model to a 3D target surface\nwithout considering temporal information between frames. In this paper, we\npropose a novel method for densely tracking sequences of 3D face scans, which\nex- tends the non-rigid ICP algorithm by adding a novel specific criterion for\ntemporal information. A novel fitting framework is presented for automatically\ntracking a full sequence of 3D face scans. The results of experiments carried\nout on the BU4D-FE database are promising, showing that the proposed algorithm\noutperforms state-of-the-art algorithms for 3D face dense tracking.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04295", 
+    "paper_submission_date": "2017/09/13", 
+    "paper_title": "Densely tracking sequences of 3D face scans"
+}

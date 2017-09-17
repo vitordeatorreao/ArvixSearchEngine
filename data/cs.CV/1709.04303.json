@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Gao, Yunze", 
+        "Chen, Yingying", 
+        "Wang, Jinqiao", 
+        "Lu, Hanqing"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.04303", 
+    "paper_abstract": "Reading text in the wild is a challenging task in the field of computer\nvision. Existing approaches mainly adopted Connectionist Temporal\nClassification (CTC) or Attention models based on Recurrent Neural Network\n(RNN), which is computationally expensive and hard to train. In this paper, we\npresent an end-to-end Attention Convolutional Network for scene text\nrecognition. Firstly, instead of RNN, we adopt the stacked convolutional layers\nto effectively capture the contextual dependencies of the input sequence, which\nis characterized by lower computational complexity and easier parallel\ncomputation. Compared to the chain structure of recurrent networks, the\nConvolutional Neural Network (CNN) provides a natural way to capture long-term\ndependencies between elements, which is 9 times faster than Bidirectional Long\nShort-Term Memory (BLSTM). Furthermore, in order to enhance the representation\nof foreground text and suppress the background noise, we incorporate the\nresidual attention modules into a small densely connected network to improve\nthe discriminability of CNN features. We validate the performance of our\napproach on the standard benchmarks, including the Street View Text, IIIT5K and\nICDAR datasets. As a result, state-of-the-art or highly-competitive performance\nand efficiency show the superiority of the proposed approach.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04303", 
+    "paper_submission_date": "2017/09/13", 
+    "paper_title": "Reading Scene Text with Attention Convolutional Sequence Modeling"
+}

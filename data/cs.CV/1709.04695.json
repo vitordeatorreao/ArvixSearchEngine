@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Jetchev, Nikolay", 
+        "Bergmann, Urs"
+    ], 
+    "paper_comments": "To appear at the International Conference on Computer Vision, ICCV 2017, Workshop on Computer Vision for Fashion", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04695", 
+    "paper_abstract": "We present a novel method to solve image analogy problems : it allows to\nlearn the relation between paired images present in training data, and then\ngeneralize and generate images that correspond to the relation, but were never\nseen in the training set. Therefore, we call the method Conditional Analogy\nGenerative Adversarial Network (CAGAN), as it is based on adversarial training\nand employs deep convolutional neural networks. An especially interesting\napplication of that technique is automatic swapping of clothing on fashion\nmodel photos. Our work has the following contributions. First, the definition\nof the end-to-end trainable CAGAN architecture, which implicitly learns\nsegmentation masks without expensive supervised labeling data. Second,\nexperimental results show plausible segmentation masks and often convincing\nswapped images, given the target article. Finally, we discuss the next steps\nfor that technique: neural network architecture improvements and more advanced\napplications.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Computer Vision and Pattern Recognition (cs.CV)"
+    ], 
+    "paper_code": "1709.04695", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "The Conditional Analogy GAN: Swapping Fashion Articles on People Images"
+}

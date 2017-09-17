@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Jiang, Hansi", 
+        "Wang, Haoyu", 
+        "Hu, Wenhao", 
+        "Kakde, Deovrat", 
+        "Chaudhuri, Arin"
+    ], 
+    "paper_comments": "18 pages, 2 tables, 1 figure", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00139", 
+    "paper_abstract": "Support vector data description (SVDD) is a machine learning technique that\nis used for single-class classification and outlier detection. The idea of SVDD\nis to find a set of support vectors that defines a boundary around data. When\ndealing with online or large data, existing batch SVDD methods have to be rerun\nin each iteration. We propose an incremental learning algorithm for SVDD that\nuses the Gaussian kernel. This algorithm builds on the observation that all\nsupport vectors on the boundary have the same distance to the center of sphere\nin a higher-dimensional feature space as mapped by the Gaussian kernel\nfunction. Each iteration only involves the existing support vectors and the new\ndata point. The algorithm is based solely on matrix manipulations; the support\nvectors and their corresponding Lagrange multiplier $\\alpha_i$'s are\nautomatically selected and determined in each iteration. It can be seen that\nthe complexity of our algorithm in each iteration is only $O(k^2)$, where $k$\nis the number of support vectors.", 
+    "paper_subjects": [
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.00139", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Fast Incremental SVDD Learning Algorithm with the Gaussian Kernel"
+}

@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Ding, Hui", 
+        "Zhou, Hao", 
+        "Zhou, Shaohua Kevin", 
+        "Chellappa, Rama"
+    ], 
+    "paper_comments": "Submitted to AAAI 2018", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03851", 
+    "paper_abstract": "Humans focus attention on different face regions when recognizing face\nattributes. Most existing face attribute classification methods use the whole\nimage as input. Moreover, some of these methods rely on fiducial landmarks to\nprovide defined face parts. In this paper, we propose a cascade network that\nsimultaneously learns to localize face regions specific to attributes and\nperforms attribute classification without alignment. First, a weakly-supervised\nface region localization network is designed to automatically detect regions\n(or parts) specific to attributes. Then multiple part-based networks and a\nwhole-image-based network are separately constructed and combined together by\nthe region switch layer and attribute relation layer for final attribute\nclassification. A multi-net learning method and hint-based model compression is\nfurther proposed to get an effective localization model and a compact\nclassification model, respectively. Our approach achieves significantly better\nperformance than state-of-the-art methods on unaligned CelebA dataset, reducing\nthe classification error by 30.9%.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03851", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "A Deep Cascade Network for Unaligned Face Attribute Classification"
+}

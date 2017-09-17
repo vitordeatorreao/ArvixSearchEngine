@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Siam, Mennatullah", 
+        "Mahgoub, Heba", 
+        "Zahran, Mohamed", 
+        "Yogamani, Senthil", 
+        "Jagersand, Martin", 
+        "El-Sallab, Ahmad"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.04821", 
+    "paper_abstract": "We propose a novel multi-task learning system that combines appearance and\nmotion cues for a better semantic reasoning of the environment. A unified\narchitecture for joint vehicle detection and motion segmentation is introduced.\nIn this architecture, a two-stream encoder is shared among both tasks. In order\nto evaluate our method in autonomous driving setting, KITTI annotated sequences\nwith detection and odometry ground truth are used to automatically generate\nstatic/dynamic annotations on the vehicles. This dataset is called KITTI Moving\nObject Detection dataset (KITTI MOD). The dataset will be made publicly\navailable to act as a benchmark for the motion detection task. Our experiments\nshow that the proposed method outperforms state of the art methods that utilize\nmotion cue only with 21.5% in mAP on KITTI MOD. Our method performs on par with\nthe state of the art unsupervised methods on DAVIS benchmark for generic object\nsegmentation. One of our interesting conclusions is that joint training of\nmotion segmentation and vehicle detection benefits motion segmentation. Motion\nsegmentation has relatively fewer data, unlike the detection task. However, the\nshared fusion encoder benefits from joint training to learn a generalized\nrepresentation. The proposed method runs in 120 ms per frame, which beats the\nstate of the art motion detection/segmentation in computational efficiency.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04821", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "MODNet: Moving Object Detection Network with Motion and Appearance for Autonomous Driving"
+}

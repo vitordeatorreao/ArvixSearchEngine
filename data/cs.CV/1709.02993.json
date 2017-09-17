@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Alvar, Saeed Ranjbar", 
+        "Choi, Hyomin", 
+        "Bajic, Ivan V."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.02993", 
+    "paper_abstract": "Image and video analytics are being increasingly used on a massive scale. Not\nonly is the amount of data growing, but the complexity of the data processing\npipelines is also increasing, thereby exacerbating the problem. It is becoming\nincreasingly important to save computational resources wherever possible. We\nfocus on one of the poster problems of visual analytics -- face detection --\nand approach the issue of reducing the computation by asking: Is it possible to\ndetect a face without full image reconstruction from the High Efficiency Video\nCoding (HEVC) bitstream? We demonstrate that this is indeed possible, with\naccuracy comparable to conventional face detection, by training a Convolutional\nNeural Network on the output of the HEVC entropy decoder.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.02993", 
+    "paper_submission_date": "2017/09/09", 
+    "paper_title": "Can you tell a face from a HEVC bitstream?"
+}

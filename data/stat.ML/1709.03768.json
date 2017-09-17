@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Cheng, Jiacheng", 
+        "Liu, Tongliang", 
+        "Ramamohanarao, Kotagiri", 
+        "Tao, Dacheng"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03768", 
+    "paper_abstract": "Instance- and label-dependent label noise (ILN) is widely existed in\nreal-world datasets but has been rarely studied. In this paper, we focus on a\nparticular case of ILN where the label noise rates, representing the\nprobabilities that the true labels of examples flip into the corrupted labels,\nhave upper bounds. We propose to handle this bounded instance- and\nlabel-dependent label noise under two different conditions. First,\ntheoretically, we prove that when the marginal distributions $P(X|Y=+1)$ and\n$P(X|Y=-1)$ have non-overlapping supports, we can recover every noisy example's\ntrue label and perform supervised learning directly on the cleansed examples.\nSecond, for the overlapping situation, we propose a novel approach to learn a\nwell-performing classifier which needs only a few noisy examples to be labeled\nmanually. Experimental results demonstrate that our method works well on both\nsynthetic and real-world datasets.", 
+    "paper_subjects": [
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.03768", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Learning with Bounded Instance- and Label-dependent Label Noise"
+}

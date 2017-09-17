@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Strauss, Thilo", 
+        "Hanselmann, Markus", 
+        "Junginger, Andrej", 
+        "Ulmer, Holger"
+    ], 
+    "paper_comments": "11 pages, 2 figures, 3 tables", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03423", 
+    "paper_abstract": "Deep learning has become the state of the art approach in many machine\nlearning problems such as classification. It has recently been shown that deep\nlearning is highly vulnerable to adversarial perturbations. Taking the camera\nsystems of self-driving cars as an example, small adversarial perturbations can\ncause the system to make errors in important tasks, such as classifying traffic\nsigns or detecting pedestrians. Hence, in order to use deep learning without\nsafety concerns a proper defense strategy is required. We propose to use\nensemble methods as a defense strategy against adversarial perturbations. We\nfind that an attack leading one model to misclassify does not imply the same\nfor other networks performing the same task. This makes ensemble methods an\nattractive defense strategy against adversarial attacks. We empirically show\nfor the MNIST and the CIFAR-10 data sets that ensemble methods not only improve\nthe accuracy of neural networks on test data but also increase their robustness\nagainst adversarial perturbations.", 
+    "paper_subjects": [
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.03423", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "Ensemble Methods as a Defense to Adversarial Perturbations Against Deep Neural Networks"
+}

@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Cavalin, Paulo R.", 
+        "Kapp, Marcelo N.", 
+        "Oliveira, Luiz S."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.04056", 
+    "paper_abstract": "This work focuses on cost reduction methods for forest species recognition\nsystems. Current state-of-the-art shows that the accuracy of these systems have\nincreased considerably in the past years, but the cost in time to perform the\nrecognition of input samples has also increased proportionally. For this\nreason, in this work we focus on investigating methods for cost reduction\nlocally (at either feature extraction or classification level individually) and\nglobally (at both levels combined), and evaluate two main aspects: 1) the\nimpact in cost reduction, given the proposed measures for it; and 2) the impact\nin recognition accuracy. The experimental evaluation conducted on two forest\nspecies datasets demonstrated that, with global cost reduction, the cost of the\nsystem can be reduced to less than 1/20 and recognition rates that are better\nthan those of the original system can be achieved.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04056", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Multi-scale Forest Species Recognition Systems for Reduced Cost"
+}

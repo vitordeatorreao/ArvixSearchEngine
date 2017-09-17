@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Ardehaly, Ehsan Mohammady", 
+        "Culotta, Aron"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.04108", 
+    "paper_abstract": "Deep learning algorithms have recently produced state-of-the-art accuracy in\nmany classification tasks, but this success is typically dependent on access to\nmany annotated training examples. For domains without such data, an attractive\nalternative is to train models with light, or distant supervision. In this\npaper, we introduce a deep neural network for the Learning from Label\nProportion (LLP) setting, in which the training data consist of bags of\nunlabeled instances with associated label distributions for each bag. We\nintroduce a new regularization layer, Batch Averager, that can be appended to\nthe last layer of any deep neural network to convert it from supervised\nlearning to LLP. This layer can be implemented readily with existing deep\nlearning packages. To further support domains in which the data consist of two\nconditionally independent feature views (e.g. image and text), we propose a\nco-training algorithm that iteratively generates pseudo bags and refits the\ndeep LLP model to improve classification accuracy. We demonstrate our models on\ndemographic attribute classification (gender and race/ethnicity), which has\nmany applications in social media analysis, public health, and marketing. We\nconduct experiments to predict demographics of Twitter users based on their\ntweets and profile image, without requiring any user-level annotations for\ntraining. We find that the deep LLP approach outperforms baselines for both\ntext and image features separately. Additionally, we find that co-training\nalgorithm improves image and text classification by 4% and 8% absolute F1,\nrespectively. Finally, an ensemble of text and image classifiers further\nimproves the absolute F1 measure by 4% on average.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.04108", 
+    "paper_submission_date": "2017/09/13", 
+    "paper_title": "Co-training for Demographic Classification Using Deep Learning from Label Proportions"
+}

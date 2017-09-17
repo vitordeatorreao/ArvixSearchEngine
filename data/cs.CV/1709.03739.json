@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Matsuo, Tadashi", 
+        "Shimada, Nobutaka"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03739", 
+    "paper_abstract": "Appearance-based generic object recognition is a challenging problem because\nall possible appearances of objects cannot be registered, especially as new\nobjects are produced every day. Function of objects, however, has a\ncomparatively small number of prototypes. Therefore, function-based\nclassification of new objects could be a valuable tool for generic object\nrecognition. Object functions are closely related to hand-object interactions\nduring handling of a functional object; i.e., how the hand approaches the\nobject, which parts of the object and contact the hand, and the shape of the\nhand during interaction. Hand-object interactions are helpful for modeling\nobject functions. However, it is difficult to assign discrete labels to\ninteractions because an object shape and grasping hand-postures intrinsically\nhave continuous variations. To describe these interactions, we propose the\ninteraction descriptor space which is acquired from unlabeled appearances of\nhuman hand-object interactions. By using interaction descriptors, we can\nnumerically describe the relation between an object's appearance and its\npossible interaction with the hand. The model infers the quantitative state of\nthe interaction from the object image alone. It also identifies the parts of\nobjects designed for hand interactions such as grips and handles. We\ndemonstrate that the proposed method can unsupervisedly generate interaction\ndescriptors that make clusters corresponding to interaction types. And also we\ndemonstrate that the model can infer possible hand-object interactions.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03739", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Construction of Latent Descriptor Space and Inference Model of Hand-Object Interactions"
+}

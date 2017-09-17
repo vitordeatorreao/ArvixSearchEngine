@@ -1,0 +1,12 @@
+{
+    "paper_authors_list": [
+        "Murray, Samuel"
+    ], 
+    "paper_comments": "Master Thesis", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03572", 
+    "paper_abstract": "In this project, we implement a multiple object tracker, following the\ntracking-by-detection paradigm, as an extension of an existing method. It works\nby modelling the movement of objects by solving the filtering problem, and\nassociating detections with predicted new locations in new frames using the\nHungarian algorithm. Three different similarity measures are used, which use\nthe location and shape of the bounding boxes. Compared to other trackers on the\nMOTChallenge leaderboard, our method, referred to as PAOT, is the fastest\nnon-anonymous submission, while also achieving decent score on other metrics.\nBy running our model on the Okutama-Action dataset, sampled at different\nframe-rates, we show that the performance is greatly reduced when running the\nmodel - including detecting objects - in real-time. In most metrics, the score\nis reduced by 50%, but in certain cases as much as 90%. We argue that this\nindicates that other, slower methods could not be used for tracking in\nreal-time, but that more research is required specifically on this.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03572", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "Real-Time Multiple Object Tracking - A Study on the Importance of Speed"
+}

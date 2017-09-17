@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Guo, Yandong", 
+        "Zhang, Lei"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1707.05574", 
+    "paper_abstract": "We study in this paper the problem of one-shot face recognition, with the\ngoal to build a large-scale face recognizer capable of recognizing a\nsubstantial number of persons. Given that for face recognition one can leverage\na large-scale dataset to learn good face representation, our study shows that\nthe poor generalization ability of the one-shot classes is mainly caused by the\ndata imbalance problem, which cannot be effectively addressed by multinomial\nlogistic regression that is widely used as the final classification layer in\nconvolutional neural networks. To solve this problem, we propose a novel\nsupervision signal called underrepresented-classes promotion (UP) loss term,\nwhich aligns the norms of the weight vectors of the one-shot classes (a.k.a.\nunderrepresented-classes) to those of the normal classes. In addition to the\noriginal cross entropy loss, this new loss term effectively promotes the\nunderrepresented classes in the learned model and leads to a remarkable\nimprovement in face recognition performance. The experimental results on a\nbenchmark dataset of $21,000$ persons show that the new loss term significantly\nhelps improve the recognition coverage rate from $25.65\\%$ to $77.48\\%$ at the\nprecision of $99\\%$ for underrepresented classes, while still keeps an overall\ntop-1 accuracy of $99.8\\%$ for normal classes.", 
+    "paper_subjects": null, 
+    "paper_code": "1707.05574", 
+    "paper_submission_date": "2017/07/18", 
+    "paper_title": "One-shot Face Recognition by Promoting Underrepresented Classes"
+}

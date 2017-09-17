@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Lu, Ying", 
+        "Chen, Liming", 
+        "Saidi, Alexandre"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.02995", 
+    "paper_abstract": "Training a Deep Neural Network (DNN) from scratch requires a large amount of\nlabeled data. For a classification task where only small amount of training\ndata is available, a common solution is to perform fine-tuning on a DNN which\nis pre-trained with related source data. This consecutive training process is\ntime consuming and does not consider explicitly the relatedness between\ndifferent source and target tasks.\n<br />In this paper, we propose a novel method to jointly fine-tune a Deep Neural\nNetwork with source data and target data. By adding an Optimal Transport loss\n(OT loss) between source and target classifier predictions as a constraint on\nthe source classifier, the proposed Joint Transfer Learning Network (JTLN) can\neffectively learn useful knowledge for target classification from source data.\nFurthermore, by using different kind of metric as cost matrix for the OT loss,\nJTLN can incorporate different prior knowledge about the relatedness between\ntarget categories and source categories.\n<br />We carried out experiments with JTLN based on Alexnet on image classification\ndatasets and the results verify the effectiveness of the proposed JTLN in\ncomparison with standard consecutive fine-tuning. This Joint Transfer Learning\nwith OT loss is general and can also be applied to other kind of Neural\nNetworks.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.02995", 
+    "paper_submission_date": "2017/09/09", 
+    "paper_title": "Optimal Transport for Deep Joint Transfer Learning"
+}

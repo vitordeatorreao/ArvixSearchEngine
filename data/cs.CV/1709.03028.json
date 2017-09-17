@@ -1,0 +1,21 @@
+{
+    "paper_authors_list": [
+        "Izadyyazdanabadi, Mohammadhassan", 
+        "Belykh, Evgenii", 
+        "Mooney, Michael", 
+        "Martirosyan, Nikolay", 
+        "Eschbacher, Jennifer", 
+        "Nakaji, Peter", 
+        "Preul, Mark C.", 
+        "Yang, Yezhou"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03028", 
+    "paper_abstract": "Confocal laser endomicroscopy (CLE) is an advanced optical fluorescence\ntechnology undergoing assessment for applications in brain tumor surgery.\nDespite its promising potential, interpreting the unfamiliar gray tone images\nof fluorescent stains can be difficult. Many of the CLE images can be distorted\nby motion, extremely low or high fluorescence signal, or obscured by red blood\ncell accumulation, and these can be interpreted as nondiagnostic. However, just\none neat CLE image might suffice for intraoperative diagnosis of the tumor.\nWhile manual examination of thousands of nondiagnostic images during surgery\nwould be impractical, this creates an opportunity for a model to select\ndiagnostic images for the pathologists or surgeon's review. In this study, we\nsought to develop a deep learning model to automatically detect the diagnostic\nimages using a manually annotated dataset, and we employed a patient-based\nnested cross-validation approach to explore generalizability of the model. We\nexplored various training regimes: deep training, shallow fine-tuning, and deep\nfine-tuning. Further, we investigated the effect of ensemble modeling by\ncombining the top-5 single models crafted in the development phase. We\nlocalized histological features from diagnostic CLE images by visualization of\nshallow and deep neural activations. Our inter-rater experiment results\nconfirmed that our ensemble of deeply fine-tuned models achieved higher\nagreement with the ground truth than the other observers. With the speed and\nprecision of the proposed method (110 images/second; 85\\% on the gold standard\ntest subset), it has potential to be integrated into the operative workflow in\nthe brain tumor surgery.", 
+    "paper_subjects": [
+        "Quantitative Methods (q-bio.QM)"
+    ], 
+    "paper_code": "1709.03028", 
+    "paper_submission_date": "2017/09/10", 
+    "paper_title": "Convolutional Neural Networks: Ensemble Modeling, Fine-Tuning and Unsupervised Semantic Localization"
+}

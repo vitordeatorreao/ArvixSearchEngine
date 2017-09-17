@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Lipor, John", 
+        "Hong, David", 
+        "Zhang, Dejiao", 
+        "Balzano, Laura"
+    ], 
+    "paper_comments": "12 pages, 3 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04744", 
+    "paper_abstract": "We present a novel approach to the subspace clustering problem that leverages\nensembles of the $K$-subspaces (KSS) algorithm via the evidence accumulation\nclustering framework. Our algorithm forms a co-association matrix whose\n$(i,j)$th entry is the number of times points $i$ and $j$ are clustered\ntogether by several runs of KSS with random initializations. We analyze the\nentries of this co-association matrix and show that a naive version of our\nalgorithm can recover subspaces for points drawn from the same conditions as\nthe Thresholded Subspace Clustering algorithm. We show on synthetic data that\nour method performs well under subspaces with large intersection, subspaces\nwith small principal angles, and noisy data. Finally, we provide a variant of\nour algorithm that achieves state-of-the-art performance across several\nbenchmark datasets, including a resulting error for the COIL-20 database that\nis less than half that achieved by existing algorithms.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.04744", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "Subspace Clustering using Ensembles of $K$-Subspaces"
+}

@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Gao, Yuan", 
+        "Srivastava, Brij Mohan Lal", 
+        "Salsman, James"
+    ], 
+    "paper_comments": "8 pages, 3 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01713", 
+    "paper_abstract": "Automatic speech recognition is used to assess spoken English learner\npronunciation based on the authentic intelligibility of the learners' spoken\nresponses determined from deep neural network (DNN) model predictions of\ntranscription correctness. Using numeric features produced by PocketSphinx\nalignment mode and many recognition passes searching for the substitution and\ndeletion of each expected phoneme and insertion of unexpected phonemes in\nsequence, the DNN models achieve 97% agreement with the accuracy of Amazon\nMechanical Turk crowdworker transcriptions, up from 75% reported by multiple\nindependent researchers. Using such features with DNN prediction models can\nhelp computer-aided pronunciation teaching (CAPT) systems provide\nintelligibility remediation. We have developed and published free open source\nsoftware so that others can use these techniques.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.01713", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "Spoken English Intelligibility Remediation with PocketSphinx Alignment and Feature Extraction Improves Substantially over the State of the Art"
+}

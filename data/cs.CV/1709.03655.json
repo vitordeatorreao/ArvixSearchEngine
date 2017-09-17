@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Zhu, Jiagang", 
+        "Zou, Wei", 
+        "Zhu, Zheng"
+    ], 
+    "paper_comments": "8 pages, 4 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03655", 
+    "paper_abstract": "For the two-stream style methods in action recognition, fusing the two\nstreams' predictions is always by the weighted averaging scheme. This fusion\nmethod with fixed weights lacks of pertinence to different action videos and\nalways needs trial and error on the validation set. In order to enhance the\nadaptability of two-stream ConvNets and improve its performance, an end-to-end\ntrainable gated fusion method, namely gating ConvNet, for the two-stream\nConvNets is proposed in this paper based on the MoE (Mixture of Experts)\ntheory. The gating ConvNet takes the combination of feature maps from the same\nlayer of the spatial and the temporal nets as input and adopts ReLU (Rectified\nLinear Unit) as the gating output activation function. To reduce the\nover-fitting of gating ConvNet caused by the redundancy of parameters, a new\nmulti-task learning method is designed, which jointly learns the gating fusion\nweights for the two streams and learns the gating ConvNet for action\nclassification. With our gated fusion method and multi-task learning approach,\na high accuracy of 94.5% is achieved on the dataset UCF101.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03655", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Learning Gating ConvNet for the two-stream based methods in action recognition"
+}

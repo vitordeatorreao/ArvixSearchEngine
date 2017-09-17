@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Pesaranghader, Ali", 
+        "Viktor, Herna", 
+        "Paquet, Eric"
+    ], 
+    "paper_comments": "42 pages, and 14 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.02457", 
+    "paper_abstract": "The last decade has seen a surge of interest in adaptive learning algorithms\nfor data stream classification, with applications ranging from predicting ozone\nlevel peaks, learning stock market indicators, to detecting computer security\nviolations. In addition, a number of methods have been developed to detect\nconcept drifts in these streams. Consider a scenario where we have a number of\nclassifiers with diverse learning styles and different drift detectors.\nIntuitively, the current 'best' (classifier, detector) pair is application\ndependent and may change as a result of the stream evolution. Our research\nbuilds on this observation. We introduce the $\\mbox{Tornado}$ framework that\nimplements a reservoir of diverse classifiers, together with a variety of drift\ndetection algorithms. In our framework, all (classifier, detector) pairs\nproceed, in parallel, to construct models against the evolving data streams. At\nany point in time, we select the pair which currently yields the best\nperformance. We further incorporate two novel stacking-based drift detection\nmethods, namely the $\\mbox{FHDDMS}$ and $\\mbox{FHDDMS}_{add}$ approaches. The\nexperimental evaluation confirms that the current 'best' (classifier, detector)\npair is not only heavily dependent on the characteristics of the stream, but\nalso that this selection evolves as the stream flows. Further, our\n$\\mbox{FHDDMS}$ variants detect concept drifts accurately in a timely fashion\nwhile outperforming the state-of-the-art.", 
+    "paper_subjects": [
+        "Databases (cs.DB)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.02457", 
+    "paper_submission_date": "2017/09/07", 
+    "paper_title": "Reservoir of Diverse Adaptive Learners and Stacking Fast Hoeffding Drift Detection Methods for Evolving Data Streams"
+}

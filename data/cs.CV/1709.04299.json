@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Grubert, Jens", 
+        "Itoh, Yuta", 
+        "Moser, Kenneth", 
+        "Swan II, J. Edward"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.04299", 
+    "paper_abstract": "Optical see-through head-mounted displays (OST HMDs) are a major output\nmedium for Augmented Reality, which have seen significant growth in popularity\nand usage among the general public due to the growing release of\nconsumer-oriented models, such as the Microsoft Hololens. Unlike Virtual\nReality headsets, OST HMDs inherently support the addition of\ncomputer-generated graphics directly into the light path between a user's eyes\nand their view of the physical world. As with most Augmented and Virtual\nReality systems, the physical position of an OST HMD is typically determined by\nan external or embedded 6-Degree-of-Freedom tracking system. However, in order\nto properly render virtual objects, which are perceived as spatially aligned\nwith the physical environment, it is also necessary to accurately measure the\nposition of the user's eyes within the tracking system's coordinate frame. For\nover 20 years, researchers have proposed various calibration methods to\ndetermine this needed eye position. However, to date, there has not been a\ncomprehensive overview of these procedures and their requirements. Hence, this\npaper surveys the field of calibration methods for OST HMDs. Specifically, it\nprovides insights into the fundamentals of calibration techniques, and presents\nan overview of both manual and automatic approaches, as well as evaluation\nmethods and metrics. Finally, it also identifies opportunities for future\nresearch. % relative to the tracking coordinate system, and, hence, its\nposition in 3D space.", 
+    "paper_subjects": [
+        "Computer Vision and Pattern Recognition (cs.CV)"
+    ], 
+    "paper_code": "1709.04299", 
+    "paper_submission_date": "2017/09/13", 
+    "paper_title": "A Survey of Calibration Methods for Optical See-Through Head-Mounted Displays"
+}

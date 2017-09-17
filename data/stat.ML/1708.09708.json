@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Lyons, Terry", 
+        "Oberhauser, Harald"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09708", 
+    "paper_abstract": "We introduce features for massive data streams. These stream features can be\nthought of as \"ordered moments\" and generalize stream sketches from \"moments of\norder one\" to \"ordered moments of arbitrary order\". In analogy to classic\nmoments, they have theoretical guarantees such as universality that are\nimportant for learning algorithms.", 
+    "paper_subjects": [
+        "Data Structures and Algorithms (cs.DS)", 
+        "Statistics Theory (math.ST)"
+    ], 
+    "paper_code": "1708.09708", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Sketching the order of events"
+}

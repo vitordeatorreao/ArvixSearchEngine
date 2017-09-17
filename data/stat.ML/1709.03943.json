@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Kanjamapornkul, Kabin", 
+        "Pin&#x10d;&#xe1;k, Richard", 
+        "Chunithpaisan, Sanphet", 
+        "Barto&#x161;, Erik"
+    ], 
+    "paper_comments": "18 pages, 12 figures, 6 tables", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03943", 
+    "paper_abstract": "We generalize a support vector machine to a support spinor machine by using\nthe mathematical structure of wedge product over vector machine in order to\nextend field from vector field to spinor field. The separated hyperplane is\nextended to Kolmogorov space in time series data which allow us to extend a\nstructure of support vector machine to a support tensor machine and a support\ntensor machine moduli space. Our performance test on support spinor machine is\ndone over one class classification of end point in physiology state of time\nseries data after empirical mode analysis and compared with support vector\nmachine test. We implement algorithm of support spinor machine by using\nHolo-Hilbert amplitude modulation for fully nonlinear and nonstationary time\nseries data analysis.", 
+    "paper_subjects": [
+        "Statistical Finance (q-fin.ST)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.03943", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "Support Spinor Machine"
+}

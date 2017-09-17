@@ -1,0 +1,21 @@
+{
+    "paper_authors_list": [
+        "Hou, Jen-Cheng", 
+        "Wang, Syu-Siang", 
+        "Lai, Ying-Hui", 
+        "Lin, Jen-Chun", 
+        "Tsao, Yu", 
+        "Chang, Hsiu-Wen", 
+        "Wang, Hsin-Min"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1703.10893", 
+    "paper_abstract": "Speech enhancement (SE) aims to reduce noise in speech signals. Most SE\ntechniques focus on addressing audio information only.In this work, inspired by\nmultimodal learning, which utilizes data from different modalities, and the\nrecent success of convolutional neural networks (CNNs) in SE, we propose an\naudio-visual deep CNN (AVDCNN) SE model, which incorporates audio and visual\nstreams into a unified network model.In the proposed AVDCNN SE model,audio and\nvisual features are first processed using individual CNNs, and then, fused into\na joint network to generate enhanced speech at an output layer. The AVDCNN\nmodel is trained in an end-to-end manner, and parameters are jointly learned\nthrough back-propagation. We evaluate enhanced speech using five objective\ncriteria. Results show that the AVDCNN yields notably better performance as\ncompared to an audio-only CNN-based SE model, confirming the effectiveness of\nintegrating visual information into the SE process.", 
+    "paper_subjects": [
+        "Multimedia (cs.MM)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1703.10893", 
+    "paper_submission_date": "2017/03/30", 
+    "paper_title": "Audio-Visual Speech Enhancement based on Multimodal Deep Convolutional Neural Network"
+}

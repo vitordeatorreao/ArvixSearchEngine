@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Cangea, C&#x103;t&#x103;lina", 
+        "Veli&#x10d;kovi&#x107;, Petar", 
+        "Li&#xf2;, Pietro"
+    ], 
+    "paper_comments": "Accepted at the IEEE ICDL-EPIROB 2017 Workshop on Computational Models for Crossmodal Learning (CMCML), 4 pages, 6 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00572", 
+    "paper_abstract": "We propose two multimodal deep learning architectures that allow for\ncross-modal dataflow (XFlow) between the feature extractors, thereby extracting\nmore interpretable features and obtaining a better representation than through\nunimodal learning, for the same amount of training data. These models can\nusefully exploit correlations between audio and visual data, which have a\ndifferent dimensionality and are therefore nontrivially exchangeable. Our work\nimproves on existing multimodal deep learning metholodogies in two essential\nways: (1) it presents a novel method for performing cross-modality (before\nfeatures are learned from individual modalities) and (2) extends the previously\nproposed cross-connections, which only transfer information between streams\nthat process compatible data. Both cross-modal architectures outperformed their\nbaselines (by up to 7.5%) when evaluated on the AVletters dataset.", 
+    "paper_subjects": [
+        "Computer Vision and Pattern Recognition (cs.CV)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.00572", 
+    "paper_submission_date": "2017/09/02", 
+    "paper_title": "XFlow: 1D-2D Cross-modal Deep Neural Networks for Audiovisual Classification"
+}

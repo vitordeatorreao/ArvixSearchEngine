@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Singh, Amarjot", 
+        "Kingsbury, Nick"
+    ], 
+    "paper_comments": "To Appear in the IEEE International Conference on Computer Vision Workshops (ICCVW) 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09259", 
+    "paper_abstract": "We propose a DTCWT ScatterNet Convolutional Neural Network (DTSCNN) formed by\nreplacing the first few layers of a CNN network with a parametric log based\nDTCWT ScatterNet. The ScatterNet extracts edge based invariant representations\nthat are used by the later layers of the CNN to learn high-level features. This\nimproves the training of the network as the later layers can learn more complex\npatterns from the start of learning because the edge representations are\nalready present. The efficient learning of the DTSCNN network is demonstrated\non CIFAR-10 and Caltech-101 datasets. The generic nature of the ScatterNet\nfront-end is shown by an equivalent performance to pre-trained CNN front-ends.\nA comparison with the state-of-the-art on CIFAR-10 and Caltech-101 datasets is\nalso presented.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1708.09259", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "Efficient Convolutional Network Learning using Parametric Log based Dual-Tree Wavelet ScatterNet"
+}

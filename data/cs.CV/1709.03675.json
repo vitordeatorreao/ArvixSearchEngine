@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Song, Lingxiao", 
+        "Zhang, Man", 
+        "Wu, Xiang", 
+        "He, Ran"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03675", 
+    "paper_abstract": "The gap between sensing patterns of different face modalities remains a\nchallenging problem in heterogeneous face recognition (HFR). This paper\nproposes an adversarial discriminative feature learning framework to close the\nsensing gap via adversarial learning on both raw-pixel space and compact\nfeature space. This framework integrates cross-spectral face hallucination and\ndiscriminative feature learning into an end-to-end adversarial network. In the\npixel space, we make use of generative adversarial networks to perform\ncross-spectral face hallucination. An elaborate two-path model is introduced to\nalleviate the lack of paired images, which gives consideration to both global\nstructures and local textures. In the feature space, an adversarial loss and a\nhigh-order variance discrepancy loss are employed to measure the global and\nlocal discrepancy between two heterogeneous distributions respectively. These\ntwo losses enhance domain-invariant feature learning and modality independent\nnoise removing. Experimental results on three NIR-VIS databases show that our\nproposed approach outperforms state-of-the-art HFR methods, without requiring\nof complex network or large-scale training dataset.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03675", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Adversarial Discriminative Heterogeneous Face Recognition"
+}

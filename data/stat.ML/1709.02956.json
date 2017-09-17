@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Taki, Masato"
+    ], 
+    "paper_comments": "10 pages, 4 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.02956", 
+    "paper_abstract": "Residual Network (ResNet) is the state-of-the-art architecture that realizes\nsuccessful training of really deep neural network. It is also known that good\nweight initialization of neural network avoids problem of vanishing/exploding\ngradients. In this paper, simplified models of ResNets are analyzed. We argue\nthat goodness of ResNet is correlated with the fact that ResNets are relatively\ninsensitive to choice of initial weights. We also demonstrate how batch\nnormalization improves backpropagation of deep ResNets without tuning initial\nvalues of weights.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02956", 
+    "paper_submission_date": "2017/09/09", 
+    "paper_title": "Deep Residual Networks and Weight Initialization"
+}

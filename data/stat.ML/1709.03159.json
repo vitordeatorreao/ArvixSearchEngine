@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Goel, Hardik", 
+        "Melnyk, Igor", 
+        "Banerjee, Arindam"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03159", 
+    "paper_abstract": "Multivariate time-series modeling and forecasting is an important problem\nwith numerous applications. Traditional approaches such as VAR (vector\nauto-regressive) models and more recent approaches such as RNNs (recurrent\nneural networks) are indispensable tools in modeling time-series data. In many\nmultivariate time series modeling problems, there is usually a significant\nlinear dependency component, for which VARs are suitable, and a nonlinear\ncomponent, for which RNNs are suitable. Modeling such times series with only\nVAR or only RNNs can lead to poor predictive performance or complex models with\nlarge training times. In this work, we propose a hybrid model called R2N2\n(Residual RNN), which first models the time series with a simple linear model\n(like VAR) and then models its residual errors using RNNs. R2N2s can be trained\nusing existing algorithms for VARs and RNNs. Through an extensive empirical\nevaluation on two real world datasets (aviation and climate domains), we show\nthat R2N2 is competitive, usually better than VAR or RNN, used alone. We also\nshow that R2N2 is faster to train as compared to an RNN, while requiring less\nnumber of hidden units.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.03159", 
+    "paper_submission_date": "2017/09/10", 
+    "paper_title": "R2N2: Residual Recurrent Neural Networks for Multivariate Time Series Forecasting"
+}

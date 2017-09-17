@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Hong, Chaofei"
+    ], 
+    "paper_comments": "This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version will be superseded", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00583", 
+    "paper_abstract": "Conventional modeling approaches have found limitations in matching the\nincreasingly detailed neural network structures and dynamics recorded in\nexperiments to the diverse brain functionalities. On another approach, studies\nhave demonstrated to train spiking neural networks for simple functions using\nsupervised learning. Here, we introduce a modified SpikeProp learning\nalgorithm, which achieved better learning stability in different activity\nstates. In addition, we show biological realistic features such as lateral\nconnections and sparse activities can be included in the network. We\ndemonstrate the versatility of this framework by implementing three well-known\ntemporal codes for different types of cognitive tasks, which are MNIST digits\nrecognition, spatial coordinate transformation, and motor sequence generation.\nMoreover, we find several characteristic features have evolved alongside the\ntask training, such as selective activity, excitatory-inhibitory balance, and\nweak pair-wise correlation. The coincidence between the self-evolved and\nexperimentally observed features indicates their importance on the brain\nfunctionality. Our results suggest a unified setting in which diverse cognitive\ncomputations and mechanisms can be studied.", 
+    "paper_subjects": [
+        "Neural and Evolutionary Computing (cs.NE)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.00583", 
+    "paper_submission_date": "2017/09/02", 
+    "paper_title": "Training Spiking Neural Networks for Cognitive Tasks: A Versatile Framework Compatible to Various Temporal Codes"
+}

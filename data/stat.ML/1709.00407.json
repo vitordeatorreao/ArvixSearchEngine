@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Mao, Xueyu", 
+        "Sarkar, Purnamrita", 
+        "Chakrabarti, Deepayan"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00407", 
+    "paper_abstract": "Real world networks often have nodes belonging to multiple communities. While\ntraditional community detection methods focus on non-overlapping communities\n(where a node can belong to exactly one community), the problem of finding\noverlapping communities has gained attention recently. While provably\nconsistent algorithms exists, they either make assumptions about the population\nthat are hard to check \\citep{zhang2014detecting}, or are too computationally\nexpensive \\citep{MMSBAnandkumar2014}. We consider the detection of overlapping\ncommunities under the popular Mixed Membership Stochastic Blockmodel (MMSB)\n\\cite{airoldi2008mixed}. Using the inherent geometry of this model, we link the\ninference of overlapping communities to the problem of finding corners in a\nnoisy rotated and scaled simplex, for which consistent algorithms exist\n\\citep{gillis2014fast}. We use this as a building block for our algorithm to\ninfer the community memberships of each node, and prove its consistency. As a\nbyproduct of our analysis, we derive sharp row-wise eigenvector deviation\nbounds, and provide a cleaning step that improves the performance drastically\nfor sparse networks. We also propose both necessary and sufficient conditions\nfor identifiability of the model, while existing methods typically present\nsufficient conditions for identifiability of the model involved. The empirical\nperformance of our method is shown using simulated and real datasets scaling up\nto 100,000 nodes.", 
+    "paper_subjects": [
+        "Social and Information Networks (cs.SI)", 
+        "Statistics Theory (math.ST)", 
+        "Physics and Society (physics.soc-ph)"
+    ], 
+    "paper_code": "1709.00407", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Estimating Mixed Memberships with Sharp Eigenvector Deviations"
+}

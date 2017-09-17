@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Pang, Yanwei", 
+        "Zhou, Bo", 
+        "Nie, Feiping"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.02896", 
+    "paper_abstract": "Explicitly or implicitly, most of dimensionality reduction methods need to\ndetermine which samples are neighbors and the similarity between the neighbors\nin the original highdimensional space. The projection matrix is then learned on\nthe assumption that the neighborhood information (e.g., the similarity) is\nknown and fixed prior to learning. However, it is difficult to precisely\nmeasure the intrinsic similarity of samples in high-dimensional space because\nof the curse of dimensionality. Consequently, the neighbors selected according\nto such similarity might and the projection matrix obtained according to such\nsimilarity and neighbors are not optimal in the sense of classification and\ngeneralization. To overcome the drawbacks, in this paper we propose to let the\nsimilarity and neighbors be variables and model them in low-dimensional space.\nBoth the optimal similarity and projection matrix are obtained by minimizing a\nunified objective function. Nonnegative and sum-to-one constraints on the\nsimilarity are adopted. Instead of empirically setting the regularization\nparameter, we treat it as a variable to be optimized. It is interesting that\nthe optimal regularization parameter is adaptive to the neighbors in\nlow-dimensional space and has intuitive meaning. Experimental results on the\nYALE B, COIL-100, and MNIST datasets demonstrate the effectiveness of the\nproposed method.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02896", 
+    "paper_submission_date": "2017/09/09", 
+    "paper_title": "Simultaneously Learning Neighborship and Projection Matrix for Supervised Dimensionality Reduction"
+}

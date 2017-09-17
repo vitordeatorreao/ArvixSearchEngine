@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Qazanfari, Kazem", 
+        "Aslanzadeh, Reza", 
+        "Rahmati, Mohammad"
+    ], 
+    "paper_comments": "17 pages", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04393", 
+    "paper_abstract": "The goal of this paper is to present a new efficient image segmentation\nmethod based on evolutionary computation which is a model inspired from human\nbehavior. Based on this model, a four layer process for image segmentation is\nproposed using the split/merge approach. In the first layer, an image is split\ninto numerous regions using the watershed algorithm. In the second layer, a\nco-evolutionary process is applied to form centers of finals segments by\nmerging similar primary regions. In the third layer, a meta-heuristic process\nuses two operators to connect the residual regions to their corresponding\ndetermined centers. In the final layer, an evolutionary algorithm is used to\ncombine the resulted similar and neighbor regions. Different layers of the\nalgorithm are totally independent, therefore for certain applications a\nspecific layer can be changed without constraint of changing other layers. Some\nproperties of this algorithm like the flexibility of its method, the ability to\nuse different feature vectors for segmentation (grayscale, color, texture,\netc), the ability to control uniformity and the number of final segments using\nfree parameters and also maintaining small regions, makes it possible to apply\nthe algorithm to different applications. Moreover, the independence of each\nregion from other regions in the second layer, and the independence of centers\nin the third layer, makes parallel implementation possible. As a result the\nalgorithm speed will increase. The presented algorithm was tested on a standard\ndataset (BSDS 300) of images, and the region boundaries were compared with\ndifferent people segmentation contours. Results show the efficiency of the\nalgorithm and its improvement to similar methods. As an instance, in 70% of\ntested images, results are better than ACT algorithm, besides in 100% of tested\nimages, we had better results in comparison with VSP algorithm.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04393", 
+    "paper_submission_date": "2017/09/13", 
+    "paper_title": "An Efficient Evolutionary Based Method For Image Segmentation"
+}

@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Rouhani, Bita Darvish", 
+        "Samragh, Mohammad", 
+        "Javidi, Tara", 
+        "Koushanfar, Farinaz"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.02538", 
+    "paper_abstract": "This paper proposes CuRTAIL, an end-to-end computing framework for\ncharacterizing and thwarting adversarial space in the context of Deep Learning\n(DL). The framework protects deep neural networks against adversarial samples,\nwhich are perturbed inputs carefully crafted by malicious entities to mislead\nthe underlying DL model. The precursor for the proposed methodology is a set of\nnew quantitative metrics to assess the vulnerability of various deep learning\narchitectures to adversarial samples. CuRTAIL formalizes the goal of preventing\nadversarial samples as a minimization of the space unexplored by the pertinent\nDL model that is characterized in CuRTAIL vulnerability analysis step. To\nthwart the adversarial machine learning attack, CuRTAIL introduces the concept\nof Modular Robust Redundancy (MRR) as a viable solution to achieve the\nformalized minimization objective. The MRR methodology explicitly characterizes\nthe geometry of the input data and the DL model parameters. It then learns a\nset of complementary but disjoint models which maximally cover the unexplored\nsubspaces of the target DL model, thus reducing the risk of integrity attacks.\nWe extensively evaluate CuRTAIL performance against the state-of-the-art attack\nmodels including fast-sign-gradient, Jacobian Saliency Map Attack, and\nDeepfool. Proof-of-concept implementations for analyzing various data\ncollections including MNIST, CIFAR10, and ImageNet corroborate CuRTAIL\neffectiveness to detect adversarial samples in different settings. The\ncomputations in each MRR module can be performed independently. As such,\nCuRTAIL detection algorithm can be completely parallelized among multiple\nhardware settings to achieve maximum throughput. We further provide an\naccompanying API to facilitate the adoption of the proposed framework for\nvarious applications.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02538", 
+    "paper_submission_date": "2017/09/08", 
+    "paper_title": "CuRTAIL: ChaRacterizing and Thwarting AdversarIal deep Learning"
+}

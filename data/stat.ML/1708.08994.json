@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Ruffini, Matteo", 
+        "Gavald&#xe0;, Ricard", 
+        "Lim&#xf3;n, Esther"
+    ], 
+    "paper_comments": "Presented at 2017 Machine Learning for Healthcare Conference (MLHC 2017). Boston, MA", 
+    "paper_page_url": "https://arxiv.org/abs/1708.08994", 
+    "paper_abstract": "In this paper we present a method for the unsupervised clustering of\nhigh-dimensional binary data, with a special focus on electronic healthcare\nrecords. We present a robust and efficient heuristic to face this problem using\ntensor decomposition. We present the reasons why this approach is preferable\nfor tasks such as clustering patient records, to more commonly used\ndistance-based methods. We run the algorithm on two datasets of healthcare\nrecords, obtaining clinically meaningful results.", 
+    "paper_subjects": [
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1708.08994", 
+    "paper_submission_date": "2017/08/29", 
+    "paper_title": "Clustering Patients with Tensor Decomposition"
+}

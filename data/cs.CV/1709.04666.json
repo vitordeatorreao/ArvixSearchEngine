@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Yoshihashi, Ryota", 
+        "Trinh, Tuan Tu", 
+        "Kawakami, Rei", 
+        "You, Shaodi", 
+        "Iida, Makoto", 
+        "Naemura, Takeshi"
+    ], 
+    "paper_comments": "8 pages, 7 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04666", 
+    "paper_abstract": "Deep convolutional and recurrent neural networks have delivered significant\nadvancements in object detection and tracking. However, current models handle\ndetection and tracking through separate networks, and deep-learning-based joint\ndetection and tracking has not yet been explored despite its potential benefits\nto both tasks. In this study, we present an integrated neural model called the\nRecurrent Correlational Network for joint detection and tracking, where the two\ntasks are performed over multi-frame representation learned through a single,\ntrainable, and end-to-end network. Detection is benefited by the tracker\nbecause of the stabilized trajectories and tracking is aided by the enhanced\nrepresentation afforded by the training of the detector. We show that recently\ndeveloped convolutional long short-term memory networks can learn multi-frame,\nmulti-task representation, which is useful for both tasks. In experiments, we\ntackled the detection of small flying objects, such as birds and unmanned\naerial vehicles, that can be challenging for single-frame-based detectors. We\nfound that there was consistent improvement in detection performance by the\nproposed model in comparison with deep single-frame detectors and currently\nused motion-based detectors.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04666", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "Learning Multi-frame Visual Representation for Joint Detection and Tracking of Small Objects"
+}

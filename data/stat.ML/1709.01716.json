@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Ting, Daniel", 
+        "Brochu, Eric"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01716", 
+    "paper_abstract": "Sub-sampling is a common and often effective method to deal with the\ncomputational challenges of large datasets. However, for most statistical\nmodels, there is no well-motivated approach for drawing a non-uniform\nsubsample. We show that the concept of an asymptotically linear estimator and\nthe associated influence function leads to optimal sampling procedures for a\nwide class of popular models. Furthermore, for linear regression models which\nhave well-studied procedures for non-uniform sub-sampling, we show our optimal\ninfluence function based method outperforms previous approaches. We empirically\nshow the improved performance of our method on real datasets.", 
+    "paper_subjects": [
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.01716", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "Optimal Sub-sampling with Influence Functions"
+}

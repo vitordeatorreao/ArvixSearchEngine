@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Bian, JiaWang", 
+        "Zhang, Le", 
+        "Liu, Yun", 
+        "Lin, Wen-Yan", 
+        "Cheng, Ming-Ming", 
+        "Reid, Ian D."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03917", 
+    "paper_abstract": "Image matching has been one of the most fundamental and active research areas\nin computer vision community. In this field, existing evaluation protocols\noveremphasize feature design and ignore the performance of image level\nmatching. However, the latter is critical for many high-level vision and\nrobotics tasks. To address this, we present the first application-oriented\nimage matching benchmark to facilitate the analysis of matching algorithms in\napplication level. In addition, we construct a large-scale dataset of\nreal-world images that cover a wide range of scene types, on which\nstate-of-the-art matchers (local features with correspondence selection\nmethods) are exhaustively evaluated and analyzed. Moreover, we demonstrate the\neffectiveness of a simple technique which is readily pluggable into any\nmatching system to improve performance. The results and analysis will provide\nresearchers with a practical guide to utilizing and improving image matching.\nFinally, we will release our evaluation code on the GitHub.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03917", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Image Matching Benchmark"
+}

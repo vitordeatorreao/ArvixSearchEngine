@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Piewak, Florian", 
+        "Rehfeld, Timo", 
+        "Weber, Michael", 
+        "Z&#xf6;llner, J. Marius"
+    ], 
+    "paper_comments": "This is a shorter version of the masters thesis of Florian Piewak and it was accapted at IV 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03139", 
+    "paper_abstract": "Grid maps are widely used in robotics to represent obstacles in the\nenvironment and differentiating dynamic objects from static infrastructure is\nessential for many practical applications. In this work, we present a methods\nthat uses a deep convolutional neural network (CNN) to infer whether grid cells\nare covering a moving object or not. Compared to tracking approaches, that use\ne.g. a particle filter to estimate grid cell velocities and then make a\ndecision for individual grid cells based on this estimate, our approach uses\nthe entire grid map as input image for a CNN that inspects a larger area around\neach cell and thus takes the structural appearance in the grid map into account\nto make a decision. Compared to our reference method, our concept yields a\nperformance increase from 83.9% to 97.2%. A runtime optimized version of our\napproach yields similar improvements with an execution time of just 10\nmilliseconds.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03139", 
+    "paper_submission_date": "2017/09/10", 
+    "paper_title": "Fully Convolutional Neural Networks for Dynamic Object Detection in Grid Maps"
+}

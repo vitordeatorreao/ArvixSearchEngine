@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Bonab, Hamed R.", 
+        "Can, Fazli"
+    ], 
+    "paper_comments": "This is an extended version of the work presented as a short paper at the Conference on Information and Knowledge Management (CIKM), 2016", 
+    "paper_page_url": "https://arxiv.org/abs/1709.02925", 
+    "paper_abstract": "The number of component classifiers chosen for an ensemble has a great impact\non its prediction ability. In this paper, we use a geometric framework for a\npriori determining the ensemble size, applicable to most of the existing batch\nand online ensemble classifiers. There are only a limited number of studies on\nthe ensemble size considering Majority Voting (MV) and Weighted Majority Voting\n(WMV). Almost all of them are designed for batch-mode, barely addressing online\nenvironments. The big data dimensions and resource limitations in terms of time\nand memory make the determination of the ensemble size crucial, especially for\nonline environments. Our framework proves, for the MV aggregation rule, that\nthe more strong components we can add to the ensemble the more accurate\npredictions we can achieve. On the other hand, for the WMV aggregation rule, we\nprove the existence of an ideal number of components equal to the number of\nclass labels, with the premise that components are completely independent of\neach other and strong enough. While giving the exact definition for a strong\nand independent classifier in the context of an ensemble is a challenging task,\nour proposed geometric framework provides a theoretical explanation of\ndiversity and its impact on the accuracy of predictions. We conduct an\nexperimental evaluation with two different scenarios to show the practical\nvalue of our theorems.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02925", 
+    "paper_submission_date": "2017/09/09", 
+    "paper_title": "Less Is More: A Comprehensive Framework for the Number of Components of Ensemble Classifiers"
+}

@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Yi, Kexin", 
+        "Doshi-Velez, Finale"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.02855", 
+    "paper_abstract": "We propose a new framework for Hamiltonian Monte Carlo (HMC) on truncated\nprobability distributions with smooth underlying density functions. Traditional\nHMC requires computing the gradient of potential function associated with the\ntarget distribution, and therefore does not perform its full power on truncated\ndistributions due to lack of continuity and differentiability. In our\nframework, we introduce a sharp sigmoid factor in the density function to\napproximate the probability drop at the truncation boundary. The target\npotential function is approximated by a new potential which smoothly extends to\nthe entire sample space. HMC is then performed on the approximate potential.\nWhile our method is easy to implement and applies to a wide range of problems,\nit also achieves comparable computational efficiency on various sampling tasks\ncompared to other baseline methods. RBHMC also gives rise to a new approach for\nBayesian inference on constrained spaces.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.02855", 
+    "paper_submission_date": "2017/09/08", 
+    "paper_title": "Roll-back Hamiltonian Monte Carlo"
+}

@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Choi, Keunwoo", 
+        "Fazekas, Gy&#xf6;rgy", 
+        "Cho, Kyunghyun", 
+        "Sandler, Mark"
+    ], 
+    "paper_comments": "16 pages. It's a draft and all kinds of feedbacks are welcomed", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04396", 
+    "paper_abstract": "Following their success in Computer Vision and other areas, deep learning\ntechniques have recently become widely adopted in Music Information Retrieval\n(MIR) research. However, the majority of works aim to adopt and assess methods\nthat have been shown to be effective in other domains, while there is still a\ngreat need for more original research focusing on music primarily and utilising\nmusical knowledge and insight. The goal of this paper is to boost the interest\nof beginners by providing a comprehensive tutorial and reducing the barriers to\nentry into deep learning for MIR. We lay out the basic principles and review\nprominent works in this hard to navigate field. We then outline the network\nstructures that have been successful in MIR problems and facilitate the\nselection of building blocks for the problems at hand. Finally, guidelines for\nnew tasks and some advanced topics in deep learning are discussed to stimulate\nnew research in this fascinating field.", 
+    "paper_subjects": [
+        "Sound (cs.SD)"
+    ], 
+    "paper_code": "1709.04396", 
+    "paper_submission_date": "2017/09/13", 
+    "paper_title": "A Tutorial on Deep Learning for Music Information Retrieval"
+}

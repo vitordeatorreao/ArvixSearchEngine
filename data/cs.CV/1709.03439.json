@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Lee, Han S.", 
+        "Agarwal, Alex A.", 
+        "Kim, Junmo"
+    ], 
+    "paper_comments": "Poster presented at CVPR 2017 Scene Understanding Workshop", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03439", 
+    "paper_abstract": "In a recent decade, ImageNet has become the most notable and powerful\nbenchmark database in computer vision and machine learning community. As\nImageNet has emerged as a representative benchmark for evaluating the\nperformance of novel deep learning models, its evaluation tends to include only\nquantitative measures such as error rate, rather than qualitative analysis.\nThus, there are few studies that analyze the failure cases of deep learning\nmodels in ImageNet, though there are numerous works analyzing the networks\nthemselves and visualizing them. In this abstract, we qualitatively analyze the\nfailure cases of ImageNet classification results from recent deep learning\nmodel, and categorize these cases according to the certain image patterns.\nThrough this failure analysis, we believe that it can be discovered what the\nfinal challenges are in ImageNet database, which the current deep learning\nmodel is still vulnerable to.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03439", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "Why Do Deep Neural Networks Still Not Recognize These Images?: A Qualitative Analysis on Failure Cases of ImageNet Classification"
+}

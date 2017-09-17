@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Anderson, Andrew", 
+        "Vasudevan, Aravind", 
+        "Keane, Cormac", 
+        "Gregg, David"
+    ], 
+    "paper_comments": "", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03395", 
+    "paper_abstract": "Deep neural networks (DNNs) require very large amounts of computation both\nfor training and for inference when deployed in the field. A common approach to\nimplementing DNNs is to recast the most computationally expensive operations as\ngeneral matrix multiplication (GEMM). However, as we demonstrate in this paper,\nthere are a great many different ways to express DNN convolution operations\nusing GEMM. Although different approaches all perform the same number of\noperations, the size of temporary data structures differs significantly.\nConvolution of an input matrix with dimensions $C \\times H \\times W$, requires\n$O(K^2CHW)$ additional space using the classical im2col approach. More recently\nmemory-efficient approaches requiring just $O(KCHW)$ auxiliary space have been\nproposed.\n<br />We present two novel GEMM-based algorithms that require just $O(MHW)$ and\n$O(KW)$ additional space respectively, where $M$ is the number of channels in\nthe result of the convolution. These algorithms dramatically reduce the space\noverhead of DNN convolution, making it much more suitable for memory-limited\nembedded systems. Experimental evaluation shows that our low-memory algorithms\nare just as fast as the best patch-building approaches despite requiring just a\nfraction of the amount of additional memory. Our low-memory algorithms have\nexcellent data locality which gives them a further edge over patch-building\nalgorithms when multiple cores are used. As a result, our low memory algorithms\noften outperform the best patch-building algorithms using multiple threads.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03395", 
+    "paper_submission_date": "2017/09/08", 
+    "paper_title": "Low-memory GEMM-based convolution algorithms for deep neural networks"
+}

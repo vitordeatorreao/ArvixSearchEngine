@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Sun, Tao", 
+        "Jiang, Hao", 
+        "Cheng, Lizhi"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00483", 
+    "paper_abstract": "In this paper, we consider solving a class of nonconvex and nonsmooth\nproblems frequently appearing in signal processing and machine learning\nresearch. The traditional alternating direction method of multipliers encounter\ntroubles in both mathematics and computations in solving the nonconvex and\nnonsmooth subproblem. In view of this, we propose a reweighted alternating\ndirection method of multipliers. In this algorithm, all subproblems are convex\nand easy to calculate. We also provide several guarantees for the convergence\nand prove that the algorithm globally converges to a critical point of an\nauxiliary function with the help of the Kurdyka- Lojasiewicz property. Several\nnumerical results are presented to demonstrate the efficiency of the proposed\nalgorithm.", 
+    "paper_subjects": [
+        "Computer Vision and Pattern Recognition (cs.CV)", 
+        "Numerical Analysis (math.NA)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.00483", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Iteratively Linearized Reweighted Alternating Direction Method of Multipliers for a Class of Nonconvex Problems"
+}

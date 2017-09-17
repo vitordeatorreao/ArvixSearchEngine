@@ -1,0 +1,12 @@
+{
+    "paper_authors_list": [
+        "D&#xed;az, Iv&#xe1;n"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00401", 
+    "paper_abstract": "We present an inverse probability weighted estimator for survival analysis\nunder informative right censoring. Our estimator has the novel property that it\nconverges to a normal variable at $n^{1/2}$ rate for a large class of censoring\nprobability estimators, including many data-adaptive (e.g., machine learning)\nprediction methods. We present the formula of the asymptotic variance of the\nestimator, which allows the computation of asymptotically correct confidence\nintervals and p-values under data-adaptive estimation of the censoring and\ntreatment probabilities. We demonstrate the asymptotic properties of the\nestimator in simulation studies, and illustrate its use in a phase III clinical\ntrial for estimating the effect of a novel therapy for the treatment of breast\ncancer.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00401", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Statistical Inference for Machine Learning Inverse Probability Weighting with Survival Outcomes"
+}

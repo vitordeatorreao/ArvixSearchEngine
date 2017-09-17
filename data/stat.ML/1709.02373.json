@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Alakkari, Salaheddin", 
+        "Dingliana, John"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.02373", 
+    "paper_abstract": "In this paper, we present an online adaptive PCA algorithm that is able to\ncompute the full dimensional eigenspace per new time-step of sequential data.\nThe algorithm is based on a one-step update rule that considers all second\norder correlations between previous samples and the new time-step. Our\nalgorithm has O(n) complexity per new time-step in its deterministic mode and\nO(1) complexity per new time-step in its stochastic mode. We test our algorithm\non a number of time-varying datasets of different physical phenomena. Explained\nvariance curves indicate that our technique provides an excellent approximation\nto the original eigenspace computed using standard PCA in batch mode. In\naddition, our experiments show that the stochastic mode, despite its much lower\ncomputational complexity, converges to the same eigenspace computed using the\ndeterministic mode.", 
+    "paper_subjects": [
+        "Computer Vision and Pattern Recognition (cs.CV)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.02373", 
+    "paper_submission_date": "2017/09/07", 
+    "paper_title": "Adaptive PCA for Time-Varying Data"
+}

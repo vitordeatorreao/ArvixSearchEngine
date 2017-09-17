@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Cobb, Adam D.", 
+        "Markham, Andrew", 
+        "Roberts, Stephen J."
+    ], 
+    "paper_comments": "9 pages, 4 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.02357", 
+    "paper_abstract": "We build a model using Gaussian processes to infer a spatio-temporal vector\nfield from observed agent trajectories. Significant landmarks or influence\npoints in agent surroundings are jointly derived through vector calculus\noperations that indicate presence of sources and sinks. We evaluate these\ninfluence points by using the Kullback-Leibler divergence between the posterior\nand prior Laplacian of the inferred spatio-temporal vector field. Through\nlocating significant features that influence trajectories, our model aims to\ngive greater insight into underlying causal utility functions that determine\nagent decision-making. A key feature of our model is that it infers a joint\nGaussian process over the observed trajectories, the time-varying vector field\nof utility and canonical vector calculus operators. We apply our model to both\nsynthetic data and lion GPS data collected at the Bubye Valley Conservancy in\nsouthern Zimbabwe.", 
+    "paper_subjects": [
+        "Applications (stat.AP)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02357", 
+    "paper_submission_date": "2017/09/07", 
+    "paper_title": "Learning from lions: inferring the utility of agents from their trajectories"
+}

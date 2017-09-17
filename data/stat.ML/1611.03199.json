@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Altae-Tran, Han", 
+        "Ramsundar, Bharath", 
+        "Pappu, Aneesh S.", 
+        "Pande, Vijay"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1611.03199", 
+    "paper_abstract": "Recent advances in machine learning have made significant contributions to\ndrug discovery. Deep neural networks in particular have been demonstrated to\nprovide significant boosts in predictive power when inferring the properties\nand activities of small-molecule compounds. However, the applicability of these\ntechniques has been limited by the requirement for large amounts of training\ndata. In this work, we demonstrate how one-shot learning can be used to\nsignificantly lower the amounts of data required to make meaningful predictions\nin drug discovery applications. We introduce a new architecture, the residual\nLSTM embedding, that, when combined with graph convolutional neural networks,\nsignificantly improves the ability to learn meaningful distance metrics over\nsmall-molecules. We open source all models introduced in this work as part of\nDeepChem, an open-source framework for deep-learning in drug discovery.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1611.03199", 
+    "paper_submission_date": "2016/11/10", 
+    "paper_title": "Low Data Drug Discovery with One-shot Learning"
+}

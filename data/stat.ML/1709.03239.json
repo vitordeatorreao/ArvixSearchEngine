@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Peng, Xuan", 
+        "Gao, Xunzhang", 
+        "Li, Xiang"
+    ], 
+    "paper_comments": "Submitted to Machine Learning", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03239", 
+    "paper_abstract": "The infinite restricted Boltzmann machine (iRBM) is an extension of the\nclassic RBM. It enjoys a good property of automatically deciding the size of\nthe hidden layer according to specific training data. With sufficient training,\nthe iRBM can achieve a competitive performance with that of the classic RBM.\nHowever, the convergence of learning the iRBM is slow, due to the fact that the\niRBM is sensitive to the ordering of its hidden units, the learned filters\nchange slowly from the left-most hidden unit to right. To break this dependency\nbetween neighboring hidden units and speed up the convergence of training, a\nnovel training strategy is proposed. The key idea of the proposed training\nstrategy is randomly regrouping the hidden units before each gradient descent\nstep. Potentially, a mixing of infinite many iRBMs with different permutations\nof the hidden units can be achieved by this learning method, which has a\nsimilar effect of preventing the model from over-fitting as the dropout. The\noriginal iRBM is also modified to be capable of carrying out discriminative\ntraining. To evaluate the impact of our method on convergence speed of learning\nand the model's generalization ability, several experiments have been performed\non the binarized MNIST and CalTech101 Silhouettes datasets. Experimental\nresults indicate that the proposed training strategy can greatly accelerate\nlearning and enhance generalization ability of iRBMs.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.03239", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "On better training the infinite restricted Boltzmann machines"
+}

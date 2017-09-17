@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Lopez, Romain", 
+        "Regier, Jeffrey", 
+        "Jordan, Michael", 
+        "Yosef, Nir"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.02082", 
+    "paper_abstract": "We propose a probabilistic model for interpreting gene expression levels that\nare observed through single-cell RNA sequencing. In the model, each cell has a\nlow-dimensional latent representation. Additional latent variables account for\ntechnical effects that may erroneously set some observations of gene expression\nlevels to zero. Conditional distributions are specified by neural networks,\ngiving the proposed model enough flexibility to fit the data well. We use\nvariational inference and stochastic optimization to approximate the posterior\ndistribution. The inference procedure scales to over one million cells, whereas\ncompeting algorithms do not. Even for smaller datasets, for several tasks, the\nproposed procedure outperforms state-of-the-art methods like ZIFA and\nZINB-WaVE.", 
+    "paper_subjects": [
+        "Genomics (q-bio.GN)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02082", 
+    "paper_submission_date": "2017/09/07", 
+    "paper_title": "A deep generative model for gene expression profiles from single-cell RNA sequencing"
+}

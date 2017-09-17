@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Baumgartner, Christian F.", 
+        "Koch, Lisa M.", 
+        "Pollefeys, Marc", 
+        "Konukoglu, Ender"
+    ], 
+    "paper_comments": "to appear in STACOM 2017 proceedings", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04496", 
+    "paper_abstract": "Accurate segmentation of the heart is an important step towards evaluating\ncardiac function. In this paper, we present a fully automated framework for\nsegmentation of the left (LV) and right (RV) ventricular cavities and the\nmyocardium (Myo) on short-axis cardiac MR images. We investigate various 2D and\n3D convolutional neural network architectures for this task. We investigate the\nsuitability of various state-of-the art 2D and 3D convolutional neural network\narchitectures, as well as slight modifications thereof, for this task.\nExperiments were performed on the ACDC 2017 challenge training dataset\ncomprising cardiac MR images of 100 patients, where manual reference\nsegmentations were made available for end-diastolic (ED) and end-systolic (ES)\nframes. We find that processing the images in a slice-by-slice fashion using 2D\nnetworks is beneficial due to a relatively large slice thickness. However, the\nexact network architecture only plays a minor role. We report mean Dice\ncoefficients of $0.950$ (LV), $0.893$ (RV), and $0.899$ (Myo), respectively\nwith an average evaluation time of 1.1 seconds per volume on a modern GPU.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04496", 
+    "paper_submission_date": "2017/09/13", 
+    "paper_title": "An Exploration of 2D and 3D Deep Learning Techniques for Cardiac MR Image Segmentation"
+}

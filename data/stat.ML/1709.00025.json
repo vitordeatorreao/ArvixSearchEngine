@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Mohammadiha, Nasser", 
+        "Smaragdis, Paris", 
+        "Panahandeh, Ghazaleh", 
+        "Doclo, Simon"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00025", 
+    "paper_abstract": "Nonnegative matrix factorization (NMF) has been actively investigated and\nused in a wide range of problems in the past decade. A significant amount of\nattention has been given to develop NMF algorithms that are suitable to model\ntime series with strong temporal dependencies. In this paper, we propose a\nnovel state-space approach to perform dynamic NMF (D-NMF). In the proposed\nprobabilistic framework, the NMF coefficients act as the state variables and\ntheir dynamics are modeled using a multi-lag nonnegative vector autoregressive\n(N-VAR) model within the process equation. We use expectation maximization and\npropose a maximum-likelihood estimation framework to estimate the basis matrix\nand the N-VAR model parameters. Interestingly, the N-VAR model parameters are\nobtained by simply applying NMF. Moreover, we derive a maximum a posteriori\nestimate of the state variables (i.e., the NMF coefficients) that is based on a\nprediction step and an update step, similarly to the Kalman filter. We\nillustrate the benefits of the proposed approach using different numerical\nsimulations where D-NMF significantly outperforms its static counterpart.\nExperimental results for three different applications show that the proposed\napproach outperforms two state-of-the-art NMF approaches that exploit temporal\ndependencies, namely a nonnegative hidden Markov model and a frame stacking\napproach, while it requires less memory and computational power.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.00025", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "A State-Space Approach to Dynamic Nonnegative Matrix Factorization"
+}

@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Wei, Longhui", 
+        "Zhang, Shiliang", 
+        "Yao, Hantao", 
+        "Gao, Wen", 
+        "Tian, Qi"
+    ], 
+    "paper_comments": "Accepted by ACM MM2017, 9 pages, 5 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04329", 
+    "paper_abstract": "The huge variance of human pose and the misalignment of detected human images\nsignificantly increase the difficulty of person Re-Identification (Re-ID).\nMoreover, efficient Re-ID systems are required to cope with the massive visual\ndata being produced by video surveillance systems. Targeting to solve these\nproblems, this work proposes a Global-Local-Alignment Descriptor (GLAD) and an\nefficient indexing and retrieval framework, respectively. GLAD explicitly\nleverages the local and global cues in human body to generate a discriminative\nand robust representation. It consists of part extraction and descriptor\nlearning modules, where several part regions are first detected and then deep\nneural networks are designed for representation learning on both the local and\nglobal regions. A hierarchical indexing and retrieval framework is designed to\neliminate the huge redundancy in the gallery set, and accelerate the online\nRe-ID procedure. Extensive experimental results show GLAD achieves competitive\naccuracy compared to the state-of-the-art methods. Our retrieval framework\nsignificantly accelerates the online Re-ID procedure without loss of accuracy.\nTherefore, this work has potential to work better on person Re-ID tasks in real\nscenarios.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04329", 
+    "paper_submission_date": "2017/09/13", 
+    "paper_title": "GLAD: Global-Local-Alignment Descriptor for Pedestrian Retrieval"
+}

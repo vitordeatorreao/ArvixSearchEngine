@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Bl&#xf6;baum, Patrick", 
+        "Shimizu, Shohei"
+    ], 
+    "paper_comments": "To appear in Proc. IEEE International Workshop on Machine Learning for Signal Processing (MLSP2017)", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00776", 
+    "paper_abstract": "The interpretability of prediction mechanisms with respect to the underlying\nprediction problem is often unclear. While several studies have focused on\ndeveloping prediction models with meaningful parameters, the causal\nrelationships between the predictors and the actual prediction have not been\nconsidered. Here, we connect the underlying causal structure of a data\ngeneration process and the causal structure of a prediction mechanism. To\nachieve this, we propose a framework that identifies the feature with the\ngreatest causal influence on the prediction and estimates the necessary causal\nintervention of a feature such that a desired prediction is obtained. The\ngeneral concept of the framework has no restrictions regarding data linearity;\nhowever, we focus on an implementation for linear data here. The framework\napplicability is evaluated using artificial data and demonstrated using\nreal-world data.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00776", 
+    "paper_submission_date": "2017/09/03", 
+    "paper_title": "Estimation of interventional effects of features on prediction"
+}

@@ -1,0 +1,20 @@
+{
+    "paper_authors_list": [
+        "Stamatescu, Victor", 
+        "Barsznica, Peter", 
+        "Kim, Manjung", 
+        "Liu, Kin K.", 
+        "McKenzie, Mark", 
+        "Meakin, Will", 
+        "Saunders, Gwilyn", 
+        "Wong, Sebastien C.", 
+        "Brinkworth, Russell S. A."
+    ], 
+    "paper_comments": "2017 International Conference on Digital Image Computing: Techniques and Applications (DICTA), Page 1 - 8", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03697", 
+    "paper_abstract": "We present a novel data set made up of omnidirectional video of multiple\nobjects whose centroid positions are annotated automatically. Omnidirectional\nvision is an active field of research focused on the use of spherical imagery\nin video analysis and scene understanding, involving tasks such as object\ndetection, tracking and recognition. Our goal is to provide a large and\nconsistently annotated video data set that can be used to train and evaluate\nnew algorithms for these tasks. Here we describe the experimental setup and\nsoftware environment used to capture and map the 3D ground truth positions of\nmultiple objects into the image. Furthermore, we estimate the expected\nsystematic error on the mapped positions. In addition to final data products,\nwe release publicly the software tools and raw data necessary to re-calibrate\nthe camera and/or redo this mapping. The software also provides a simple\nframework for comparing the results of standard image annotation tools or\nvisual tracking systems against our mapped ground truth annotations.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03697", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Automatic Ground Truths: Projected Image Annotations for Omnidirectional Vision"
+}

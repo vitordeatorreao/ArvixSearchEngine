@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Ghassami, AmirEmad", 
+        "Salehkaleybar, Saber", 
+        "Kiyavash, Negar", 
+        "Bareinboim, Elias"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03625", 
+    "paper_abstract": "We study the problem of causal structure learning when the experimenter is\nlimited to perform at most $k$ non-adaptive experiments of size $1$. We\nformulate the problem of finding the best intervention target set as an\noptimization problem, which aims to maximize the average number of edges whose\ndirections are resolved. We prove that the objective function is submodular and\na greedy algorithm is a $(1-\\frac{1}{e})$-approximation algorithm for the\nproblem. We further present an accelerated variant of the greedy algorithm,\nwhich can lead to orders of magnitude performance speedup. We validate our\nproposed approach on synthetic and real graphs. The results show that compared\nto the purely observational setting, our algorithm orients majority of the\nedges through only a small number of interventions.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.03625", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "Budgeted Experiment Design for Causal Structure Learning"
+}

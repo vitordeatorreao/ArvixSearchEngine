@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Chen, Yajing", 
+        "Tu, Shikui", 
+        "Yi, Yuqi", 
+        "Xu, Lei"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.04121", 
+    "paper_abstract": "Sketch is an important media for human to communicate ideas, which reflects\nthe superiority of human intelligence. Studies on sketch can be roughly\nsummarized into recognition and generation. Existing models on image\nrecognition failed to obtain satisfying performance on sketch classification.\nBut for sketch generation, a recent study proposed a sequence-to-sequence\nvariational-auto-encoder (VAE) model called sketch-rnn which was able to\ngenerate sketches based on human inputs. The model achieved amazing results\nwhen asked to learn one category of object, such as an animal or a vehicle.\nHowever, the performance dropped when multiple categories were fed into the\nmodel. Here, we proposed a model called sketch-pix2seq which could learn and\ndraw multiple categories of sketches. Two modifications were made to improve\nthe sketch-rnn model: one is to replace the bidirectional recurrent neural\nnetwork (BRNN) encoder with a convolutional neural network(CNN); the other is\nto remove the Kullback-Leibler divergence from the objective function of VAE.\nExperimental results showed that models with CNN encoders outperformed those\nwith RNN encoders in generating human-style sketches. Visualization of the\nlatent space illustrated that the removal of KL-divergence made the encoder\nlearn a posterior of latent space that reflected the features of different\ncategories. Moreover, the combination of CNN encoder and removal of\nKL-divergence, i.e., the sketch-pix2seq model, had better performance in\nlearning and generating sketches of multiple categories and showed promising\nresults in creativity tasks.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04121", 
+    "paper_submission_date": "2017/09/13", 
+    "paper_title": "Sketch-pix2seq: a Model to Generate Sketches of Multiple Categories"
+}

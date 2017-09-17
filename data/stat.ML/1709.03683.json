@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Zhao, Yan", 
+        "Fang, Xiao", 
+        "Simchi-Levi, David"
+    ], 
+    "paper_comments": "Accepted by 2017 IEEE International Conference on Data Mining", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03683", 
+    "paper_abstract": "Randomized experiments have been critical tools of decision making for\ndecades. However, subjects can show significant heterogeneity in response to\ntreatments in many important applications. Therefore it is not enough to simply\nknow which treatment is optimal for the entire population. What we need is a\nmodel that correctly customize treatment assignment base on subject\ncharacteristics. The problem of constructing such models from randomized\nexperiments data is known as Uplift Modeling in the literature. Many algorithms\nhave been proposed for uplift modeling and some have generated promising\nresults on various data sets. Yet little is known about the theoretical\nproperties of these algorithms. In this paper, we propose a new tree-based\nensemble algorithm for uplift modeling. Experiments show that our algorithm can\nachieve competitive results on both synthetic and industry-provided data. In\naddition, by properly tuning the \"node size\" parameter, our algorithm is proved\nto be consistent under mild regularity conditions. This is the first consistent\nalgorithm for uplift modeling that we are aware of.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.03683", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "A Practically Competitive and Provably Consistent Algorithm for Uplift Modeling"
+}

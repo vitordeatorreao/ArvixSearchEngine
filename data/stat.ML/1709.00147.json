@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Kanagawa, Motonobu", 
+        "Sriperumbudur, Bharath K.", 
+        "Fukumizu, Kenji"
+    ], 
+    "paper_comments": "34 pages", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00147", 
+    "paper_abstract": "This paper presents convergence analysis of kernel-based quadrature rules in\nmisspecified settings, focusing on deterministic quadrature in Sobolev spaces.\nIn particular, we deal with misspecified settings where a test integrand is\nless smooth than a Sobolev RKHS based on which a quadrature rule is\nconstructed. We provide convergence guarantees based on two different\nassumptions on a quadrature rule: one on quadrature weights, and the other on\ndesign points. More precisely, we show that convergence rates can be derived\n(i) if the sum of absolute weights remains constant (or does not increase\nquickly), or (ii) if the minimum distance between distance design points does\nnot decrease very quickly. As a consequence of the latter result, we derive a\nrate of convergence for Bayesian quadrature in misspecified settings. We reveal\na condition on design points to make Bayesian quadrature robust to\nmisspecification, and show that, under this condition, it may adaptively\nachieve the optimal rate of convergence in the Sobolev space of a lesser order\n(i.e., of the unknown smoothness of a test integrand), under a slightly\nstronger regularity condition on the integrand.", 
+    "paper_subjects": [
+        "Numerical Analysis (cs.NA)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.00147", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Convergence Analysis of Deterministic Kernel-Based Quadrature Rules in Misspecified Settings"
+}

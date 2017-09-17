@@ -1,0 +1,22 @@
+{
+    "paper_authors_list": [
+        "Wu, Zhenqin", 
+        "Ramsundar, Bharath", 
+        "Feinberg, Evan N.", 
+        "Gomes, Joseph", 
+        "Geniesse, Caleb", 
+        "Pappu, Aneesh S.", 
+        "Leswing, Karl", 
+        "Pande, Vijay"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1703.00564", 
+    "paper_abstract": "Molecular machine learning has been maturing rapidly over the last few years.\nImproved methods and the presence of larger datasets have enabled machine\nlearning algorithms to make increasingly accurate predictions about molecular\nproperties. However, algorithmic progress has been limited due to the lack of a\nstandard benchmark to compare the efficacy of proposed methods; most new\nalgorithms are benchmarked on different datasets making it challenging to gauge\nthe quality of proposed methods. This work introduces MoleculeNet, a large\nscale benchmark for molecular machine learning. MoleculeNet curates multiple\npublic datasets, establishes metrics for evaluation, and offers high quality\nopen-source implementations of multiple previously proposed molecular\nfeaturization and learning algorithms (released as part of the DeepChem open\nsource library). MoleculeNet benchmarks demonstrate that learnable\nrepresentations, and in particular graph convolutional networks, are powerful\ntools for molecular machine learning and broadly offer the best performance.\nHowever, for quantum mechanical and biophysical datasets, the use of\nphysics-aware featurizations can be significantly more important than choice of\nparticular learning algorithm.", 
+    "paper_subjects": [
+        "Chemical Physics (physics.chem-ph)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1703.00564", 
+    "paper_submission_date": "2017/03/02", 
+    "paper_title": "MoleculeNet: A Benchmark for Molecular Machine Learning"
+}

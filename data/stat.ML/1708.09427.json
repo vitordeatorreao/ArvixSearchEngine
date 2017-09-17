@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Shen, Li"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09427", 
+    "paper_abstract": "We develop an end-to-end training algorithm for whole-image breast cancer\ndiagnosis based on mammograms. It has the advantage of training a deep learning\nmodel without relying on cancer lesion annotations. Our approach is implemented\nusing an all convolutional design that is simple yet provides superior\nperformance in comparison with the previous methods. With modest model\naveraging, our best models achieve an AUC score of 0.91 on the DDSM data and\n0.96 on the INbreast data. We also demonstrate that a trained model can be\neasily transferred from one database to another with different color profiles\nusing only a small amount of training data.\n<br />Code and model availability: <a href=\"https://github.com/lishen/end2end-all-conv\">this https URL</a>", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1708.09427", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "End-to-end Training for Whole Image Breast Cancer Diagnosis using An All Convolutional Design"
+}

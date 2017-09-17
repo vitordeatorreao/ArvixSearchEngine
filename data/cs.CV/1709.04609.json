@@ -1,0 +1,20 @@
+{
+    "paper_authors_list": [
+        "Cheng, Jingchun", 
+        "Liu, Sifei", 
+        "Tsai, Yi-Hsuan", 
+        "Hung, Wei-Chih", 
+        "De Mello, Shalini", 
+        "Gu, Jinwei", 
+        "Kautz, Jan", 
+        "Wang, Shengjin", 
+        "Yang, Ming-Hsuan"
+    ], 
+    "paper_comments": "", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04609", 
+    "paper_abstract": "We propose a deep learning-based framework for instance-level object\nsegmentation. Our method mainly consists of three steps. First, We train a\ngeneric model based on ResNet-101 for foreground/background segmentations.\nSecond, based on this generic model, we fine-tune it to learn instance-level\nmodels and segment individual objects by using augmented object annotations in\nfirst frames of test videos. To distinguish different instances in the same\nvideo, we compute a pixel-level score map for each object from these\ninstance-level models. Each score map indicates the objectness likelihood and\nis only computed within the foreground mask obtained in the first step. To\nfurther refine this per frame score map, we learn a spatial propagation\nnetwork. This network aims to learn how to propagate a coarse segmentation mask\nspatially based on the pairwise similarities in each frame. In addition, we\napply a filter on the refined score map that aims to recognize the best\nconnected region using spatial and temporal consistencies in the video.\nFinally, we decide the instance-level object segmentation in each video by\ncomparing score maps of different instances.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04609", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "Learning to Segment Instances in Videos with Spatial Propagation Network"
+}

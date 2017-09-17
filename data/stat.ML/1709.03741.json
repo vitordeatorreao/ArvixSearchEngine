@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Li, Junying", 
+        "Cai, Deng", 
+        "He, Xiaofei"
+    ], 
+    "paper_comments": "by other authors", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03741", 
+    "paper_abstract": "Predicating macroscopic influences of drugs on human body, like efficacy and\ntoxicity, is a central problem of small-molecule based drug discovery.\nMolecules can be represented as an undirected graph, and we can utilize graph\nconvolution networks to predication molecular properties. However, graph\nconvolutional networks and other graph neural networks all focus on learning\nnode-level representation rather than graph-level representation. Previous\nworks simply sum all feature vectors for all nodes in the graph to obtain the\ngraph feature vector for drug predication. In this paper, we introduce a dummy\nsuper node that is connected with all nodes in the graph by a directed edge as\nthe representation of the graph and modify the graph operation to help the\ndummy super node learn graph-level feature. Thus, we can handle graph-level\nclassification and regression in the same way as node-level classification and\nregression. In addition, we apply focal loss to address class imbalance in drug\ndatasets. The experiments on MoleculeNet show that our method can effectively\nimprove the performance of molecular properties predication.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.03741", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Learning Graph-Level Representation for Drug Discovery"
+}

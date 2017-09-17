@@ -1,0 +1,20 @@
+{
+    "paper_authors_list": [
+        "Katz, Guy", 
+        "Barrett, Clark", 
+        "Dill, David L.", 
+        "Julian, Kyle", 
+        "Kochenderfer, Mykel J."
+    ], 
+    "paper_comments": "", 
+    "paper_page_url": "https://arxiv.org/abs/1709.02802", 
+    "paper_abstract": "Autonomous vehicles are highly complex systems, required to function reliably\nin a wide variety of situations. Manually crafting software controllers for\nthese vehicles is difficult, but there has been some success in using deep\nneural networks generated using machine-learning. However, deep neural networks\nare opaque to human engineers, rendering their correctness very difficult to\nprove manually; and existing automated techniques, which were not designed to\noperate on neural networks, fail to scale to large systems. This paper focuses\non proving the adversarial robustness of deep neural networks, i.e. proving\nthat small perturbations to a correctly-classified input to the network cannot\ncause it to be misclassified. We describe some of our recent and ongoing work\non verifying the adversarial robustness of networks, and discuss some of the\nopen questions we have encountered and how they might be addressed.", 
+    "paper_subjects": [
+        "Cryptography and Security (cs.CR)", 
+        "Logic in Computer Science (cs.LO)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02802", 
+    "paper_submission_date": "2017/09/08", 
+    "paper_title": "Towards Proving the Adversarial Robustness of Deep Neural Networks"
+}

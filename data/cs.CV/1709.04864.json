@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Aguilar, Eduardo", 
+        "Bola&#xf1;os, Marc", 
+        "Radeva, Petia"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.04864", 
+    "paper_abstract": "With the arrival of convolutional neural networks, the complex problem of\nfood recognition has experienced an important improvement in recent years. The\nbest results have been obtained using methods based on very deep convolutional\nneural networks, which show that the deeper the model,the better the\nclassification accuracy will be obtain. However, very deep neural networks may\nsuffer from the overfitting problem. In this paper, we propose a combination of\nmultiple classifiers based on different convolutional models that complement\neach other and thus, achieve an improvement in performance. The evaluation of\nour approach is done on two public datasets: Food-101 as a dataset with a wide\nvariety of fine-grained dishes, and Food-11 as a dataset of high-level food\ncategories, where our approach outperforms the independent CNN models.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04864", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "Food Recognition using Fusion of Classifiers based on CNNs"
+}

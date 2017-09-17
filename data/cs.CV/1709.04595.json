@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Li, Debang", 
+        "Wu, Huikai", 
+        "Zhang, Junge", 
+        "Huang, Kaiqi"
+    ], 
+    "paper_comments": "8 pages, 3 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04595", 
+    "paper_abstract": "Image cropping aims at improving the aesthetic quality of images by adjusting\ntheir composition. Most previous methods rely on the sliding window mechanism.\nThe sliding window mechanism requires fixed aspect ratios and limits the\ncropping region with arbitrary size. Moreover, the sliding window method\nusually produces tens of thousands of windows which is very time-consuming.\nMotivated by these challenges and also inspired by the human's cropping\nprocess, we firstly formulate the aesthetic image cropping as a sequential\ndecision-making process and propose an Aesthetics Aware Reinforcement Learning\n(A2-RL) framework to address this problem. Particularly, the proposed method\ndevelops an aesthetics aware reward function which especially benefits image\ncropping. Similar to human's decision making and to better utilize the\nhistorical experience, we use a LSTM based state representation including both\nthe current and historical experience. We train the agent using the\nactor-critic architecture in an end-to-end manner. The agent is evaluated on\nseveral popular unseen cropping databases. Experiment results show that our\nmethod achieves the state-of-the-art performance with much fewer candidate\nwindows and much less time compared with previous methods.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04595", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "A2-RL: Aesthetics Aware Reinforcement Learning for Automatic Image Cropping"
+}

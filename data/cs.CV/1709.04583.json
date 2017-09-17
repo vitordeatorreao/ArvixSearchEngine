@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Cao, Gang", 
+        "Tian, Huawei", 
+        "Yu, Lifang", 
+        "Huang, Xianglin", 
+        "Wang, Yongbin"
+    ], 
+    "paper_comments": "submitted to IET Image Processing", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04583", 
+    "paper_abstract": "In this paper, we propose a general framework to accelerate the universal\nhistogram-based image contrast enhancement (CE) algorithms. Both spatial and\ngray-level selective down- sampling of digital images are adopted to decrease\ncomputational cost, while the visual quality of enhanced images is still\npreserved and without apparent degradation. Mapping function calibration is\nnovelly proposed to reconstruct the pixel mapping on the gray levels missed by\ndownsampling. As two case studies, accelerations of histogram equalization (HE)\nand the state-of-the-art global CE algorithm, i.e., spatial mutual information\nand PageRank (SMIRANK), are presented detailedly. Both quantitative and\nqualitative assessment results have verified the effectiveness of our proposed\nCE acceleration framework. In typical tests, computational efficiencies of HE\nand SMIRANK have been speeded up by about 3.9 and 13.5 times, respectively.", 
+    "paper_subjects": [
+        "Computer Vision and Pattern Recognition (cs.CV)"
+    ], 
+    "paper_code": "1709.04583", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "Accelerate Histogram-Based Contrast Enhancement by Selective Downsampling"
+}

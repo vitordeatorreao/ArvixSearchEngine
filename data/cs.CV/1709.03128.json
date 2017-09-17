@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Peretroukhin, Valentin", 
+        "Kelly, Jonathan"
+    ], 
+    "paper_comments": "Submitted for publication in Robotics and Automation Letters (RA-L) and to the International Conference on Robotics and Automation (ICRA'18), Brisbane, Australia, May 21-25, 2018", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03128", 
+    "paper_abstract": "We present a novel method to fuse the power of deep networks with the\ncomputational efficiency of geometric and probabilistic localization\nalgorithms. In contrast to other methods that completely replace a classical\nvisual estimator with a deep network, we propose an approach that uses a\nconvolutional neural network to learn difficult-to-model corrections to the\nestimator from ground-truth training data. To this end, we derive a novel loss\nfunction for learning SE(3) corrections based on a matrix Lie groups approach,\nwith a natural formulation for balancing translation and rotation errors. We\nuse this loss to train a Deep Pose Correction network (DPC-Net) that predicts\ncorrections for a particular estimator, sensor and environment. Using the KITTI\nodometry dataset, we demonstrate significant improvements to the accuracy of a\ncomputationally-efficient sparse stereo visual odometry pipeline, that render\nit as accurate as a modern computationally-intensive dense estimator. Further,\nwe show how DPC-Net can be used to mitigate the effect of poorly calibrated\nlens distortion parameters.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03128", 
+    "paper_submission_date": "2017/09/10", 
+    "paper_title": "DPC-Net: Deep Pose Correction for Visual Localization"
+}

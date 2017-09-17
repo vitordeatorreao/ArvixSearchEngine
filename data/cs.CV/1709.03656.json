@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Xu, Nan", 
+        "Guo, Yanqing", 
+        "Wang, Jiujun", 
+        "Luo, Xiangyang", 
+        "He, Ran"
+    ], 
+    "paper_comments": "9 pages", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03656", 
+    "paper_abstract": "Due to the existence of various views or representations in many real-world\ndata, multi-view learning has drawn much attention recently. Multi-view\nspectral clustering methods based on similarity matrixes or graphs are pretty\npopular. Generally, these algorithms learn informative graphs by directly\nutilizing original data. However, in the real-world applications, original data\noften contain noises and outliers that lead to unreliable graphs. In addition,\ndifferent views may have different contributions to data clustering. In this\npaper, a novel Multiview Subspace Clustering method unifying Adaptive\nneighbours and Metric learning (MSCAM), is proposed to address the above\nproblems. In this method, we use the subspace representations of different\nviews to adaptively learn a consensus similarity matrix, uncovering the\nsubspace structure and avoiding noisy nature of original data. For all views,\nwe also learn different Mahalanobis matrixes that parameterize the squared\ndistances and consider the contributions of different views. Further, we\nconstrain the graph constructed by the similarity matrix to have exact c (c is\nthe number of clusters) connected components. An iterative algorithm is\ndeveloped to solve this optimization problem. Moreover, experiments on a\nsynthetic dataset and different real-world datasets demonstrate the\neffectiveness of MSCAM.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03656", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Joint Adaptive Neighbours and Metric Learning for Multi-view Subspace Clustering"
+}

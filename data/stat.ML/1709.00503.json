@@ -1,0 +1,20 @@
+{
+    "paper_authors_list": [
+        "Asadi, Kavosh", 
+        "Allen, Cameron", 
+        "Roderick, Melrose", 
+        "Mohamed, Abdel-rahman", 
+        "Konidaris, George", 
+        "Littman, Michael"
+    ], 
+    "paper_comments": "10 pages, 2 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00503", 
+    "paper_abstract": "We propose a new algorithm, Mean Actor-Critic (MAC), for discrete-action\ncontinuous-state reinforcement learning. MAC is a policy gradient algorithm\nthat uses the agent's explicit representation of all action values to estimate\nthe gradient of the policy, rather than using only the actions that were\nactually executed. This significantly reduces variance in the gradient updates\nand removes the need for a variance reduction baseline. We show empirical\nresults on two control domains where MAC performs as well as or better than\nother policy gradient approaches, and on five Atari games, where MAC is\ncompetitive with state-of-the-art policy search algorithms.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.00503", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Mean Actor Critic"
+}

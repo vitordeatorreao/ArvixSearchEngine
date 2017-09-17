@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Reggiani, Claudio", 
+        "Borgne, Yann-A&#xeb;l Le", 
+        "Bontempi, Gianluca"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.02327", 
+    "paper_abstract": "This paper describes a distributed MapReduce implementation of the minimum\nRedundancy Maximum Relevance algorithm, a popular feature selection method in\nbioinformatics and network inference problems. The proposed approach handles\nboth tall/narrow and wide/short datasets. We further provide an open source\nimplementation based on Hadoop/Spark, and illustrate its scalability on\ndatasets involving millions of observations or features.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.02327", 
+    "paper_submission_date": "2017/09/07", 
+    "paper_title": "Feature selection in high-dimensional dataset using MapReduce"
+}

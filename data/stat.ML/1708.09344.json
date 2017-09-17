@@ -1,0 +1,21 @@
+{
+    "paper_authors_list": [
+        "Aulck, Lovenoor", 
+        "Aras, Rohan", 
+        "Li, Lysia", 
+        "L&#x27;Heureux, Coulter", 
+        "Lu, Peter", 
+        "West, Jevin"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09344", 
+    "paper_abstract": "Science, technology, engineering, and math (STEM) fields play growing roles\nin national and international economies by driving innovation and generating\nhigh salary jobs. Yet, the US is lagging behind other highly industrialized\nnations in terms of STEM education and training. Furthermore, many economic\nforecasts predict a rising shortage of domestic STEM-trained professions in the\nUS for years to come. One potential solution to this deficit is to decrease the\nrates at which students leave STEM-related fields in higher education, as\ncurrently over half of all students intending to graduate with a STEM degree\neventually attrite. However, little quantitative research at scale has looked\nat causes of STEM attrition, let alone the use of machine learning to examine\nhow well this phenomenon can be predicted. In this paper, we detail our efforts\nto model and predict dropout from STEM fields using one of the largest known\ndatasets used for research on students at a traditional campus setting. Our\nresults suggest that attrition from STEM fields can be accurately predicted\nwith data that is routinely collected at universities using only information on\nstudents' first academic year. We also propose a method to model student STEM\nintentions for each academic term to better understand the timing of STEM\nattrition events. We believe these results show great promise in using machine\nlearning to improve STEM retention in traditional and non-traditional campus\nsettings.", 
+    "paper_subjects": [
+        "Computers and Society (cs.CY)", 
+        "Physics Education (physics.ed-ph)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1708.09344", 
+    "paper_submission_date": "2017/08/28", 
+    "paper_title": "Stem-ming the Tide: Predicting STEM attrition using student transcript data"
+}

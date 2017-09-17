@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Ahn, Kwangjun", 
+        "Lee, Kangwook", 
+        "Suh, Changho"
+    ], 
+    "paper_comments": "25 pages, 7 figures. Submitted to IEEE Transacations on Information Theory", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03670", 
+    "paper_abstract": "Community recovery is a central problem that arises in a wide variety of\napplications such as network clustering, motion segmentation, face clustering\nand protein complex detection. The objective of the problem is to cluster data\npoints into distinct communities based on a set of measurements, each of which\nis associated with the values of a certain number of data points. While most of\nthe prior works focus on a setting in which the number of data points involved\nin a measurement is two, this work explores a generalized setting in which the\nnumber can be more than two. Motivated by applications particularly in machine\nlearning and channel coding, we consider two types of measurements: (1)\nhomogeneity measurement which indicates whether or not the associated data\npoints belong to the same community; (2) parity measurement which denotes the\nmodulo-2 sum of the values of the data points. Such measurements are possibly\ncorrupted by Bernoulli noise. We characterize the fundamental limits on the\nnumber of measurements required to reconstruct the communities for the\nconsidered models.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.03670", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Community Recovery in Hypergraphs"
+}

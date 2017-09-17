@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Yu, Jinhui", 
+        "Wu, Kailin", 
+        "Zhang, Kang", 
+        "Zheng, Xianjun Sam"
+    ], 
+    "paper_comments": "10 pages, 6 figues", 
+    "paper_page_url": "https://arxiv.org/abs/1709.04550", 
+    "paper_abstract": "Negative afterimage appears in our vision when we shift our gaze from an over\nstimulated original image to a new area with a uniform color. The colors of\nnegative afterimages differ from the old stimulating colors in the original\nimage when the color in the new area is either neutral or chromatic. The\ninteraction between stimulating colors in the test and inducing field in the\noriginal image changes our color perception due to simultaneous contrast, and\nthe interaction between changed colors perceived in the previously-viewed field\nand the color in the currently-viewed field also affects our perception of\ncolors in negative afterimages due to successive contrast. Based on these\nobservations we propose a computational model to estimate colors of negative\nafterimages in more general cases where the original stimulating color in the\ntest field is chromatic, and the original stimulating color in the inducing\nfield and the new stimulating color can be either neutral or chromatic. We\nvalidate our model with human experiments.", 
+    "paper_subjects": [
+        "Neurons and Cognition (q-bio.NC)"
+    ], 
+    "paper_code": "1709.04550", 
+    "paper_submission_date": "2017/09/13", 
+    "paper_title": "A Computational Model of Afterimages based on Simultaneous and Successive Contrasts"
+}

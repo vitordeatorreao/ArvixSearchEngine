@@ -1,0 +1,20 @@
+{
+    "paper_authors_list": [
+        "Meidan, Yair", 
+        "Bohadana, Michael", 
+        "Shabtai, Asaf", 
+        "Ochoa, Martin", 
+        "Tippenhauer, Nils Ole", 
+        "Guarnizo, Juan Davis", 
+        "Elovici, Yuval"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.04647", 
+    "paper_abstract": "Security experts have demonstrated numerous risks imposed by Internet of\nThings (IoT) devices on organizations. Due to the widespread adoption of such\ndevices, their diversity, standardization obstacles, and inherent mobility,\norganizations require an intelligent mechanism capable of automatically\ndetecting suspicious IoT devices connected to their networks. In particular,\ndevices not included in a white list of trustworthy IoT device types (allowed\nto be used within the organizational premises) should be detected. In this\nresearch, Random Forest, a supervised machine learning algorithm, was applied\nto features extracted from network traffic data with the aim of accurately\nidentifying IoT device types from the white list. To train and evaluate\nmulti-class classifiers, we collected and manually labeled network traffic data\nfrom 17 distinct IoT devices, representing nine types of IoT devices. Based on\nthe classification of 20 consecutive sessions and the use of majority rule, IoT\ndevice types that are not on the white list were correctly detected as unknown\nin 96% of test cases (on average), and white listed device types were correctly\nclassified by their actual types in 99% of cases. Some IoT device types were\nidentified quicker than others (e.g., sockets and thermostats were successfully\ndetected within five TCP sessions of connecting to the network). Perfect\ndetection of unauthorized IoT device types was achieved upon analyzing 110\nconsecutive sessions; perfect classification of white listed types required 346\nconsecutive sessions, 110 of which resulted in 99.49% accuracy. Further\nexperiments demonstrated the successful applicability of classifiers trained in\none location and tested on another. In addition, a discussion is provided\nregarding the resilience of our machine learning-based IoT white listing method\nto adversarial attacks.", 
+    "paper_subjects": [
+        "Computer Vision and Pattern Recognition (cs.CV)"
+    ], 
+    "paper_code": "1709.04647", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "Detection of Unauthorized IoT Devices Using Machine Learning Techniques"
+}

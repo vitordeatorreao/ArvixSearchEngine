@@ -1,0 +1,30 @@
+{
+    "paper_authors_list": [
+        "Gibson, Eli", 
+        "Li, Wenqi", 
+        "Sudre, Carole", 
+        "Fidon, Lucas", 
+        "Shakir, Dzoshkun", 
+        "Wang, Guotai", 
+        "Eaton-Rosen, Zach", 
+        "Gray, Robert", 
+        "Doel, Tom", 
+        "Hu, Yipeng", 
+        "Whyntie, Tom", 
+        "Nachev, Parashkev", 
+        "Barratt, Dean C.", 
+        "Ourselin, S&#xe9;bastien", 
+        "Cardoso, M. Jorge", 
+        "Vercauteren, Tom"
+    ], 
+    "paper_comments": "Wenqi Li and Eli Gibson contributed equally to this work. 22 pages, 4 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.03485", 
+    "paper_abstract": "Medical image analysis and computer-assisted intervention problems are\nincreasingly being addressed with deep-learning-based solutions. This has\nresulted is substantial duplication of effort and incompatible infrastructure\nacross many research groups. This work presents the open-source NiftyNet\nplatform for deep learning in medical imaging. The ambition of NiftyNet is to\naccelerate and simplify the development of these solutions, and to provide a\ncommon mechanism for disseminating research outputs for the community to use,\nadapt and build upon. This TensorFlow-based infrastructure provides a complete\nmodular deep learning pipeline for a range of medical imaging applications\nincluding segmentation, regression, image generation and representation\nlearning applications with data loading, data augmentation, network\narchitectures, loss functions and evaluation metrics that are tailored to, and\ntake advantage of, the idiosyncracies of medical image analysis and\ncomputer-assisted interventions.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Neural and Evolutionary Computing (cs.NE)"
+    ], 
+    "paper_code": "1709.03485", 
+    "paper_submission_date": "2017/09/11", 
+    "paper_title": "NiftyNet: a deep-learning platform for medical imaging"
+}

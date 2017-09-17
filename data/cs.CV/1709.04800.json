@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Aguilar, Eduardo", 
+        "Bola&#xf1;os, Marc", 
+        "Radeva, Petia"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.04800", 
+    "paper_abstract": "One of the most common critical factors directly related to the cause of a\nchronic disease is unhealthy diet consumption. In this sense, building an\nautomatic system for food analysis could allow a better understanding of the\nnutritional information with respect to the food eaten and thus it could help\nin taking corrective actions in order to consume a better diet. The Computer\nVision community has focused its efforts on several areas involved in the\nvisual food analysis such as: food detection, food recognition, food\nlocalization, portion estimation, among others. For food detection, the best\nresults evidenced in the state of the art were obtained using Convolutional\nNeural Network. However, the results of all these different approaches were\ngotten on different datasets and therefore are not directly comparable. This\narticle proposes an overview of the last advances on food detection and an\noptimal model based on GoogLeNet Convolutional Neural Network method, principal\ncomponent analysis, and a support vector machine that outperforms the state of\nthe art on two public food/non-food datasets.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.04800", 
+    "paper_submission_date": "2017/09/14", 
+    "paper_title": "Exploring Food Detection using CNNs"
+}

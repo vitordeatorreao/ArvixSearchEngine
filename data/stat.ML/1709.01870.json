@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Poddar, Sunrita", 
+        "Jacob, Mathews"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01870", 
+    "paper_abstract": "The presence of missing entries in data often creates challenges for pattern\nrecognition algorithms. Traditional algorithms for clustering data assume that\nall the feature values are known for every data point. We propose a method to\ncluster data in the presence of missing information. Unlike conventional\nclustering techniques where every feature is known for each point, our\nalgorithm can handle cases where a few feature values are unknown for every\npoint. For this more challenging problem, we provide theoretical guarantees for\nclustering using a $\\ell_0$ fusion penalty based optimization problem.\nFurthermore, we propose an algorithm to solve a relaxation of this problem\nusing saturating non-convex fusion penalties. It is observed that this\nalgorithm produces solutions that degrade gradually with an increase in the\nfraction of missing feature values. We demonstrate the utility of the proposed\nmethod using a simulated dataset, the Wine dataset and also an under-sampled\ncardiac MRI dataset. It is shown that the proposed method is a promising\nclustering technique for datasets with large fractions of missing entries.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.01870", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "Clustering of Data with Missing Entries using Non-convex Fusion Penalties"
+}

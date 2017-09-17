@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Xu, Hongteng", 
+        "Zha, Hongyuan"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09252", 
+    "paper_abstract": "As a powerful tool of asynchronous event sequence analysis, point processes\nhave been studied for a long time and achieved numerous successes in different\nfields. Among various point process models, Hawkes process and its variants\nattract many researchers in statistics and computer science these years because\nthey capture the self- and mutually-triggering patterns between different\nevents in complicated sequences explicitly and quantitatively and are broadly\napplicable to many practical problems. In this paper, we describe an\nopen-source toolkit implementing many learning algorithms and analysis tools\nfor Hawkes process model and its variants. Our toolkit systematically\nsummarizes recent state-of-the-art algorithms as well as most classic\nalgorithms of Hawkes processes, which is beneficial for both academical\neducation and research. Source code can be downloaded from\n<a href=\"https://github.com/HongtengXu/Hawkes-Process-Toolkit.\">this https URL</a>", 
+    "paper_subjects": [
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1708.09252", 
+    "paper_submission_date": "2017/08/28", 
+    "paper_title": "THAP: A Matlab Toolkit for Learning with Hawkes Processes"
+}

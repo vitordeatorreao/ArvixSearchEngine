@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Kolouri, Soheil", 
+        "Rostami, Mohammad", 
+        "Owechko, Yuri", 
+        "Kim, Kyungnam"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03688", 
+    "paper_abstract": "A classic approach toward zero-shot learning (ZSL) is to map the input domain\nto a set of semantically meaningful attributes that could be used later on to\nclassify unseen classes of data (e.g. visual data). In this paper, we propose\nto learn a visual feature dictionary that has semantically meaningful atoms.\nSuch dictionary is learned via joint dictionary learning for the visual domain\nand the attribute domain, while enforcing the same sparse coding for both\ndictionaries. Our novel attribute aware formulation provides an algorithmic\nsolution to the domain shift/hubness problem in ZSL. Upon learning the joint\ndictionaries, images from unseen classes can be mapped into the attribute space\nby finding the attribute aware joint sparse representation using solely the\nvisual data. We demonstrate that our approach provides superior or comparable\nperformance to that of the state of the art on benchmark datasets.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03688", 
+    "paper_submission_date": "2017/09/12", 
+    "paper_title": "Joint Dictionaries for Zero-Shot Learning"
+}

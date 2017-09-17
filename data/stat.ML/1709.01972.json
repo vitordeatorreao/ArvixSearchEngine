@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Dreisigmeyer, David W."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01972", 
+    "paper_abstract": "The Whitney embedding theorem gives an upper bound on the smallest embedding\ndimension of a manifold. If a data set lies on a manifold, a random projection\ninto this reduced dimension will retain the manifold structure. Here we present\nan algorithm to find a projection that distorts the data as little as possible.", 
+    "paper_subjects": [
+        "Computational Geometry (cs.CG)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.01972", 
+    "paper_submission_date": "2017/09/06", 
+    "paper_title": "A Quasi-isometric Embedding Algorithm"
+}

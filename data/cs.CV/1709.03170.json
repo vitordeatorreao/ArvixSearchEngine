@@ -1,0 +1,12 @@
+{
+    "paper_authors_list": [
+        "He, Wenye"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.03170", 
+    "paper_abstract": "This paper presents a iterative optimization method, explicit shape\nregression, for face pose detection and localization. The regression function\nis learnt to find out the entire facial shape and minimize the alignment\nerrors. A cascaded learning framework is employed to enhance shape constraint\nduring detection. A combination of a two-level boosted regression, shape\nindexed features and a correlation-based feature selection method is used to\nimprove the performance. In this paper, we have explain the advantage of ESR\nfor deformable object like face pose estimation and reveal its generic\napplications of the method. In the experiment, we compare the results with\ndifferent work and demonstrate the accuracy and robustness in different\nscenarios.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.03170", 
+    "paper_submission_date": "2017/09/10", 
+    "paper_title": "An Iterative Regression Approach for Face Pose Estimation from RGB Images"
+}
