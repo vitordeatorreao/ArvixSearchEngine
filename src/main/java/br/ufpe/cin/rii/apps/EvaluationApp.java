@@ -33,7 +33,7 @@ public final class EvaluationApp extends BasicApp
                     HashMap<String, Boolean> relevanceMap)
     throws ParseException, IOException
     {
-        System.out.println("Without Stopwords and Without Stemming");
+        System.out.println("Without Stopwords removal and Without Stemming");
         System.out.println("Query: " + query);
         Evaluator evaluator = evaluate(app.rawEngine, query,
                                        relevanceMap);
@@ -43,7 +43,7 @@ public final class EvaluationApp extends BasicApp
         System.out.println("Recall: " + evaluator.getRecall());
         System.out.println("F-Measure: " + evaluator.getFMeasure());
         System.out.println("================================================");
-        System.out.println("With Stopwords and Without Stemming");
+        System.out.println("With Stopwords removal and Without Stemming");
         System.out.println("Query: " + query);
         evaluator = evaluate(app.swEngine, query, relevanceMap);
         System.out.println("Precision: " + evaluator.getPrecision());
@@ -52,7 +52,7 @@ public final class EvaluationApp extends BasicApp
         System.out.println("Recall: " + evaluator.getRecall());
         System.out.println("F-Measure: " + evaluator.getFMeasure());
         System.out.println("================================================");
-        System.out.println("Without Stopwords and With Stemming");
+        System.out.println("Without Stopwords removal and With Stemming");
         System.out.println("Query: " + query);
         evaluator = evaluate(app.stEngine, query, relevanceMap);
         System.out.println("Precision: " + evaluator.getPrecision());
@@ -61,7 +61,7 @@ public final class EvaluationApp extends BasicApp
         System.out.println("Recall: " + evaluator.getRecall());
         System.out.println("F-Measure: " + evaluator.getFMeasure());
         System.out.println("================================================");
-        System.out.println("With Stopwords and With Stemming");
+        System.out.println("With Stopwords removal and With Stemming");
         System.out.println("Query: " + query);
         evaluator = evaluate(app.fullEngine, query, relevanceMap);
         System.out.println("Precision: " + evaluator.getPrecision());
