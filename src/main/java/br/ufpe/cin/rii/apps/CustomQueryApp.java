@@ -25,6 +25,9 @@ public class CustomQueryApp extends BasicApp {
         		if("exit".equals(query.toLowerCase())){
         			System.exit(0);
         		}
+        		if("".equals(query)){
+        			continue;
+        		}
         		int option = -1;
         		while(option < 1 || option > 4){
         			System.out.print("Choose a configuration:\n"
@@ -35,7 +38,7 @@ public class CustomQueryApp extends BasicApp {
         			try{
         				option = Integer.parseInt(reader.readLine());
         				if(option < 1 || option > 4){
-        					throw new NumberFormatException("Invalid parameter");
+        					throw new NumberFormatException("Invalid parameter\n");
         				}
         				// Execute query
         				switch (option) {
@@ -75,7 +78,8 @@ public class CustomQueryApp extends BasicApp {
         	for(QueryResult qr : results){
         		System.out.println("Title: " + qr.getDocument().getField("title").stringValue());
         		System.out.println("Authors: " + qr.getDocument().getField("author").stringValue());
-        		System.out.println("Abstract: " + qr.getDocument().getField("abstract").stringValue() + "\n\n");
+        		System.out.println("Submission date: " + qr.getDocument().getField("date").stringValue());
+        		System.out.println("Abstract: " + qr.getDocument().getField("abstract").stringValue().substring(0, 100) + "...\n\n");
         	}
         }
 	}

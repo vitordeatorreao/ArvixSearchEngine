@@ -18,7 +18,7 @@ public class Evaluator
     Evaluator(HashMap<String, Boolean> relevanceMap,
               QueryResult[] returnedDocuments)
     {
-        this(relevanceMap, returnedDocuments, 10);
+        this(relevanceMap, returnedDocuments, 20);
     }
 
     public

@@ -42,7 +42,7 @@ public final class EvaluationApp extends BasicApp
                            + evaluator.getRelativePrecision());
         System.out.println("Recall: " + evaluator.getRecall());
         System.out.println("F-Measure: " + evaluator.getFMeasure());
-        System.out.println("================================================");
+        System.out.println("================================================\n");
         System.out.println("With Stopwords removal and Without Stemming");
         System.out.println("Query: " + query);
         evaluator = evaluate(app.swEngine, query, relevanceMap);
@@ -51,7 +51,7 @@ public final class EvaluationApp extends BasicApp
                            + evaluator.getRelativePrecision());
         System.out.println("Recall: " + evaluator.getRecall());
         System.out.println("F-Measure: " + evaluator.getFMeasure());
-        System.out.println("================================================");
+        System.out.println("================================================\n");
         System.out.println("Without Stopwords removal and With Stemming");
         System.out.println("Query: " + query);
         evaluator = evaluate(app.stEngine, query, relevanceMap);
@@ -60,7 +60,7 @@ public final class EvaluationApp extends BasicApp
                            + evaluator.getRelativePrecision());
         System.out.println("Recall: " + evaluator.getRecall());
         System.out.println("F-Measure: " + evaluator.getFMeasure());
-        System.out.println("================================================");
+        System.out.println("================================================\n");
         System.out.println("With Stopwords removal and With Stemming");
         System.out.println("Query: " + query);
         evaluator = evaluate(app.fullEngine, query, relevanceMap);
@@ -69,7 +69,7 @@ public final class EvaluationApp extends BasicApp
                            + evaluator.getRelativePrecision());
         System.out.println("Recall: " + evaluator.getRecall());
         System.out.println("F-Measure: " + evaluator.getFMeasure());
-        System.out.println("================================================");
+        System.out.println("================================================\n\n");
     }
 
     public static void
